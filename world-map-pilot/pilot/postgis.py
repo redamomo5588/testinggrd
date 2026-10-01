@@ -19,6 +19,9 @@ CREATE TABLE IF NOT EXISTS {s}.aoi (
 CREATE TABLE IF NOT EXISTS {s}.buildings (
   id text, aoi text, source text, subtype text, class text, num_floors real, height_m real, height_source text,
   area_m2 real, ground_elev_m real, canopy_at_site_m real, geom geometry(Geometry,4326), PRIMARY KEY (aoi, id));
+ALTER TABLE {s}.buildings ADD COLUMN IF NOT EXISTS height_osm_m real, ADD COLUMN IF NOT EXISTS height_floors_m real,
+  ADD COLUMN IF NOT EXISTS height_gba_m real, ADD COLUMN IF NOT EXISTS height_gba_var real,
+  ADD COLUMN IF NOT EXISTS height_license text;
 CREATE TABLE IF NOT EXISTS {s}.roads (
   id text, aoi text, subtype text, class text, name text, connectors jsonb,
   geom geometry(Geometry,4326), PRIMARY KEY (aoi, id));
@@ -95,6 +98,9 @@ SPECS = {
     "buildings": [("id", lambda r: r["id"]), ("source", lambda r: r["source"]), ("subtype", lambda r: r.get("subtype")),
                   ("class", lambda r: r.get("class")), ("num_floors", lambda r: r.get("num_floors")),
                   ("height_m", lambda r: r["height_m"]), ("height_source", lambda r: r["height_source"]),
+                  ("height_osm_m", lambda r: r["height_osm_m"]), ("height_floors_m", lambda r: r["height_floors_m"]),
+                  ("height_gba_m", lambda r: r["height_gba_m"]), ("height_gba_var", lambda r: r["height_gba_var"]),
+                  ("height_license", lambda r: r["height_license"]),
                   ("area_m2", lambda r: r["area_m2"]), ("ground_elev_m", lambda r: r["ground_elev_m"]),
                   ("canopy_at_site_m", lambda r: r["canopy_at_site_m"])],
     "roads": [("id", lambda r: r["id"]), ("subtype", lambda r: r["subtype"]), ("class", lambda r: r["class"]),

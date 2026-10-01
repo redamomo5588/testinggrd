@@ -12,7 +12,7 @@ from shapely.geometry import box
 from . import config as cfgmod
 from .derive import buildings as bld, roads as rd, surfaces as sf, water_points as wp
 from .io import write_cog, write_vector
-from .sources import overture, rasters, wpdx
+from .sources import gba, overture, rasters, wpdx
 
 log = logging.getLogger("pilot")
 
@@ -61,7 +61,12 @@ def main(argv=None):
     road = rd.roads(segs)
     V["crossroads"] = rd.crossroads(road, conns, aoi)
     V["roads"] = road[road.intersects(aoi)].reset_index(drop=True)
-    V["buildings"] = bld.enrich(V["buildings"], g, L["dem"], L["canopy"], rules.get("floor_height_m", 3.0))
+    gcfg = cfg.gba
+    gba_lod1 = gba.match_lod1(V["buildings"], gcfg.get("lod1_dir"), bbox, gcfg.get("crs", "EPSG:3857"),
+                              gcfg.get("min_iou", 0.3)) if gcfg.get("lod1_dir") else None
+    gba_raster = gba.zonal_max(V["buildings"], gcfg.get("height_dir"), bbox) if gcfg.get("height_dir") else None
+    V["buildings"] = bld.enrich(V["buildings"], g, L["dem"], L["canopy"], rules.get("floor_height_m", 3.0),
+                                gba_lod1, gba_raster, rules.get("height_priority", bld.DEFAULT_PRIORITY))
     pts = wp.collect(V["infrastructure"], V["water"], wp_src)
     V["water_points"] = wp.dedupe(pts, g.crs, rules.get("water_point_dedupe_m", 30.0))
 
@@ -94,6 +99,7 @@ def main(argv=None):
         "road_km": round(float(utm["roads"].length.sum()) / 1000, 1),
         "buildings_by_source": bld.source_mix(b),
         "building_height_coverage": bld.height_coverage(b),
+        "building_gba_height_available": int(b["height_gba_m"].notna().sum()),
         "building_area_km2": round(float(b["area_m2"].sum()) / 1e6, 2),
         "water_points_by_source": {k: int(v) for k, v in V["water_points"]["source"].value_counts().items()},
         "raster_coverage_pct": cov,

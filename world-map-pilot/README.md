@@ -22,7 +22,7 @@ pg_restore -d worldmap --no-owner worldmap_kigali.dump
 | Table | Rows (Kigali) | Key columns |
 |---|---|---|
 | `aoi` | 1 | name, bbox, grid_srid, resolution_m, overture_release, report (jsonb QA) |
-| `buildings` | 431,849 | id (GERS), source, height_m, height_source, area_m2, ground_elev_m, canopy_at_site_m, geom |
+| `buildings` | 431,849 | id (GERS), source, height_m, height_source, height_osm_m, height_floors_m, height_gba_m, height_gba_var, height_license, area_m2, ground_elev_m, canopy_at_site_m, geom |
 | `roads` | 23,301 | id, class, name, connectors (jsonb topology), geom |
 | `crossroads` | 16,779 | id, degree, degree_vehicle, kind, geom |
 | `water_points` | 5 | source, class, merged_from, geom |
@@ -72,6 +72,21 @@ publish    PostGIS schema `worldmap` + out/<city>/raster/*.tif (COG), out/<city>
 | Land cover | ESA WorldCover 2021 v200 | 10 m | CC-BY 4.0 |
 | Surface water | JRC GSW occurrence 1984–2021 | 30 m | Copernicus/JRC free |
 | Water points (optional) | WPdx+ CSV (`[wpdx] csv`) | points | CC-BY 4.0 |
+| Building heights (optional) | GlobalBuildingAtlas LoD1 polygons / GBA.Height 3 m rasters (`[gba]`) | 3 m | **CC BY-NC 4.0** |
+
+## Building heights (GlobalBuildingAtlas)
+1. Download the tiles covering the area of interest (GBA README, "How to Use the Data"):
+   - LoD1: HuggingFace `zhu-xlab/GBA.ODbLPolygon` + `zhu-xlab/GBA.LoD1`, find tiles with `representative/lod1.geojson`,
+     then run `produce_lod1.py`. Point `[gba] lod1_dir` at the output folder.
+   - and/or height maps: `GBA.Height` from mediaTUM (https://mediatum.ub.tum.de/1782307), tiles listed in
+     `height_tif.geojson`. Point `[gba] height_dir` at the GeoTIFF folder.
+2. Re-run the pipeline. The loader matches GBA polygons to Overture buildings by best footprint overlap
+   (IoU ≥ `min_iou`, CRS forced to EPSG:3857) and/or takes the max height-map pixel inside each footprint
+   (GBA's own LoD1 rule, with an all_touched pass for footprints smaller than a pixel).
+3. `height_m` takes the first available value in `[rules] height_priority`
+   (default: OSM measured height → GBA LoD1 → GBA raster → floors × 3 m). Every candidate stays in its own column.
+   Rows whose height comes from GBA get `height_license = 'CC BY-NC 4.0 (GlobalBuildingAtlas)'`, which means
+   **no commercial use** of those values.
 
 ## Outputs
 Rasters: `dem`, `canopy`, `landcover`, `gsw_occurrence`, `building`, `road`, `forest`, `water`, `landcover_fused`.
@@ -89,7 +104,8 @@ Vectors: `buildings` (source, height_m, height_source, area_m2, ground_elev_m, c
 - Only 5 water points: OSM is sparse here, and WPdx is needed
 
 ## Known gaps / next steps
-1. Building heights: join GlobalBuildingAtlas (LoD1) or Google Open Buildings 2.5D; a DSM−DTM estimate needs a bare-earth DTM.
+1. Building heights: the GBA loader is implemented and unit-tested, but GBA hosts (huggingface.co, mediatum.ub.tum.de)
+   were blocked from the build environment, so the shipped Kigali dump has no GBA heights yet.
 2. WPdx and OSM Overpass were not reachable from the build environment. Pass a WPdx CSV via config.
 3. Microsoft Road Detections to fill road gaps where Overture has none (buffer test).
 4. Scale out: replace the in-memory steps with tiles on the same grid (e.g. 10 km UTM tiles) and run on Dask/Spark.

@@ -34,6 +34,7 @@ class Config:
     overture_release: str
     rules: dict
     wpdx_csv: str
+    gba: dict
     out_dir: Path
     grid: Grid = field(init=False)
 
@@ -67,5 +68,6 @@ def load(path, out_root="out"):
         overture_release=c["overture"]["release"],
         rules=c.get("rules", {}),
         wpdx_csv=c.get("wpdx", {}).get("csv", ""),
+        gba=c.get("gba", {}),
         out_dir=Path(out_root) / c["name"],
     )

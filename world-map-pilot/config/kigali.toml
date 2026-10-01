@@ -11,8 +11,19 @@ forest_min_canopy_m = 5.0     # FAO-style height threshold
 water_min_occurrence_pct = 50 # JRC GSW occurrence threshold
 floor_height_m = 3.0          # height estimate when only num_floors is known
 water_point_dedupe_m = 30.0   # merge water points closer than this
+# first available candidate wins; all candidates are kept as separate columns
+height_priority = ["overture_height", "gba_lod1", "gba_raster", "num_floors"]
 
 [wpdx]
 # Optional: Water Point Data Exchange export (CSV with lat_deg, lon_deg columns).
 # Leave empty to skip. API: https://data.waterpointdata.org/resource/eqje-vguj.csv
 csv = ""
+
+[gba]
+# GlobalBuildingAtlas heights (CC BY-NC 4.0 = non-commercial). Leave empty to skip.
+# lod1_dir:   LoD1 polygons with height/var (HuggingFace zhu-xlab/GBA.LoD1 -> produce_lod1.py output)
+# height_dir: GBA.Height 3 m GeoTIFFs (mediaTUM https://mediatum.ub.tum.de/1782307)
+lod1_dir = ""
+height_dir = ""
+crs = "EPSG:3857"   # GBA polygons are 3857 even when files claim 4326
+min_iou = 0.3       # minimum footprint overlap to accept a GBA polygon match
