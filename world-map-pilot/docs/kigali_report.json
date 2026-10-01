@@ -1,0 +1,74 @@
+{
+  "aoi": {
+    "name": "kigali",
+    "bbox": [
+      29.98,
+      -2.02,
+      30.18,
+      -1.89
+    ],
+    "grid_crs": "EPSG:32736",
+    "grid": [
+      2231,
+      1444
+    ],
+    "resolution_m": 10.0,
+    "overture_release": "2026-09-23.1"
+  },
+  "counts": {
+    "buildings": 431849,
+    "roads": 23301,
+    "crossroads": 16779,
+    "water_points": 5,
+    "places": 2883
+  },
+  "crossroads_by_kind": {
+    "vehicle": 13303,
+    "mixed": 2152,
+    "pedestrian_only": 1324
+  },
+  "road_km": 3246.3,
+  "buildings_by_source": {
+    "OpenStreetMap": 216556,
+    "Google Open Buildings": 189603,
+    "Microsoft ML Buildings": 25690
+  },
+  "building_height_coverage": {
+    "none": 420599,
+    "num_floors_x_3m": 11226,
+    "overture_height": 24
+  },
+  "building_area_km2": 33.37,
+  "water_points_by_source": {
+    "overture_infrastructure": 4,
+    "overture_water": 1
+  },
+  "raster_coverage_pct": {
+    "dem": 100.0,
+    "canopy": 100.0,
+    "landcover": 100.0,
+    "gsw_occurrence": 100.0
+  },
+  "forest_agreement": {
+    "both_tree_pct": 9.71,
+    "worldcover_only_pct": 14.0,
+    "canopy_only_pct": 8.43
+  },
+  "forest_pct_of_aoi": 9.71,
+  "water_agreement": {
+    "water_cells": 17695,
+    "cells_by_source": {
+      "worldcover": 11984,
+      "jrc_gsw": 563,
+      "overture_osm": 14465
+    },
+    "all_three_agree_pct": 1.42,
+    "single_source_pct": 48.77
+  },
+  "timings_s": {
+    "ingest_vectors": 84.2,
+    "ingest_rasters": 21.8,
+    "conflate_derive": 25.0,
+    "publish": 3.1
+  }
+}
