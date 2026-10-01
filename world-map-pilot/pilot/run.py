@@ -2,6 +2,7 @@
 import argparse
 import json
 import logging
+import os
 import time
 
 import numpy as np
@@ -11,7 +12,6 @@ from shapely.geometry import box
 from . import config as cfgmod
 from .derive import buildings as bld, roads as rd, surfaces as sf, water_points as wp
 from .io import write_cog, write_vector
-from .preview import render
 from .sources import overture, rasters, wpdx
 
 log = logging.getLogger("pilot")
@@ -21,7 +21,10 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("config")
     ap.add_argument("--out", default="out")
-    ap.add_argument("--no-preview", action="store_true")
+    ap.add_argument("--pg", default=os.environ.get("PG_DSN"),
+                    help="PostGIS DSN, e.g. postgresql://user:pw@host/db (default: $PG_DSN)")
+    ap.add_argument("--schema", default="worldmap")
+    ap.add_argument("--preview", action="store_true", help="also render out/<city>/preview.png")
     a = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(message)s", datefmt="%H:%M:%S")
 
@@ -101,7 +104,14 @@ def main(argv=None):
     }
     (out / "report.json").write_text(json.dumps(report, indent=2))
     log.info("report:\n%s", json.dumps(report, indent=2))
-    if not a.no_preview:
+    if a.pg:
+        from .postgis import load
+        load(a.pg, a.schema, cfg, V, L, report)
+        lap("postgis_load")
+        report["timings_s"] = timings
+        log.info("postgis load done in %ss", timings["postgis_load"])
+    if a.preview:
+        from .preview import render
         render(out / "preview.png", g, L, {k: utm[k] for k in ("buildings", "roads", "crossroads", "water_points")})
         log.info("preview -> %s", out / "preview.png")
 

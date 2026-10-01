@@ -43,3 +43,16 @@ def test_water_point_dedupe_priority():
     out = water_points.dedupe(pts, "EPSG:32736", 30)
     assert len(out) == 2
     assert out.loc[out["source"] == "wpdx", "merged_from"].item() == "wpdx,overture_water"
+
+
+def test_raster_wkb_header():
+    import struct
+
+    import numpy as np
+
+    from pilot.postgis import raster_wkb
+    arr = np.arange(6, dtype="float32").reshape(2, 3)
+    w = raster_wkb(arr, 500000.0, 9800000.0, 10.0, 32736, float("nan"))
+    endian, ver, nb, sx, sy, x0, y0, _, _, srid, width, height = struct.unpack("<BHHddddddiHH", w[:61])
+    assert (endian, ver, nb, sx, sy, x0, y0, srid, width, height) == (1, 0, 1, 10.0, -10.0, 500000.0, 9800000.0, 32736, 3, 2)
+    assert w[61] == 10 | 64 and len(w) == 61 + 1 + 4 + 6 * 4

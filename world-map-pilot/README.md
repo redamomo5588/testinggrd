@@ -5,8 +5,49 @@ Default area of interest (AOI): **Kigali** (`config/kigali.toml`). Any city work
 
 ```bash
 pip install -r requirements.txt
-python -m pilot.run config/kigali.toml      # ~2–3 min, ~80 MB output in out/kigali/
-python -m pytest -q tests                   # offline unit tests
+docker compose up -d                                   # PostGIS 16 / 3.4 (or use any PostGIS ≥3 server)
+python -m pilot.run config/kigali.toml --pg postgresql://worldmap:worldmap@localhost/worldmap
+python -m pytest -q tests                              # offline unit tests
+```
+`--pg` (or `$PG_DSN`) loads everything into schema `worldmap` (`--schema` to change). Re-running a city replaces only that
+city's rows, so many cities can share one database. Without `--pg`, only files are written. `--preview` renders a PNG.
+
+Restore the prebuilt Kigali database (`worldmap_kigali.dump`, 75 MB):
+```bash
+createdb worldmap && psql -d worldmap -c "CREATE EXTENSION postgis; CREATE EXTENSION postgis_raster;"
+pg_restore -d worldmap --no-owner worldmap_kigali.dump
+```
+
+## PostGIS schema (`worldmap`)
+| Table | Rows (Kigali) | Key columns |
+|---|---|---|
+| `aoi` | 1 | name, bbox, grid_srid, resolution_m, overture_release, report (jsonb QA) |
+| `buildings` | 431,849 | id (GERS), source, height_m, height_source, area_m2, ground_elev_m, canopy_at_site_m, geom |
+| `roads` | 23,301 | id, class, name, connectors (jsonb topology), geom |
+| `crossroads` | 16,779 | id, degree, degree_vehicle, kind, geom |
+| `water_points` | 5 | source, class, merged_from, geom |
+| `water_features` | 513 | id, subtype, class, name, is_intermittent, geom |
+| `infrastructure` | 3,087 | id, subtype, class, name, geom |
+| `places` | 2,883 | id, name, basic_category, confidence, geom |
+| `raster_tiles` | 486 | aoi, layer, rast (256×256 tiles, grid UTM SRID) |
+
+Vectors: EPSG:4326 + GiST. Raster layers: `dem`, `canopy`, `landcover`, `landcover_fused`, `gsw_occurrence`, `forest`,
+`water`, `building`, `road`.
+
+```sql
+-- value of any raster layer under each building
+SELECT b.id, ST_Value(r.rast, ST_Transform(ST_PointOnSurface(b.geom), a.grid_srid)) AS canopy_m
+FROM worldmap.buildings b JOIN worldmap.aoi a ON a.name = b.aoi
+JOIN worldmap.raster_tiles r ON r.aoi = b.aoi AND r.layer = 'canopy'
+ AND ST_Intersects(r.rast, ST_Transform(ST_PointOnSurface(b.geom), a.grid_srid)) LIMIT 10;
+
+-- forest area (km²) per AOI
+SELECT aoi, sum((ST_SummaryStats(rast)).sum) * 100 / 1e6 AS forest_km2
+FROM worldmap.raster_tiles WHERE layer = 'forest' GROUP BY aoi;
+
+-- 4-way+ vehicle crossroads with no water point within 500 m
+SELECT c.id FROM worldmap.crossroads c WHERE c.degree_vehicle >= 4 AND NOT EXISTS (
+  SELECT 1 FROM worldmap.water_points w WHERE ST_DWithin(c.geom::geography, w.geom::geography, 500));
 ```
 
 ## Pipeline
@@ -19,7 +60,7 @@ conflate   buildings: Overture (OSM > Google > Microsoft, already merged) + heig
            forest: WorldCover tree ∧ canopy ≥ 5 m (with agreement stats)
 derive     crossroads from connector topology (≥3 arms; vehicle / mixed / pedestrian_only)
            fused land cover (WorldCover + observed water + mapped buildings)
-publish    out/<city>/raster/*.tif (COG), out/<city>/vector/*.parquet (GeoParquet), report.json, preview.png
+publish    PostGIS schema `worldmap` + out/<city>/raster/*.tif (COG), out/<city>/vector/*.parquet, report.json
 ```
 
 ## Sources
@@ -37,7 +78,7 @@ Rasters: `dem`, `canopy`, `landcover`, `gsw_occurrence`, `building`, `road`, `fo
 Vectors: `buildings` (source, height_m, height_source, area_m2, ground_elev_m, canopy_at_site_m), `roads`,
 `crossroads` (degree, degree_vehicle, kind), `water_points` (source, class, merged_from), `water`, `infrastructure`, `places`.
 
-## Kigali results (`docs/kigali_report.json`, `docs/kigali_preview.png`)
+## Kigali results (`docs/kigali_report.json`)
 - 431,849 buildings: OSM 50%, Google 44%, Microsoft 6%
 - 3,246 km of roads, 13,303 vehicle crossroads
 - 100% raster coverage
