@@ -1,0 +1,11 @@
+{
+ "method": "Overture GERS id + geometry diff (vehicle roads)",
+ "new_segments": 183,
+ "new_km": 11.36,
+ "removed_segments": 70,
+ "removed_km": 7.07,
+ "geometry_changed_gt_1m": 201,
+ "geometry_changed_lt_1m": 314,
+ "tags_changed": 79,
+ "unchanged": 36294
+}

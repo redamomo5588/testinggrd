@@ -35,10 +35,13 @@ def vehicle_roads(release, bbox):
     return r[~r["class"].isin(rd.NON_VEHICLE) & r.intersects(box(*bbox))]
 
 
-def run_tile(work, name, ref, new, timeout):
+def run_tile(work, name, ref, new, timeout, reuse=False):
     out = {}
     for change, a, b in (("added", "ref", "new"), ("removed", "new", "ref")):
         res = f"{name}_{change}.osm"
+        if reuse and (work / res).exists():
+            out[change] = (work / res, 0.0)
+            continue
         t = time.time()
         hoot.run(["conflate", "-C", "DifferentialConflation.conf", "-C", "NetworkAlgorithm.conf",
                   f"{name}_{a}.osm", f"{name}_{b}.osm", res], work, timeout)
@@ -55,6 +58,7 @@ def main(argv=None):
     ap.add_argument("--buffer-deg", type=float, default=0.002, help="tile overlap (~200 m)")
     ap.add_argument("--jobs", type=int, default=os.cpu_count())
     ap.add_argument("--tile-timeout", type=int, default=1800)
+    ap.add_argument("--reuse", action="store_true", help="skip tiles whose Hootenanny outputs already exist")
     ap.add_argument("--out", default="out")
     ap.add_argument("--pg", default=os.environ.get("PG_DSN"))
     ap.add_argument("--schema", default="worldmap")
@@ -71,7 +75,7 @@ def main(argv=None):
     log.info("vehicle roads: ref %d, new %d", len(data["ref"]), len(data["new"]))
 
     grid = tiles(cfg.bbox, a.grid)
-    for i, j, tb in grid:
+    for i, j, tb in grid if not a.reuse else []:
         tbuf = box(tb[0] - buf, tb[1] - buf, tb[2] + buf, tb[3] + buf)
         for k, g in data.items():
             sub = g[g.intersects(tbuf)].copy()
@@ -80,7 +84,7 @@ def main(argv=None):
 
     results, timings = {}, {}
     with ThreadPoolExecutor(a.jobs) as ex:
-        futs = [ex.submit(run_tile, work, f"t{i}{j}", a.ref, a.new, a.tile_timeout) for i, j, _ in grid]
+        futs = [ex.submit(run_tile, work, f"t{i}{j}", a.ref, a.new, a.tile_timeout, a.reuse) for i, j, _ in grid]
         for f in as_completed(futs):
             name, out = f.result()
             results[name] = out

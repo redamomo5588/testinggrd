@@ -1,0 +1,103 @@
+{
+  "aoi": "madrid",
+  "ref_release": "2026-08-19.0",
+  "new_release": "2026-09-23.1",
+  "tiles": 16,
+  "ref_vehicle_roads": 38758,
+  "new_vehicle_roads": 38892,
+  "added_ways": 2352,
+  "added_km": 125.93,
+  "removed_ways": 2229,
+  "removed_km": 120.2,
+  "added_by_highway": {
+    "service": 636,
+    "residential": 626,
+    "tertiary": 360,
+    "primary": 253,
+    "secondary": 232,
+    "road": 170,
+    "trunk": 29,
+    "living_street": 28,
+    "motorway": 9,
+    "unclassified": 9
+  },
+  "removed_by_highway": {
+    "service": 644,
+    "residential": 615,
+    "tertiary": 357,
+    "primary": 246,
+    "secondary": 228,
+    "road": 70,
+    "trunk": 34,
+    "living_street": 20,
+    "unclassified": 8,
+    "motorway": 7
+  },
+  "wall_time_s": 29.5,
+  "tile_timings_s": {
+    "t12": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t02": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t03": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t11": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t10": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t13": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t01": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t00": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t21": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t23": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t30": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t31": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t22": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t33": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t20": {
+      "added": 0.0,
+      "removed": 0.0
+    },
+    "t32": {
+      "added": 0.0,
+      "removed": 0.0
+    }
+  }
+}

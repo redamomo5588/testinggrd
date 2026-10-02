@@ -112,8 +112,8 @@ def load_changes(dsn, schema, aoi, added, removed, ref_release, new_release):
     with psycopg.connect(dsn) as con, con.cursor() as cur:
         cur.execute(f"""CREATE TABLE IF NOT EXISTS {schema}.road_changes (
             gid serial PRIMARY KEY, aoi text, change text, ref_release text, new_release text,
-            overture_id text, highway text, name text, geom geometry(LineString,4326));
-            DELETE FROM {schema}.road_changes WHERE aoi = %s AND ref_release = %s AND new_release = %s""",
+            overture_id text, highway text, name text, geom geometry(LineString,4326))""")
+        cur.execute(f"DELETE FROM {schema}.road_changes WHERE aoi = %s AND ref_release = %s AND new_release = %s",
                     (aoi, ref_release, new_release))
         with cur.copy(f"COPY {schema}.road_changes (aoi, change, ref_release, new_release, overture_id, highway,"
                       f" name, geom) FROM STDIN") as cp:
