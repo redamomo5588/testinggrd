@@ -73,7 +73,9 @@ def main(argv=None):
     utm = {k: v.to_crs(g.crs) for k, v in V.items()}
     L["building"] = sf.burn(utm["buildings"], g)
     L["road"] = sf.burn(utm["roads"], g, all_touched=True)
-    ov_water = sf.burn(utm["water"][utm["water"].geom_type.isin(["Polygon", "MultiPolygon"])], g)
+    w = utm["water"]
+    w = w[w.geom_type.isin(["Polygon", "MultiPolygon"]) & ~w["class"].isin(sf.NOT_WATER_BODY)]
+    ov_water = sf.burn(w, g)
     L["forest"], forest_stats = sf.forest(L["landcover"], L["canopy"], rules.get("forest_min_canopy_m", 5.0))
     L["water"], water_stats = sf.water(L["landcover"], L["gsw_occurrence"], ov_water,
                                        rules.get("water_min_occurrence_pct", 50))

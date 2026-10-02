@@ -1,0 +1,75 @@
+{
+  "aoi": {
+    "name": "madrid",
+    "bbox": [
+      -3.78,
+      40.38,
+      -3.62,
+      40.48
+    ],
+    "grid_crs": "EPSG:32630",
+    "grid": [
+      1367,
+      1122
+    ],
+    "resolution_m": 10.0,
+    "overture_release": "2026-09-23.1"
+  },
+  "counts": {
+    "buildings": 102808,
+    "roads": 81670,
+    "crossroads": 93257,
+    "water_points": 1269,
+    "places": 85612
+  },
+  "crossroads_by_kind": {
+    "pedestrian_only": 46486,
+    "vehicle": 25920,
+    "mixed": 20851
+  },
+  "road_km": 6758.9,
+  "buildings_by_source": {
+    "OpenStreetMap": 88856,
+    "Instituto Geogr\u00e1fico Nacional (Espa\u00f1a)": 12493,
+    "Microsoft ML Buildings": 1459
+  },
+  "building_height_coverage": {
+    "none": 63156,
+    "num_floors_x_3m": 24197,
+    "overture_height": 15455
+  },
+  "building_gba_height_available": 0,
+  "building_area_km2": 32.43,
+  "water_points_by_source": {
+    "overture_infrastructure": 1266,
+    "overture_water": 3
+  },
+  "raster_coverage_pct": {
+    "dem": 100.0,
+    "canopy": 100.0,
+    "landcover": 100.0,
+    "gsw_occurrence": 100.0
+  },
+  "forest_agreement": {
+    "both_tree_pct": 14.15,
+    "worldcover_only_pct": 11.96,
+    "canopy_only_pct": 7.01
+  },
+  "forest_pct_of_aoi": 14.15,
+  "water_agreement": {
+    "water_cells": 7498,
+    "cells_by_source": {
+      "worldcover": 2421,
+      "jrc_gsw": 706,
+      "overture_osm": 6935
+    },
+    "all_three_agree_pct": 8.86,
+    "single_source_pct": 74.66
+  },
+  "timings_s": {
+    "ingest_vectors": 85.9,
+    "ingest_rasters": 19.5,
+    "conflate_derive": 9.5,
+    "publish": 2.4
+  }
+}

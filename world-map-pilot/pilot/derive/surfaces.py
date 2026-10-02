@@ -3,6 +3,9 @@ import numpy as np
 from rasterio.features import rasterize
 
 # ESA WorldCover codes
+# OSM water polygons that are not water bodies (pools, fountains, tanks)
+NOT_WATER_BODY = {"swimming_pool", "fountain", "reflecting_pool", "water_tank", "wastewater"}
+
 TREE, SHRUB, GRASS, CROP, BUILT, BARE, SNOW, WATER, WETLAND, MANGROVE, MOSS = 10, 20, 30, 40, 50, 60, 70, 80, 90, 95, 100
 
 

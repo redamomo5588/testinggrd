@@ -38,6 +38,7 @@
     "num_floors_x_3m": 11226,
     "overture_height": 24
   },
+  "building_gba_height_available": 0,
   "building_area_km2": 33.37,
   "water_points_by_source": {
     "overture_infrastructure": 4,
@@ -56,19 +57,19 @@
   },
   "forest_pct_of_aoi": 9.71,
   "water_agreement": {
-    "water_cells": 17695,
+    "water_cells": 17597,
     "cells_by_source": {
       "worldcover": 11984,
       "jrc_gsw": 563,
-      "overture_osm": 14465
+      "overture_osm": 14367
     },
-    "all_three_agree_pct": 1.42,
-    "single_source_pct": 48.77
+    "all_three_agree_pct": 1.43,
+    "single_source_pct": 48.49
   },
   "timings_s": {
-    "ingest_vectors": 84.2,
-    "ingest_rasters": 21.8,
-    "conflate_derive": 25.0,
-    "publish": 3.1
+    "ingest_vectors": 84.8,
+    "ingest_rasters": 24.2,
+    "conflate_derive": 26.9,
+    "publish": 4.5
   }
 }
