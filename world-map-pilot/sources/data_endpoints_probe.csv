@@ -1,45 +1,45 @@
 category,source,probe,http,endpoint
 roads,OpenStreetMap planet (AWS mirror),ok,200,https://osm-pds.s3.amazonaws.com/
-roads,OpenStreetMap planet (primary),blocked_here,000,https://planet.openstreetmap.org/pbf/
+roads,OpenStreetMap planet (primary),ok,200,https://planet.openstreetmap.org/pbf/
 roads,Overture transportation (S3),ok,200,https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/?list-type=2&prefix=release/&delimiter=/
-roads,Microsoft Road Detections (Azure blob),blocked_here,000,https://usaminedroads.blob.core.windows.net/road-detections/
-roads,Global urban street networks (Harvard Dataverse),blocked_here,000,https://dataverse.harvard.edu/api/dataverses/global-urban-street-networks
-roads,GRIP (globio.info),blocked_here,000,https://www.globio.info/download-grip-dataset
+roads,Microsoft Road Detections (Azure blob),error,409,https://usaminedroads.blob.core.windows.net/road-detections/
+roads,Global urban street networks (Harvard Dataverse),ok,200,https://dataverse.harvard.edu/api/dataverses/global-urban-street-networks
+roads,GRIP (globio.info),ok,200,https://www.globio.info/download-grip-dataset
 buildings,Overture buildings (S3),ok,200,https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/?list-type=2&prefix=release/2026-09-23.1/theme%3Dbuildings/&max-keys=1
-buildings,Microsoft Global ML Buildings (Azure web),blocked_here,000,https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv
+buildings,Microsoft Global ML Buildings (Azure web),ok,206,https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv
 buildings,Google Open Buildings v3 (GCS),ok,200,https://storage.googleapis.com/storage/v1/b/open-buildings-data/o?prefix=v3/&maxResults=2
-buildings,VIDA combined footprints (Source Cooperative),blocked_here,000,https://data.source.coop/vida/google-microsoft-osm-open-buildings/
-buildings,GHSL (JRC FTP over HTTPS),blocked_here,000,https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/
-buildings,WSF 2019 (DLR download),blocked_here,000,https://download.geoservice.dlr.de/WSF2019/files/
-building_heights,GlobalBuildingAtlas (HuggingFace),blocked_here,000,https://huggingface.co/api/datasets/zhu-xlab/GBA.LoD1
-building_heights,GBA.Height (mediaTUM),blocked_here,000,https://mediatum.ub.tum.de/1782307
-building_heights,3D-GloBFP (Zenodo),blocked_here,000,https://zenodo.org/api/records/11319913
+buildings,VIDA combined footprints (Source Cooperative),ok,200,https://data.source.coop/vida/google-microsoft-osm-open-buildings/
+buildings,GHSL (JRC FTP over HTTPS),ok,200,https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/
+buildings,WSF 2019 (DLR download),ok,200,https://download.geoservice.dlr.de/WSF2019/files/
+building_heights,GlobalBuildingAtlas (HuggingFace),reachable_restricted,429,https://huggingface.co/api/datasets/zhu-xlab/GBA.LoD1
+building_heights,GBA.Height (mediaTUM),ok,200,https://mediatum.ub.tum.de/1782307
+building_heights,3D-GloBFP (Zenodo),reachable_restricted,403,https://zenodo.org/api/records/11319913
 building_heights,Google 2.5D Temporal (Earth Engine only),reachable_restricted,401,https://earthengine.googleapis.com/v1/projects/earthengine-public/assets/GOOGLE/Research/open-buildings-temporal/v1
 terrain,Copernicus DEM GLO-30 (S3),ok,206,https://copernicus-dem-30m.s3.amazonaws.com/readme.html
-terrain,FABDEM (Bristol),blocked_here,000,https://data.bris.ac.uk/datasets/s5hqmjcdj8yo2ibzi9b4ew3sn/
-terrain,DeltaDTM (4TU),blocked_here,000,https://data.4tu.nl/datasets/1da2e70f-6c4d-4b03-86bd-b53e789cc629
-terrain,NASADEM (LP DAAC / Earthdata),blocked_here,000,https://e4ftl01.cr.usgs.gov/MEASURES/NASADEM_HGT.001/
-terrain,GEBCO (BODC),blocked_here,000,https://www.bodc.ac.uk/data/open_download/gebco/
+terrain,FABDEM (Bristol),ok,200,https://data.bris.ac.uk/datasets/s5hqmjcdj8yo2ibzi9b4ew3sn/
+terrain,DeltaDTM (4TU),ok,200,https://data.4tu.nl/datasets/1da2e70f-6c4d-4b03-86bd-b53e789cc629
+terrain,NASADEM (LP DAAC / Earthdata),broken_link,404,https://e4ftl01.cr.usgs.gov/MEASURES/NASADEM_HGT.001/
+terrain,GEBCO (BODC),broken_link,404,https://www.bodc.ac.uk/data/open_download/gebco/
 terrain,AWS Terrain Tiles,ok,206,https://s3.amazonaws.com/elevation-tiles-prod/terrarium/0/0/0.png
 forest_canopy,Hansen GFC (GCS),ok,206,https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html
 forest_canopy,Meta canopy height (S3),ok,206,https://dataforgood-fb-data.s3.amazonaws.com/forests/v1/alsgedi_global_v6_float/tiles.geojson
-forest_canopy,ETH canopy height (ETH libdrive),blocked_here,000,https://libdrive.ethz.ch/index.php/s/cO8or7iOe5dT2Rt
-forest_canopy,GLAD canopy height 2019 (UMD),blocked_here,000,https://glad.umd.edu/Potapov/Forest_height_2019/
-forest_canopy,JRC TMF / GFC2020 (forobs),blocked_here,000,https://forobs.jrc.ec.europa.eu/TMF
-forest_canopy,WRI / GFW data API,blocked_here,000,https://data-api.globalforestwatch.org/datasets
+forest_canopy,ETH canopy height (ETH libdrive),ok,200,https://libdrive.ethz.ch/index.php/s/cO8or7iOe5dT2Rt
+forest_canopy,GLAD canopy height 2019 (UMD),ok,206,https://glad.umd.edu/Potapov/Forest_height_2019/
+forest_canopy,JRC TMF / GFC2020 (forobs),ok,200,https://forobs.jrc.ec.europa.eu/TMF
+forest_canopy,WRI / GFW data API,ok,206,https://data-api.globalforestwatch.org/datasets
 land_cover,ESA WorldCover (S3),ok,206,https://esa-worldcover.s3.eu-central-1.amazonaws.com/v200/2021/map/ESA_WorldCover_10m_2021_v200_S03E030_Map.tif
-land_cover,Esri/IO 10 m LULC (Azure blob),blocked_here,000,https://lulctimeseries.blob.core.windows.net/lulctimeseriesv003/
+land_cover,Esri/IO 10 m LULC (Azure blob),broken_link,404,https://lulctimeseries.blob.core.windows.net/lulctimeseriesv003/
 land_cover,Dynamic World (Earth Engine only),reachable_restricted,401,https://earthengine.googleapis.com/v1/projects/earthengine-public/assets/GOOGLE/DYNAMICWORLD/V1
-land_cover,GLC_FCS30D (Zenodo),blocked_here,000,https://zenodo.org/api/records/8239305
-land_cover,Planetary Computer blob storage,blocked_here,000,https://ai4edataeuwest.blob.core.windows.net/
+land_cover,GLC_FCS30D (Zenodo),reachable_restricted,403,https://zenodo.org/api/records/8239305
+land_cover,Planetary Computer blob storage,error,400,https://ai4edataeuwest.blob.core.windows.net/
 water_bodies,JRC Global Surface Water (GCS),ok,206,https://storage.googleapis.com/global-surface-water/downloads2021/occurrence/occurrence_30E_0Nv1_4_2021.tif
-water_bodies,HydroSHEDS products (data.hydrosheds.org),blocked_here,000,https://data.hydrosheds.org/file/HydroRIVERS/HydroRIVERS_v10_af_shp.zip
-water_bodies,GRWL (Zenodo),blocked_here,000,https://zenodo.org/api/records/1297434
-water_bodies,OSM water polygons (FOSSGIS),blocked_here,000,https://osmdata.openstreetmap.de/download/water-polygons-split-4326.zip
-water_bodies,SWOT / PO.DAAC (Earthdata),blocked_here,000,https://podaac.jpl.nasa.gov/SWOT
-water_points,WPdx+ (Socrata API),blocked_here,000,https://data.waterpointdata.org/resource/eqje-vguj.json?$limit=1
-water_points,GeoNames dump,blocked_here,000,https://download.geonames.org/export/dump/allCountries.zip
-water_points,Wikidata SPARQL,blocked_here,000,https://query.wikidata.org/sparql?query=SELECT%201%20WHERE%20%7B%7D
-water_points,USGS NWIS (Water Data API),blocked_here,000,https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=ri&siteType=GW&siteStatus=active
-water_points,IGRAC GGMN,blocked_here,000,https://ggmn.un-igrac.org/
+water_bodies,HydroSHEDS products (data.hydrosheds.org),ok,206,https://data.hydrosheds.org/file/HydroRIVERS/HydroRIVERS_v10_af_shp.zip
+water_bodies,GRWL (Zenodo),reachable_restricted,403,https://zenodo.org/api/records/1297434
+water_bodies,OSM water polygons (FOSSGIS),ok,206,https://osmdata.openstreetmap.de/download/water-polygons-split-4326.zip
+water_bodies,SWOT / PO.DAAC (Earthdata),ok,200,https://podaac.jpl.nasa.gov/SWOT
+water_points,WPdx+ (Socrata API),ok,200,https://data.waterpointdata.org/resource/eqje-vguj.json?$limit=1
+water_points,GeoNames dump,ok,206,https://download.geonames.org/export/dump/allCountries.zip
+water_points,Wikidata SPARQL,error,400,https://query.wikidata.org/sparql?query=SELECT%201%20WHERE%20%7B%7D
+water_points,USGS NWIS (Water Data API),ok,206,https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=ri&siteType=GW&siteStatus=active
+water_points,IGRAC GGMN,ok,200,https://ggmn.un-igrac.org/
 water_points,Overture infrastructure (S3),ok,200,https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/?list-type=2&prefix=release/2026-09-23.1/theme%3Dbase/type%3Dinfrastructure/&max-keys=1
