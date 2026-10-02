@@ -1,0 +1,103 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+Copernicus DEM GLO-30|ESA/Airbus|G|World|raster DSM|30 m|2024|Copernicus DEM licence|Y|dl|https://copernicus-dem-30m.s3.amazonaws.com/readme.html|-
+Copernicus DEM GLO-90|ESA/Airbus|G|World|raster DSM|90 m|2024|Copernicus DEM licence|Y|dl|https://copernicus-dem-90m.s3.amazonaws.com/readme.html|-
+Copernicus DEM EEA-10|ESA/Airbus|C|EEA-39|raster DSM|10 m|2021|Restricted (eligible users)|R|reg|https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM|-
+FABDEM (bare-earth)|University of Bristol / Fathom|G|World|raster DTM|30 m|2023|CC-BY-NC-SA 4.0|N|dl|https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn|-
+FathomDEM (bare-earth)|Fathom|G|World|raster DTM|30 m|2025|CC-BY-NC-SA 4.0 (non-commercial)|N|dl|https://www.fathom.global/product/fathomdem/|-
+DeltaDTM (coastal bare-earth)|Deltares|G|Coastal < 10 m|raster DTM|30 m|2024|CC-BY 4.0|Y|dl|https://data.4tu.nl/datasets/1da2e70f-6c4d-4b03-86bd-b53e789cc629|-
+NASADEM|NASA JPL|G|60N-56S|raster DSM|30 m|2020|Public domain|Y|reg|https://lpdaac.usgs.gov/products/nasadem_hgtv001/|-
+SRTM GL1 v3|NASA/USGS|G|60N-56S|raster DSM|30 m|2015|Public domain|Y|reg|https://lpdaac.usgs.gov/products/srtmgl1v003/|-
+SRTM 90m v4.1 (CGIAR-CSI)|CGIAR-CSI|G|60N-56S|raster DSM|90 m|2008|Free (non-commercial asked)|R|dl|https://srtm.csi.cgiar.org/|-
+ASTER GDEM v3|NASA/METI|G|83N-83S|raster DSM|30 m|2019|Public domain|Y|reg|https://lpdaac.usgs.gov/products/astgtmv003/|-
+ALOS World 3D 30 m (AW3D30)|JAXA|G|World|raster DSM|30 m|2024|JAXA free terms|Y|reg|https://www.eorc.jaxa.jp/ALOS/en/aw3d30/index.htm|-
+TanDEM-X 90 m DEM|DLR|G|World|raster DSM|90 m|2018|DLR free (science+commercial?)|R|reg|https://geoservice.dlr.de/web/dataguide/tdm90/|-
+TanDEM-X 30 m EDEM|DLR|G|World|raster DSM|30 m|2023|DLR science|R|reg|https://geoservice.dlr.de/web/dataguide/tdm30/|-
+MERIT DEM|Univ. Tokyo (Yamazaki)|G|World|raster DTM-ish|90 m|2018|CC-BY-NC 4.0 / ODbL|R|reg|http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/|-
+MERIT Hydro|Univ. Tokyo (Yamazaki)|G|World|raster hydro-DEM|90 m|2019|CC-BY-NC 4.0 / ODbL|R|reg|http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/|-
+HydroSHEDS v1 conditioned DEM|WWF/McGill|G|World|raster|90 m|2022|Free with attribution|Y|dl|https://www.hydrosheds.org/hydrosheds-core-downloads|-
+GMTED2010|USGS/NGA|G|World|raster|250 m-1 km|2010|Public domain|Y|dl|https://www.usgs.gov/coastal-changes-and-impacts/gmted2010|-
+GTOPO30|USGS|G|World|raster|1 km|1996|Public domain|Y|dl|https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-30-arc-second-elevation-gtopo30|-
+ETOPO 2022|NOAA NCEI|G|World (land+ocean)|raster|15 arc-sec|2022|Public domain|Y|dl|https://www.ncei.noaa.gov/products/etopo-global-relief-model|-
+GEBCO 2025 grid|GEBCO/IHO-IOC|G|World (land+ocean)|raster|15 arc-sec|2025|Public domain (attribution)|Y|dl|https://www.gebco.net/data-products/gridded-bathymetry-data|-
+SRTM15+ (Tozer)|Scripps|G|World (land+ocean)|raster|15 arc-sec|2023|Public domain|Y|dl|https://topex.ucsd.edu/WWW_html/srtm15_plus.html|-
+GMRT Global Multi-Resolution Topography|LDEO Columbia|G|World|raster|variable|2025|CC-BY 4.0|Y|api|https://www.gmrt.org/|-
+EarthEnv-DEM90|EarthEnv|G|World|raster|90 m|2014|CC-BY-NC|N|dl|https://www.earthenv.org/DEM|-
+ArcticDEM|Polar Geospatial Center|G|Arctic > 60N|raster DSM|2 m|2023|Public domain|Y|dl|https://www.pgc.umn.edu/data/arcticdem/|-
+REMA|Polar Geospatial Center|G|Antarctica|raster DSM|2 m|2022|Public domain|Y|dl|https://www.pgc.umn.edu/data/rema/|-
+EarthDEM|Polar Geospatial Center|G|Non-polar (restricted)|raster DSM|2 m|2023|Restricted (US federal)|R|req|https://www.pgc.umn.edu/data/earthdem/|-
+BedMachine Antarctica/Greenland|NASA/UCI|G|Polar|raster|500 m-150 m|2022|NASA open|Y|reg|https://nsidc.org/data/nsidc-0756|-
+ICESat-2 ATL08 terrain|NASA|G|World|points|photon|2026|NASA open|Y|reg|https://nsidc.org/data/atl08|-
+GEDI L2A ground elevation|NASA/UMD|G|51.6N-51.6S|points|25 m|2025|NASA open|Y|reg|https://lpdaac.usgs.gov/products/gedi02_av002/|-
+AWS Terrain Tiles (Terrarium)|Mapzen/AWS|G|World|raster tiles|multi|2018|Mixed open (attribution)|Y|dl|https://registry.opendata.aws/terrain-tiles/|-
+Mapbox Terrain-DEM|Mapbox|G|World|raster tiles|multi|2025|Commercial|P|api|https://docs.mapbox.com/data/tilesets/reference/mapbox-terrain-dem-v1/|-
+MapTiler Terrain|MapTiler|G|World|raster tiles|multi|2025|Commercial|P|api|https://www.maptiler.com/terrain/|-
+Google Elevation API|Google|G|World|api|varies|2026|Commercial|P|api|https://developers.google.com/maps/documentation/elevation/overview|-
+Airbus WorldDEM / WorldDEM Neo|Airbus|G|World|raster DSM/DTM|5-12 m|2025|Commercial|P|com|https://www.intelligence-airbusds.com/worlddem-neo/|-
+AW3D Enhanced|NTT Data/RESTEC|G|World|raster DSM/DTM|0.5-5 m|2025|Commercial|P|com|https://www.aw3d.jp/en/|-
+Intermap NEXTMap One|Intermap|G|World|raster DSM/DTM|1 m|2024|Commercial|P|com|https://www.intermap.com/nextmap|-
+Vantor Precision3D DEM|Vantor/Maxar|G|World|raster DSM/DTM|0.5 m|2025|Commercial|P|com|https://www.maxar.com/precision3d|-
+OpenTopography global DEM API|OpenTopography|G|World|api|30-90 m|2026|Mixed open|Y|reg|https://portal.opentopography.org/apidocs/|-
+EU-DEM v1.1|EEA/Copernicus|C|EEA-39|raster|25 m|2016|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/products-that-are-no-longer-disseminated-on-the-clms-website|-
+EMODnet Bathymetry DTM|EMODnet|C|European seas|raster|115 m|2024|CC-BY 4.0|Y|dl|https://emodnet.ec.europa.eu/en/bathymetry|-
+USGS 3DEP 1 m / 1/3 arc-sec DEM|USGS|N|USA|raster DTM|1-10 m|2026|Public domain|Y|dl|https://www.usgs.gov/3d-elevation-program|-
+NOAA CUDEM|NOAA NCEI|N|US coasts|raster|1/9 arc-sec|2024|Public domain|Y|dl|https://www.ncei.noaa.gov/products/coastal-elevation-models|-
+NRCan MRDEM|NRCan|N|Canada|raster DTM/DSM|30 m|2024|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/18752265-bda3-498c-a4ba-9dfe68cb98da|-
+NRCan HRDEM|NRCan|N|Canada (partial)|raster DTM|1-2 m|2024|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995|-
+CDEM Canada|NRCan|N|Canada|raster|20 m|2013|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333|-
+INEGI CEM 3.0|INEGI|N|Mexico|raster|15 m|2013|INEGI libre uso|Y|dl|https://www.inegi.org.mx/app/geo2/elevacionesmex/|-
+TOPODATA (INPE)|INPE|N|Brazil|raster|30 m|2011|Open|Y|dl|http://www.dsr.inpe.br/topodata/|-
+IGN Argentina MDE-Ar|IGN Argentina|N|Argentina|raster|30 m|2024|CC-BY 4.0|Y|dl|https://www.ign.gob.ar/NuestrasActividades/Geodesia/ModeloDigitalElevaciones/Introduccion|-
+Colombia DEM (IGAC)|IGAC|N|Colombia|raster|12.5-30 m|2023|Open|Y|dl|https://www.colombiaenmapas.gov.co/|-
+Chile DEM (IDE Chile)|IDE Chile|N|Chile|raster|12.5-30 m|2023|Open|Y|dl|https://www.ide.cl/|-
+Peru DEM (GEO GPS Peru / IGN)|IGN Peru|N|Peru|raster|30 m|2020|Open|Y|dl|https://www.idep.gob.pe/|-
+OS Terrain 50|Ordnance Survey|N|Great Britain|raster|50 m|2025|OGL|Y|dl|https://www.ordnancesurvey.co.uk/products/os-terrain-50|-
+OS Terrain 5|Ordnance Survey|N|Great Britain|raster|5 m|2025|Commercial|P|com|https://www.ordnancesurvey.co.uk/products/os-terrain-5|-
+EA LiDAR composite DTM|Environment Agency|N|England|raster DTM|1 m|2024|OGL|Y|dl|https://environment.data.gov.uk/survey|-
+Scotland lidar DTM|Scottish Government|S|Scotland|raster DTM|0.5-1 m|2024|OGL|Y|dl|https://remotesensingdata.gov.scot/|-
+Wales lidar DTM|Welsh Government|S|Wales|raster DTM|1 m|2024|OGL|Y|dl|https://datamap.gov.wales/|-
+Ireland national DTM (GSI)|Geological Survey Ireland|N|Ireland|raster|10 m|2023|CC-BY 4.0|Y|dl|https://www.gsi.ie/en-ie/data-and-maps/Pages/default.aspx|-
+IGN RGE ALTI 1 m|IGN France|N|France|raster DTM|1-5 m|2025|Etalab 2.0|Y|dl|https://geoservices.ign.fr/rgealti|-
+CNIG MDT05/MDT02|IGN Spain/CNIG|N|Spain|raster DTM|2-5 m|2025|CC-BY 4.0|Y|dl|https://centrodedescargas.cnig.es/|-
+DGT Portugal MDT lidar|DGT Portugal|N|Portugal|raster DTM|0.5-2 m|2024|CC-BY 4.0|Y|dl|https://www.dgterritorio.gov.pt/|-
+TINITALY 10 m|INGV|N|Italy|raster|10 m|2023|CC-BY 4.0|Y|dl|https://tinitaly.pi.ingv.it/|-
+BKG DGM200 / DGM1 states|BKG + states|N|Germany|raster DTM|1-200 m|2025|DL-DE BY 2.0 (DGM200)|Y|dl|https://gdz.bkg.bund.de/|-
+AHN4 DTM|Rijkswaterstaat|N|Netherlands|raster DTM|0.5 m|2025|CC0|Y|dl|https://www.ahn.nl/|-
+DHMV II DTM|Digitaal Vlaanderen|S|Flanders|raster DTM|1 m|2015|Modellicentie gratis|Y|dl|https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/earth-observation-data-science-eodas/het-digitaal-hoogtemodel|-
+Denmark DHM terrain|SDFI|N|Denmark|raster DTM|0.4 m|2025|Open|Y|reg|https://dataforsyningen.dk/|-
+Norway DTM1/DTM10|Kartverket|N|Norway|raster DTM|1-10 m|2025|CC-BY 4.0|Y|dl|https://hoydedata.no/|-
+Sweden GSD-Hojddata|Lantmateriet|N|Sweden|raster DTM|1-2 m|2025|CC0|Y|reg|https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/markhojdmodell-nedladdning/|-
+Finland KM2/KM10|National Land Survey Finland|N|Finland|raster DTM|2-10 m|2025|CC-BY 4.0|Y|dl|https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/elevation-model-2-m|-
+Estonia DTM|Estonian Land Board|N|Estonia|raster DTM|1-5 m|2025|Open|Y|dl|https://geoportaal.maaamet.ee/|-
+Latvia DTM (LGIA)|LGIA|N|Latvia|raster DTM|1 m|2024|Open|Y|dl|https://www.lgia.gov.lv/|-
+Lithuania DTM (geoportal.lt)|NZT Lithuania|N|Lithuania|raster DTM|1 m|2024|Open|Y|reg|https://www.geoportal.lt/|-
+Poland NMT|GUGiK|N|Poland|raster DTM|1 m|2025|Open|Y|dl|https://www.geoportal.gov.pl/|-
+Czech DMR 5G|CUZK|N|Czechia|raster DTM|2 m|2025|CC-BY 4.0|Y|dl|https://geoportal.cuzk.cz/|-
+Slovakia DMR 5.0|UGKK SR|N|Slovakia|raster DTM|1 m|2025|Open|Y|dl|https://www.geoportal.sk/|-
+Slovenia DTM (lidar)|GURS/ARSO|N|Slovenia|raster DTM|1 m|2015|CC-BY 4.0|Y|dl|https://www.e-prostor.gov.si/|-
+Croatia DMR (DGU)|DGU|N|Croatia|raster|25 m|2020|Open|Y|dl|https://geoportal.dgu.hr/|-
+swissALTI3D|swisstopo|N|Switzerland|raster DTM|0.5-2 m|2025|OGD swisstopo|Y|dl|https://www.swisstopo.admin.ch/en/height-model-swissalti3d|-
+Austria DGM (basemap.at / data.gv.at)|Austrian states|N|Austria|raster DTM|1-10 m|2024|CC-BY 4.0|Y|dl|https://www.data.gv.at/|-
+Iceland IslandsDEM|Natt.is|N|Iceland|raster|2-10 m|2022|CC-BY 4.0|Y|dl|https://www.natt.is/|-
+Greece DEM (Ktimatologio)|Hellenic Cadastre|N|Greece|raster|5 m|2018|Restricted|R|req|https://www.ktimatologio.gr/|-
+Luxembourg DTM lidar|ACT Luxembourg|N|Luxembourg|raster DTM|0.5 m|2019|CC0|Y|dl|https://data.public.lu/|-
+Geoscience Australia ELVIS DEMs|ICSM/GA|N|Australia|raster DTM|1-5 m|2025|CC-BY 4.0|Y|dl|https://elevation.fsdf.org.au/|-
+Australia SRTM 1s DEM-H|Geoscience Australia|N|Australia|raster|30 m|2011|CC-BY 4.0|Y|dl|https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/72759|-
+LINZ NZ 1 m DEM|LINZ|N|New Zealand|raster DTM|1 m|2025|CC-BY 4.0|Y|dl|https://data.linz.govt.nz/|-
+LINZ NZ 8 m DEM|LINZ|N|New Zealand|raster|8 m|2012|CC-BY 4.0|Y|dl|https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/|-
+GSI Japan 5 m / 10 m DEM|GSI Japan|N|Japan|raster DTM|5-10 m|2025|GSI terms|Y|reg|https://fgd.gsi.go.jp/download/|-
+NGII Korea DEM|NGII|N|South Korea|raster|5 m|2024|KOGL|Y|reg|https://www.ngii.go.kr/|-
+Taiwan 20 m / 1 m DEM|MOI Taiwan|N|Taiwan|raster|1-20 m|2024|OGDL Taiwan|Y|dl|https://data.gov.tw/|-
+Hong Kong DTM|Lands Department HK|S|Hong Kong|raster DTM|5 m|2024|Open|Y|dl|https://portal.csdi.gov.hk/|-
+CartoDEM v3 (Bhuvan)|NRSC/ISRO|N|India|raster|30 m|2017|Free registration|R|reg|https://bhuvan-app3.nrsc.gov.in/data/download/index.php|-
+Indonesia DEMNAS|BIG Indonesia|N|Indonesia|raster|8 m|2018|Free registration|R|reg|https://tanahair.indonesia.go.id/demnas/|-
+Philippines IfSAR / lidar (PhilLiDAR)|NAMRIA/UP DREAM|N|Philippines|raster|5 m / 1 m|2017|Restricted|R|req|https://lipad.dream.upd.edu.ph/|-
+NGI South Africa DEM|NGI South Africa|N|South Africa|raster|25 m|2020|Open|Y|req|https://www.ngi.gov.za/|-
+SUDEM South Africa|Stellenbosch/GeoSmart|N|South Africa|raster|5 m|2016|Commercial|P|com|https://geosmart.space/|-
+Rwanda national DTM (RLMUA)|Rwanda Land Management and Use Authority|N|Rwanda|raster DTM|1-10 m|2022|Restricted|R|req|https://www.lands.rw/|-
+Israel DTM (MAPI)|Survey of Israel|N|Israel|raster|25 m|2020|Restricted|R|req|https://www.gov.il/en/departments/survey_of_israel|-
+Copernicus DEM on Microsoft Planetary Computer|Microsoft|G|World|raster DSM|30-90 m|2024|Copernicus DEM licence|Y|api|https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30|-
+OpenDEM / Open Topo Data API|Open Topo Data|G|World|api|30-90 m|2025|Mixed open|Y|api|https://www.opentopodata.org/|-
+Global Bare Earth DEM Coastal (CoastalDEM)|Climate Central|G|Coastal|raster DTM|90 m|2023|Commercial|P|com|https://www.climatecentral.org/coastaldem-v3|-
+Hamburg/Hessen DGM1 open|LGV Hamburg / HVBG|S|Hamburg, Hesse|raster DTM|1 m|2025|DL-DE BY/Zero 2.0|Y|dl|https://gds.hessen.de/|-
+NRW DGM1 open|Geobasis NRW|S|North Rhine-Westphalia|raster DTM|1 m|2026|DL-DE Zero 2.0|Y|dl|https://www.opengeodata.nrw.de/produkte/geobasis/hm/|-
+Bayern DGM1 open|LDBV Bayern|S|Bavaria|raster DTM|1 m|2025|CC-BY 4.0|Y|dl|https://geodaten.bayern.de/opengeodata/|-

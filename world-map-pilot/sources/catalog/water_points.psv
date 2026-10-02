@@ -1,0 +1,105 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+WPdx+ (Water Point Data Exchange)|Global Water Challenge|G|60+ countries (mostly Africa)|points|GPS|2026|CC-BY 4.0|Y|api|https://www.waterpointdata.org/|-
+WPdx Basic|Global Water Challenge|G|60+ countries|points|GPS|2026|CC-BY 4.0|Y|api|https://data.waterpointdata.org/dataset/Water-Point-Data-Exchange-Basic-WPdx-Basic-/jfkt-jmqa|-
+OpenStreetMap water points (drinking_water, water_well, spring, water_point, water_tap)|OpenStreetMap Foundation|G|World|points|survey|2026|ODbL|Y|dl|https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water|-
+Overture base infrastructure / water points|Overture Maps Foundation|G|World|points|OSM-derived|2026|ODbL|Y|dl|https://docs.overturemaps.org/guides/base/|-
+Global groundwater wells database (Jasechko & Perrone)|UCSB|G|40 countries, ~39M wells|points|well records|2024|CC-BY 4.0 (aggregated)|Y|dl|https://doi.org/10.1126/science.abc2755|-
+IGRAC Global Groundwater Monitoring Network (GGMN)|IGRAC|G|World|points|monitoring wells|2025|Free|Y|reg|https://ggmn.un-igrac.org/|-
+GeoNames wells/springs (H.WLL, H.SPNG)|GeoNames|G|World|points|gazetteer|2026|CC-BY 4.0|Y|dl|https://download.geonames.org/export/dump/|-
+Wikidata springs and wells|Wikimedia|G|World|points|crowd|2026|CC0|Y|api|https://query.wikidata.org/|-
+mWater portal|mWater|G|World|points|survey|2026|Mixed (public sites CC-BY)|R|reg|https://portal.mwater.co/|-
+Akvo Flow / Akvo RSR data|Akvo|G|World|points|survey|2025|Mixed|R|reg|https://akvo.org/|-
+SIASAR (Rural Water and Sanitation Information System)|SIASAR consortium / World Bank|C|Latin America + Africa (15+ countries)|points|survey|2026|CC-BY 4.0|Y|api|https://siasar.org/|-
+HDX water point datasets|UN OCHA HDX|C|Humanitarian countries|points|survey|2026|Various|R|dl|https://data.humdata.org/search?q=water+points|-
+UNHCR WASH monitoring (camps)|UNHCR|C|Refugee camps|points|survey|2025|Restricted|R|req|https://wash.unhcr.org/|-
+REACH WASH assessments|IMPACT Initiatives|C|Crisis countries|points|survey|2026|CC-BY 4.0|Y|dl|https://www.impact-initiatives.org/resource-centre/|-
+IOM DTM site assessments (WASH)|IOM|C|Crisis countries|points|survey|2026|Restricted|R|reg|https://dtm.iom.int/|-
+WHO/UNICEF JMP (statistics only)|WHO/UNICEF|G|World|statistics|country|2025|CC-BY-NC-SA 3.0 IGO|N|dl|https://washdata.org/|-
+Water Point Mapper tool (WaterAid)|WaterAid|S|Project areas|points|survey|2019|Free|Y|dl|https://www.waterpointmapper.org/|-
+charity: water project map|charity: water|C|29 countries|points|GPS|2025|Public view|R|api|https://www.charitywater.org/our-projects|-
+The Water Project map|The Water Project|C|East Africa|points|GPS|2025|Public view|R|api|https://thewaterproject.org/community/projects/|-
+Water Mission projects|Water Mission|C|50+ countries|points|GPS|2025|Restricted|R|req|https://watermission.org/|-
+Living Water International|LWI|C|20+ countries|points|GPS|2025|Restricted|R|req|https://water.cc/|-
+Lifewater|Lifewater International|C|Africa/Asia|points|GPS|2025|Restricted|R|req|https://lifewater.org/|-
+World Vision WASH|World Vision|C|Africa/Asia|points|GPS|2025|Restricted|R|req|https://www.worldvision.org/clean-water|-
+Evidence Action Dispensers for Safe Water|Evidence Action|C|Kenya, Uganda, Malawi|points|GPS|2025|Restricted|R|req|https://www.evidenceaction.org/programs/safe-water-now|-
+Water for Good (CAR)|Water for Good|N|Central African Republic|points|GPS|2025|Shared to WPdx|Y|api|https://waterforgood.org/|-
+Refill app tap map|City to Sea|C|UK + 30 countries|points|crowd|2026|Restricted|R|api|https://www.refill.org.uk/|-
+Tap app (findtap.com)|Tap|G|World|points|crowd|2024|Restricted|R|api|https://findtap.com/|-
+Uganda Water Supply Atlas / WATSUP|Ministry of Water and Environment Uganda|N|Uganda|points|census|2024|Open|Y|dl|https://www.mwe.go.ug/|-
+Tanzania Water Point Mapping System (WPMS)|Ministry of Water Tanzania|N|Tanzania|points|census|2024|Restricted|R|req|https://www.maji.go.tz/|-
+Kenya water points (WASREB / Maji Data)|WASREB|N|Kenya|points|census|2023|Restricted|R|req|https://wasreb.go.ke/|-
+Malawi water point inventory (MoW / WPdx)|Ministry of Water Malawi|N|Malawi|points|census|2021|Shared to WPdx|Y|api|https://www.waterpointdata.org/|-
+Sierra Leone Water Point Mapping 2016|Ministry of Water Resources SL|N|Sierra Leone|points|census|2016|Open|Y|dl|https://www.washdata-sl.org/|-
+Liberia WASH Water Point Atlas 2017|Ministry of Public Works Liberia|N|Liberia|points|census|2017|Open|Y|dl|https://data.humdata.org/search?q=liberia+water+points|-
+Ghana CWSA DiMES|Community Water and Sanitation Agency|N|Ghana|points|census|2023|Restricted|R|req|https://www.cwsa.gov.gh/|-
+Nigeria water point mapping (eHealth Africa / GRID3)|GRID3 / eHealth Africa|N|Nigeria|points|census|2023|CC-BY 4.0|Y|dl|https://data.grid3.org/|-
+Ethiopia National WASH Inventory (NWI)|Ministry of Water Ethiopia|N|Ethiopia|points|census|2015|Restricted|R|req|https://www.mowie.gov.et/|-
+Mozambique SINAS|DNAAS Mozambique|N|Mozambique|points|census|2023|Restricted|R|req|https://www.sinas.gov.mz/|-
+Zambia water point data (NRWSSP)|Ministry of Water Zambia|N|Zambia|points|census|2022|Shared to WPdx|Y|api|https://www.mwdsep.gov.zm/|-
+Zimbabwe RWIMS|Ministry of Lands/ NAC Zimbabwe|N|Zimbabwe|points|census|2023|Restricted|R|req|https://www.rwims.org/|-
+Madagascar water points (BDEA)|Ministere de l Eau Madagascar|N|Madagascar|points|census|2022|Restricted|R|req|https://www.mineau.gov.mg/|-
+Niger inventaire ouvrages hydrauliques|Ministere de l Hydraulique Niger|N|Niger|points|census|2022|Restricted|R|req|https://www.hydraulique.gouv.ne/|-
+Mali SIGMA2 water points|DNH Mali|N|Mali|points|census|2021|Restricted|R|req|https://www.dnh.gouv.ml/|-
+Burkina Faso INOH (inventaire national)|DGEP Burkina Faso|N|Burkina Faso|points|census|2023|Restricted|R|req|https://www.eauburkina.bf/|-
+Senegal OFOR boreholes|OFOR Senegal|N|Senegal|points|census|2023|Restricted|R|req|https://www.ofor.sn/|-
+Chad SITEAU|Ministere de l Eau Tchad|N|Chad|points|census|2020|Restricted|R|req|https://data.humdata.org/search?q=chad+water+points|-
+Benin BDI water points|DG-Eau Benin|N|Benin|points|census|2022|Restricted|R|req|https://eau.gouv.bj/|-
+Cote d Ivoire ONEP|ONEP|N|Cote d Ivoire|points|census|2022|Restricted|R|req|https://www.onep.ci/|-
+Guinea SNAPE|SNAPE Guinea|N|Guinea|points|census|2021|Restricted|R|req|https://data.humdata.org/search?q=guinea+water+points|-
+South Sudan WIMS|Ministry of Water South Sudan|N|South Sudan|points|census|2021|Open|Y|dl|https://data.humdata.org/search?q=south+sudan+water+points|-
+Sudan WES water sources|WES Sudan / UNICEF|N|Sudan|points|census|2020|Restricted|R|req|https://data.humdata.org/search?q=sudan+water+points|-
+Somalia SWALIM water sources|FAO SWALIM|N|Somalia|points|survey|2024|Free|Y|dl|https://www.faoswalim.org/water/water-sources|-
+Rwanda WASAC rural water infrastructure|WASAC|N|Rwanda|points|census|2023|Restricted|R|req|https://www.wasac.rw/|-
+Burundi water points (MINEAGRIE)|Government of Burundi|N|Burundi|points|census|2020|Restricted|R|req|https://data.humdata.org/search?q=burundi+water|-
+DRC water points (HDX / WASH cluster)|WASH Cluster DRC|N|DR Congo|points|survey|2024|Various|R|dl|https://data.humdata.org/search?q=drc+water+points|-
+Central African Republic WASH points|WASH Cluster CAR|N|CAR|points|survey|2024|Various|R|dl|https://data.humdata.org/search?q=central+african+republic+water|-
+Cameroon water points|MINEE Cameroon|N|Cameroon|points|census|2021|Restricted|R|req|https://data.humdata.org/search?q=cameroon+water+points|-
+Namibia GROWAS II|Ministry of Agriculture, Water and Land Reform Namibia|N|Namibia|points|boreholes|2023|Restricted|R|req|https://www.mawlr.gov.na/|-
+Botswana DWS borehole database|Department of Water and Sanitation Botswana|N|Botswana|points|boreholes|2022|Restricted|R|req|https://www.gov.bw/|-
+South Africa National Groundwater Archive (NGA)|DWS South Africa|N|South Africa|points|boreholes|2025|Free registration|R|reg|https://www.dws.gov.za/groundwater/NGA.aspx|-
+South Africa NIWIS|DWS South Africa|N|South Africa|points|stations|2025|Open|Y|dl|https://www.dws.gov.za/niwis2/|-
+Lesotho water points|Commission of Water Lesotho|N|Lesotho|points|census|2020|Restricted|R|req|https://data.humdata.org/search?q=lesotho+water|-
+Afghanistan MRRD WASH MIS|MRRD Afghanistan|N|Afghanistan|points|census|2020|Restricted|R|req|https://data.humdata.org/search?q=afghanistan+water+points|-
+Pakistan PCRWR water quality points|PCRWR|N|Pakistan|points|survey|2022|Restricted|R|req|https://pcrwr.gov.pk/|-
+India Jal Jeevan Mission IMIS|Ministry of Jal Shakti|N|India|points|census|2026|Open dashboard|R|api|https://ejalshakti.gov.in/jjmreport/JJMIndia.aspx|-
+India CGWB groundwater wells (India-WRIS)|CGWB|N|India|points|monitoring wells|2025|Open|Y|dl|https://indiawris.gov.in/wris/#/groundWater|-
+Bangladesh DPHE water point mapping|DPHE|N|Bangladesh|points|census|2023|Restricted|R|req|https://dphe.gov.bd/|-
+Bangladesh BGS arsenic tubewell survey|BGS / DPHE|N|Bangladesh|points|3,534 wells|2001|OGL|Y|dl|https://www.bgs.ac.uk/geology-projects/arsenic-contamination-of-groundwater/|-
+Nepal NMIP water supply schemes|DWSSM Nepal|N|Nepal|points|census|2023|Restricted|R|req|https://dwssm.gov.np/|-
+Cambodia rural water supply database|MRD Cambodia|N|Cambodia|points|census|2022|Restricted|R|req|https://www.mrd.gov.kh/|-
+Laos Nam Saat water points|Nam Saat Laos|N|Laos|points|census|2021|Restricted|R|req|https://data.humdata.org/search?q=laos+water|-
+Philippines NWRB water permits|NWRB|N|Philippines|points|permits|2024|Restricted|R|req|https://www.nwrb.gov.ph/|-
+Timor-Leste water systems (BESIK)|Government of Timor-Leste|N|Timor-Leste|points|census|2020|Restricted|R|req|https://data.humdata.org/search?q=timor-leste+water|-
+Yemen NWRA / WASH cluster water points|WASH Cluster Yemen|N|Yemen|points|survey|2024|Various|R|dl|https://data.humdata.org/search?q=yemen+water+points|-
+Iraq WASH water points|WASH Cluster Iraq|N|Iraq|points|survey|2023|Various|R|dl|https://data.humdata.org/search?q=iraq+water+points|-
+Syria WASH water points|WASH Cluster Syria|N|Syria|points|survey|2024|Various|R|dl|https://data.humdata.org/search?q=syria+water+points|-
+Jordan MWI wells|Ministry of Water and Irrigation Jordan|N|Jordan|points|wells|2022|Restricted|R|req|https://www.mwi.gov.jo/|-
+Haiti DINEPA SIEPA|DINEPA|N|Haiti|points|census|2022|Restricted|R|req|https://www.dinepa.gouv.ht/|-
+Honduras SIASAR|SIASAR Honduras|N|Honduras|points|census|2025|CC-BY 4.0|Y|api|https://siasar.org/|-
+Peru DATASS|MVCS Peru|N|Peru|points|census|2025|Open|Y|dl|https://datass.vivienda.gob.pe/|-
+Bolivia SIASAR|SIASAR Bolivia|N|Bolivia|points|census|2024|CC-BY 4.0|Y|api|https://siasar.org/|-
+Brazil SIAGAS wells|SGB-CPRM|N|Brazil|points|330k+ wells|2025|Open|Y|dl|https://siagasweb.sgb.gov.br/|-
+Mexico CONAGUA REPDA|CONAGUA|N|Mexico|points|water rights|2025|Open|Y|dl|https://www.gob.mx/conagua|-
+Chile DGA water rights / wells|DGA Chile|N|Chile|points|water rights|2025|Open|Y|dl|https://dga.mop.gob.cl/|-
+USGS NWIS groundwater sites|USGS|N|USA|points|850k+ sites|2026|Public domain|Y|api|https://waterdata.usgs.gov/|-
+USGS NGWMN|USGS/ACWI|N|USA|points|monitoring wells|2026|Public domain|Y|api|https://cida.usgs.gov/ngwmn/|-
+USGS GNIS springs/wells|USGS|N|USA|points|gazetteer|2025|Public domain|Y|dl|https://www.usgs.gov/us-board-on-geographic-names/download-gnis-data|-
+NHD springs/seeps point features|USGS|N|USA|points|1:24k|2025|Public domain|Y|dl|https://www.usgs.gov/national-hydrography|-
+Spring Stewardship Institute (Springs Online)|Spring Stewardship Institute|C|North America|points|survey|2024|Free registration|R|reg|https://springstewardshipinstitute.org/|-
+Texas TWDB Submitted Drillers Reports|TWDB|S|Texas|points|1M+ wells|2026|Public domain|Y|dl|https://www.twdb.texas.gov/groundwater/data/drillersdb.asp|-
+California DWR Well Completion Reports|California DWR|S|California|points|wells|2026|Public domain|Y|dl|https://data.cnra.ca.gov/dataset/well-completion-reports|-
+Minnesota County Well Index|Minnesota DH/MGS|S|Minnesota|points|wells|2026|Public domain|Y|dl|https://www.health.state.mn.us/communities/environment/water/mwi/index.html|-
+Ontario Water Well Information System|Ontario MECP|S|Ontario|points|wells|2026|OGL Ontario|Y|dl|https://data.ontario.ca/dataset/well-records|-
+BC WELLS (GWELLS)|Government of BC|S|British Columbia|points|wells|2026|OGL BC|Y|dl|https://apps.nrs.gov.bc.ca/gwells/|-
+Alberta Water Wells (AWWID)|Alberta EPA|S|Alberta|points|wells|2026|OGL Alberta|Y|dl|https://www.alberta.ca/alberta-water-well-information-database|-
+Canada Groundwater Information Network (GIN)|NRCan|N|Canada|points|wells|2024|Open Government Licence|Y|api|https://gin.gw-info.net/|-
+France BSS / ADES (BRGM)|BRGM|N|France|points|boreholes|2026|Etalab 2.0|Y|api|https://ades.eaufrance.fr/|-
+BGS Single Onshore Boreholes Index|BGS|N|UK|points|boreholes|2025|OGL|Y|dl|https://www.bgs.ac.uk/datasets/boreholes-index/|-
+Netherlands DINOloket / BRO wells|TNO|N|Netherlands|points|boreholes|2026|CC0|Y|api|https://www.dinoloket.nl/|-
+Ireland GSI wells and springs|Geological Survey Ireland|N|Ireland|points|wells/springs|2025|CC-BY 4.0|Y|dl|https://www.gsi.ie/en-ie/data-and-maps/Pages/Groundwater.aspx|-
+Spain IGME groundwater points|IGME|N|Spain|points|wells/springs|2023|Open|Y|dl|https://info.igme.es/|-
+Italy ISPRA Legge 464 wells|ISPRA|N|Italy|points|boreholes|2025|Open|Y|dl|https://www.isprambiente.gov.it/it/banche-dati|-
+Australia NGIS bores (BoM)|Bureau of Meteorology|N|Australia|points|bores|2025|CC-BY 4.0|Y|dl|http://www.bom.gov.au/water/groundwater/ngis/|-
+NZ regional council bore databases (e.g., ECan wells)|Environment Canterbury|S|Canterbury NZ|points|bores|2026|CC-BY 4.0|Y|dl|https://opendata.canterburymaps.govt.nz/|-
+Pacific water points (SPC)|Pacific Community (SPC)|C|Pacific Islands|points|survey|2022|Restricted|R|reg|https://pacificdata.org/|-

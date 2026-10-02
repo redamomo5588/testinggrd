@@ -1,0 +1,102 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+GlobalBuildingAtlas LoD1 (GBA.LoD1)|TUM (Zhu et al.)|G|World|vector heights|3 m, RMSE 1.5-8.9 m|2025|CC-BY-NC 4.0|N|dl|https://huggingface.co/datasets/zhu-xlab/GBA.LoD1|-
+GlobalBuildingAtlas height maps (GBA.Height)|TUM (Zhu et al.)|G|World|raster|3 m|2025|CC-BY-NC 4.0|N|dl|https://mediatum.ub.tum.de/1782307|-
+Google Open Buildings 2.5D Temporal (heights)|Google Research|G|Global South|raster|4 m, 2016-2023|2024|CC-BY 4.0|Y|dl|https://sites.research.google/gr/open-buildings/temporal/|-
+Microsoft building heights (subset)|Microsoft|G|Selected regions|vector attr|ML|2024|ODbL|Y|dl|https://github.com/microsoft/GlobalMLBuildingFootprints|-
+3D-GloBFP heights|Che et al. (ESSD 2024)|G|World|vector heights|ML|2024|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.11319913|-
+UT-GLOBUS heights|UT Austin|G|1,200+ cities|vector heights|ML|2024|CC-BY 4.0|Y|dl|https://www.nature.com/articles/s41597-024-03719-w|-
+GHS-BUILT-H (average net height)|EC JRC GHSL|G|World|raster|100 m|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/download.php|-
+GHS-BUILT-V (built volume)|EC JRC GHSL|G|World|raster|100 m|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/download.php|-
+World Settlement Footprint 3D|DLR|G|World|raster|90 m|2022|CC-BY 4.0|Y|dl|https://geoservice.dlr.de/web/maps/eoc:wsf3d|-
+Global building height 150 m (Ma et al. 2023)|Ma et al.|G|World|raster|150 m|2023|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.7923866|-
+Global 3D building structure 1 km (Li et al. 2022)|Li et al.|G|World|raster|1 km|2022|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.c.5767484|-
+OpenStreetMap height / building:levels|OpenStreetMap Foundation|G|World (sparse)|vector attr|survey|2026|ODbL|Y|dl|https://wiki.openstreetmap.org/wiki/Key:height|-
+Overture buildings height/num_floors|Overture Maps Foundation|G|World (sparse)|vector attr|OSM-derived|2026|ODbL|Y|dl|https://docs.overturemaps.org/guides/buildings/|-
+Ecopia 3D buildings|Ecopia AI|G|World (paid)|vector heights|imagery|2025|Commercial|P|com|https://www.ecopiatech.com/|-
+Vantor Precision3D|Vantor/Maxar|G|World (paid)|3D mesh/DSM|50 cm|2025|Commercial|P|com|https://www.maxar.com/precision3d|-
+AW3D Enhanced / 2.5 m DSM|NTT Data/RESTEC|G|World (paid)|raster DSM|0.5-2.5 m|2025|Commercial|P|com|https://www.aw3d.jp/en/|-
+Airbus WorldDEM Neo|Airbus|G|World (paid)|raster DSM|5 m|2025|Commercial|P|com|https://www.intelligence-airbusds.com/worlddem-neo/|-
+Esri 3D buildings (Living Atlas)|Esri|G|Various cities|3D vector|LoD1-2|2025|Esri terms|R|api|https://livingatlas.arcgis.com/|-
+OpenTopography lidar collections|OpenTopography|G|Various|point cloud|0.5-2 m|2026|Various open|Y|reg|https://opentopography.org/|-
+GEDI L2A relative height|NASA/UMD|G|51.6N-51.6S|points|25 m footprint|2025|NASA open|Y|reg|https://lpdaac.usgs.gov/products/gedi02_av002/|-
+ICESat-2 ATL03/ATL08|NASA|G|World|points|photon|2026|NASA open|Y|reg|https://nsidc.org/data/icesat-2|-
+Copernicus DEM GLO-30 (DSM for nDSM)|ESA/Airbus|G|World|raster DSM|30 m|2024|Copernicus DEM licence|Y|dl|https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM|-
+TanDEM-X 12 m DEM (science)|DLR|G|World|raster DSM|12 m|2017|Science-only|N|req|https://tandemx-science.dlr.de/|-
+EUBUCCO heights|KIT/TUB|C|EU-27 + CH|vector attr|official|2023|ODbL/mixed|Y|dl|https://eubucco.com/|-
+Copernicus Urban Atlas Building Height|EEA/Copernicus|C|EU capitals|raster|10 m|2012|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/urban-atlas/building-height-2012|-
+Germany building height 10 m (Frantz et al.)|Frantz et al. (2021)|N|Germany|raster|10 m|2021|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.4066295|-
+Germany LoD2 open (NRW)|Geobasis NRW|S|North Rhine-Westphalia|3D vector|LoD2|2026|DL-DE Zero 2.0|Y|dl|https://www.opengeodata.nrw.de/produkte/geobasis/3dg/|-
+Bayern LoD2|LDBV Bayern|S|Bavaria|3D vector|LoD2|2025|CC-BY 4.0|Y|dl|https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=lod2|-
+Berlin LoD2|Geoportal Berlin|S|Berlin|3D vector|LoD2|2025|DL-DE Zero 2.0|Y|dl|https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/3d-stadtmodell/|-
+Hamburg LoD2|LGV Hamburg|S|Hamburg|3D vector|LoD2|2025|DL-DE BY 2.0|Y|dl|https://metaver.de/|-
+Thueringen LoD2|TLBG|S|Thuringia|3D vector|LoD2|2025|DL-DE BY 2.0|Y|dl|https://geoportal.thueringen.de/|-
+Sachsen LoD2|GeoSN|S|Saxony|3D vector|LoD2|2025|DL-DE BY 2.0|Y|dl|https://www.geodaten.sachsen.de/|-
+Brandenburg LoD2|LGB|S|Brandenburg|3D vector|LoD2|2025|DL-DE BY 2.0|Y|dl|https://geobroker.geobasis-bb.de/|-
+Baden-Wuerttemberg LoD2|LGL BW|S|Baden-Wuerttemberg|3D vector|LoD2|2025|DL-DE BY 2.0|Y|dl|https://opengeodata.lgl-bw.de/|-
+Hessen LoD2|HVBG|S|Hesse|3D vector|LoD2|2025|DL-DE Zero 2.0|Y|dl|https://gds.hessen.de/|-
+3DBAG|TU Delft 3D geoinformation|N|Netherlands|3D vector|LoD1.2-2.2|2025|CC-BY 4.0|Y|dl|https://3dbag.nl/|-
+AHN4/AHN5 lidar|Rijkswaterstaat|N|Netherlands|point cloud/DSM|0.5 m|2025|CC0|Y|dl|https://www.ahn.nl/|-
+swissBUILDINGS3D 3.0 heights|swisstopo|N|Switzerland|3D vector|LoD2|2025|OGD swisstopo|Y|dl|https://www.swisstopo.admin.ch/en/landscape-model-swissbuildings3d-3-0-beta|-
+swissSURFACE3D|swisstopo|N|Switzerland|point cloud/DSM|0.5 m|2025|OGD swisstopo|Y|dl|https://www.swisstopo.admin.ch/en/height-model-swisssurface3d|-
+IGN LiDAR HD|IGN France|N|France|point cloud|10 pts/m2|2026|Etalab 2.0|Y|dl|https://geoservices.ign.fr/lidarhd|-
+IGN BD TOPO building heights|IGN France|N|France|vector attr|photogrammetry|2026|Etalab 2.0|Y|dl|https://geoservices.ign.fr/bdtopo|-
+PNOA LiDAR|IGN Spain/CNIG|N|Spain|point cloud|0.5-2 pts/m2|2025|CC-BY 4.0|Y|dl|https://centrodedescargas.cnig.es/|-
+Catastro building floors|Direccion General del Catastro|N|Spain|vector attr|cadastre|2026|Open (attribution)|Y|dl|https://www.catastro.hacienda.gob.es/webinspire/index.html|-
+Flanders DHMV II lidar|Digitaal Vlaanderen|S|Flanders|point cloud/DSM|1 m|2015|Modellicentie gratis|Y|dl|https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/earth-observation-data-science-eodas/het-digitaal-hoogtemodel|-
+Wallonia lidar 2021-2022|SPW|S|Wallonia|point cloud|1 m|2022|Open|Y|dl|https://geoportail.wallonie.be/|-
+Luxembourg lidar 2019|ACT Luxembourg|N|Luxembourg|point cloud|0.5 m|2019|CC0|Y|dl|https://data.public.lu/|-
+UK EA LiDAR composite DSM|Environment Agency|N|England|raster DSM|1 m|2024|OGL|Y|dl|https://environment.data.gov.uk/survey|-
+OS Building Height Attribute|Ordnance Survey|N|Great Britain|vector attr|imagery|2026|Commercial|P|com|https://www.ordnancesurvey.co.uk/products/os-mastermap-building-height-attribute|-
+Scottish Remote Sensing Portal lidar|Scottish Government|S|Scotland|point cloud|1 m|2024|OGL|Y|dl|https://remotesensingdata.gov.scot/|-
+Wales lidar (DataMapWales)|Welsh Government|S|Wales|raster DSM|1 m|2024|OGL|Y|dl|https://datamap.gov.wales/|-
+Denmark DHM / GeoDanmark heights|SDFI|N|Denmark|point cloud/DSM|0.4 m|2025|Open|Y|reg|https://dataforsyningen.dk/|-
+Lantmateriet laser data|Lantmateriet|N|Sweden|point cloud|1-2 pts/m2|2025|CC0|Y|reg|https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/laserdata-nedladdning-skog/|-
+Hoydedata Norway|Kartverket|N|Norway|point cloud/DSM|1 m|2025|CC-BY 4.0|Y|dl|https://hoydedata.no/|-
+MML laser scanning|National Land Survey Finland|N|Finland|point cloud|5 pts/m2|2025|CC-BY 4.0|Y|dl|https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/laser-scanning-data-5-p|-
+Estonia lidar|Estonian Land Board|N|Estonia|point cloud|1 m|2025|Open|Y|dl|https://geoportaal.maaamet.ee/|-
+Poland NMPT / lidar|GUGiK|N|Poland|point cloud/DSM|0.5-1 m|2025|Open|Y|dl|https://www.geoportal.gov.pl/|-
+Czech DMP1G / 3D buildings|CUZK|N|Czechia|raster DSM|1 m|2025|CC-BY 4.0|Y|dl|https://geoportal.cuzk.cz/|-
+Slovakia DMR/DMP lidar|UGKK SR|N|Slovakia|point cloud|1 m|2025|Open|Y|dl|https://www.geoportal.sk/|-
+Slovenia lidar (eVode)|ARSO/GURS|N|Slovenia|point cloud|1 m|2015|CC-BY 4.0|Y|dl|https://www.e-prostor.gov.si/|-
+Austria ALS (Vienna/Tirol)|Austrian states|S|Austria (states)|raster DSM|1 m|2024|CC-BY 4.0|Y|dl|https://www.data.gv.at/|-
+Italy MATTM lidar|Ministero dell Ambiente|N|Italy (partial)|raster DSM|1-2 m|2012|Open|R|req|https://gn.mase.gov.it/|-
+Vienna building model heights|Stadt Wien|S|Vienna|3D vector|LoD2|2024|CC-BY 4.0|Y|dl|https://www.data.gv.at/|-
+Helsinki 3D heights|City of Helsinki|S|Helsinki|3D vector|LoD2|2024|CC-BY 4.0|Y|dl|https://hri.fi/|-
+Zurich 3D heights|Stadt Zurich|S|Zurich|3D vector|LoD2|2024|CC0|Y|dl|https://www.stadt-zuerich.ch/geodaten/|-
+USGS 3DEP lidar|USGS|N|USA|point cloud|QL2 (2 pts/m2)|2026|Public domain|Y|dl|https://www.usgs.gov/3d-elevation-program|-
+NOAA Digital Coast lidar|NOAA|N|US coasts|point cloud|varies|2025|Public domain|Y|dl|https://coast.noaa.gov/digitalcoast/|-
+Open City Model heights|BuildZero.org|N|USA|3D vector|LoD1|2020|ODbL|Y|dl|https://github.com/opencitymodel/opencitymodel|-
+NYC 3D building model|NYC DoITT|S|New York City|3D vector|LoD2|2024|Public domain|Y|dl|https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model|-
+NYC building footprints height_roof|NYC DoITT|S|New York City|vector attr|LiDAR|2026|Public domain|Y|dl|https://data.cityofnewyork.us/Housing-Development/Building-Footprints/5zhs-2jue|-
+LA County building heights|LA County|S|Los Angeles County|vector attr|LiDAR|2024|Public domain|Y|dl|https://egis-lacounty.hub.arcgis.com/|-
+Boston 3D buildings heights|City of Boston|S|Boston|3D vector|LoD1|2023|Public domain|Y|dl|https://data.boston.gov/|-
+NRCan HRDEM / HRDSM|NRCan|N|Canada (partial)|raster DSM|1-2 m|2024|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995|-
+Toronto 3D massing heights|City of Toronto|S|Toronto|3D vector|LoD1|2024|OGL Toronto|Y|dl|https://open.toronto.ca/dataset/3d-massing/|-
+Montreal 3D buildings heights|Ville de Montreal|S|Montreal|3D vector|LoD2|2023|CC-BY 4.0|Y|dl|https://donnees.montreal.ca/|-
+INEGI lidar DSM|INEGI|N|Mexico (partial)|raster DSM|5 m|2015|INEGI libre uso|Y|dl|https://www.inegi.org.mx/temas/relieve/|-
+GeoSampa lidar|Prefeitura de Sao Paulo|S|Sao Paulo|point cloud|10 pts/m2|2017|Open|Y|dl|https://geosampa.prefeitura.sp.gov.br/|-
+Geoscience Australia ELVIS lidar|ICSM/GA|N|Australia (partial)|point cloud/DSM|1 m|2025|CC-BY 4.0|Y|dl|https://elevation.fsdf.org.au/|-
+Geoscape Buildings heights|Geoscape Australia|N|Australia|vector attr|imagery|2025|Commercial|P|com|https://geoscape.com.au/data/buildings/|-
+City of Melbourne 3D heights|City of Melbourne|S|Melbourne|3D vector|LoD1|2024|CC-BY 4.0|Y|dl|https://data.melbourne.vic.gov.au/|-
+LINZ lidar DSM|LINZ|N|New Zealand|raster DSM|1 m|2025|CC-BY 4.0|Y|dl|https://data.linz.govt.nz/|-
+PLATEAU building heights|MLIT Japan|N|Japan (200+ cities)|3D vector|LoD1-LoD3|2025|CC-BY 4.0 (most)|Y|dl|https://www.mlit.go.jp/plateau/open-data/|-
+GSI Japan DSM / 3D|GSI Japan|N|Japan|raster|5 m|2025|GSI terms|Y|reg|https://fgd.gsi.go.jp/download/|-
+Korea V-World 3D buildings|MOLIT Korea|N|South Korea|3D vector|LoD1-3|2025|KOGL|Y|api|https://www.vworld.kr/|-
+Singapore 3D (OneMap3D / CityGML)|SLA Singapore|N|Singapore|3D vector|LoD1-2|2024|Singapore Open Data Licence|Y|dl|https://www.onemap.gov.sg/|-
+Hong Kong 3D heights|Lands Department HK|S|Hong Kong|3D vector|LoD2|2025|Open|Y|dl|https://3d.map.gov.hk/|-
+Taiwan 3D building heights|MOI Taiwan|N|Taiwan|3D vector|LoD1-2|2024|OGDL Taiwan|Y|reg|https://3dmaps.nlsc.gov.tw/|-
+CNBH-10m China building height|Wu et al. (2023)|N|China|raster|10 m|2023|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.7827315|-
+CMAB heights|Zhang et al. (2024)|N|China|vector attr|ML|2024|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.27992417|-
+China 3D buildings 77 cities (Huang)|Huang et al.|S|China cities|vector heights|ML|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.6556417|-
+India building heights (Bhuvan 3D)|NRSC/ISRO|S|Indian cities|3D|CartoDEM|2020|Restricted|R|reg|https://bhuvan.nrsc.gov.in/|-
+Israel lidar / MAPI 3D|Survey of Israel|N|Israel|3D|photogrammetry|2024|Restricted|R|api|https://www.govmap.gov.il/|-
+Dubai 3D buildings (Dubai Pulse)|Dubai Digital Authority|S|Dubai|3D vector|LoD2|2024|Restricted|R|req|https://www.dubaipulse.gov.ae/|-
+Cape Town lidar DSM|City of Cape Town|S|Cape Town|raster DSM|1 m|2021|Open|Y|req|https://odp-cctegis.opendata.arcgis.com/|-
+Rwanda national lidar (RLMUA)|Rwanda Land Management and Use Authority|N|Rwanda|point cloud/DSM|1 m|2022|Restricted|R|req|https://www.lands.rw/|-
+EUBUCCO height inference baseline|KIT/TUB|C|Europe|model|ML|2024|MIT/CC-BY|Y|dl|https://github.com/ai4up/eubucco|-
+Global building height from Sentinel-1 (Li et al. 2020)|Li et al.|C|USA, Europe, China|raster|500 m|2020|CC-BY 4.0|Y|dl|https://doi.org/10.1016/j.rse.2020.111705|-
+Building heights GHSL 2018 10 m Europe (GHS-BUILT-H R2023 10 m)|EC JRC GHSL|C|Europe|raster|10 m|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/ghs_buH2023.php|-
+Overture building parts (heights)|Overture Maps Foundation|G|World (sparse)|vector|OSM-derived|2026|ODbL|Y|dl|https://docs.overturemaps.org/schema/reference/buildings/building_part/|-
+Mapillary point clouds (SfM)|Meta/Mapillary|G|World (sparse)|point cloud|street imagery|2026|CC-BY-SA 4.0|Y|api|https://www.mapillary.com/developer|-
+Google Photorealistic 3D Tiles|Google|G|2,500+ cities|3D mesh|cm-level|2026|Commercial (display only)|P|api|https://developers.google.com/maps/documentation/tile/3d-tiles|-
+Cesium OSM Buildings|Cesium|G|World|3D tiles|OSM-derived|2025|ODbL (via Cesium ion)|R|api|https://cesium.com/platform/cesium-ion/content/cesium-osm-buildings/|-

@@ -1,0 +1,102 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+ESA WorldCover 2021 v200|ESA|G|World|raster|10 m|2022|CC-BY 4.0|Y|dl|https://esa-worldcover.org/|-
+ESA WorldCover 2020 v100|ESA|G|World|raster|10 m|2021|CC-BY 4.0|Y|dl|https://esa-worldcover.org/|-
+Dynamic World|Google/WRI|G|World|raster|10 m NRT|2026|CC-BY 4.0|Y|api|https://dynamicworld.app/|-
+Esri / Impact Observatory 10 m annual LULC|Esri/IO|G|World|raster|10 m, 2017-2024|2025|CC-BY 4.0|Y|dl|https://livingatlas.arcgis.com/landcoverexplorer/|-
+ESA CCI Land Cover / C3S|ESA CCI / C3S|G|World|raster|300 m, 1992-2022|2023|CC-BY 4.0 (C3S)|Y|reg|https://cds.climate.copernicus.eu/datasets/satellite-land-cover|-
+ESA CCI High Resolution Land Cover|ESA CCI|C|Amazon, Africa, Siberia|raster|10-30 m|2023|CC-BY 4.0|Y|dl|https://climate.esa.int/en/projects/high-resolution-land-cover/|-
+Copernicus Global Land Cover LC100|Copernicus GLS|G|World|raster|100 m, 2015-2019|2020|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/global-dynamic-land-cover|-
+MODIS MCD12Q1|NASA|G|World|raster|500 m annual|2024|NASA open|Y|reg|https://lpdaac.usgs.gov/products/mcd12q1v061/|-
+GlobeLand30|NGCC China|G|World|raster|30 m|2020|Free registration|R|reg|http://www.globallandcover.com/|-
+GLC_FCS30D|CAS AIR|G|World|raster|30 m, 1985-2022|2024|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.8239305|-
+FROM-GLC10|Tsinghua|G|World|raster|10 m|2019|CC-BY 4.0|Y|dl|http://data.ess.tsinghua.edu.cn/|-
+GLAD GLCLUC 2000-2020|UMD GLAD|G|World|raster|30 m|2022|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/GLCLUC2020|-
+GLanCE Global Land Cover Estimation|Boston University / NASA|G|World|raster|30 m, 2001-2019|2023|NASA open|Y|reg|https://lpdaac.usgs.gov/products/glance30v001/|-
+GLC2000|EC JRC|G|World|raster|1 km|2003|Free|Y|dl|https://forobs.jrc.ec.europa.eu/glc2000|-
+GlobCover 2009|ESA/UCLouvain|G|World|raster|300 m|2010|Free|Y|dl|http://due.esrin.esa.int/page_globcover.php|-
+FAO GLC-SHARE|FAO|G|World|raster|1 km|2014|CC-BY-NC-SA 3.0 IGO|N|dl|https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036355/|-
+FAO WaPOR land cover|FAO|C|Africa & Near East|raster|30-250 m|2024|CC-BY 4.0|Y|api|https://data.apps.fao.org/wapor/|-
+Google Satellite Embedding (AlphaEarth)|Google DeepMind|G|World|raster embeddings|10 m annual|2025|CC-BY 4.0|Y|api|https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL|-
+ESA WorldCereal|ESA|G|World|raster|10 m|2024|CC-BY 4.0|Y|dl|https://esa-worldcereal.org/|-
+Global cropland extent (Potapov 2022)|UMD GLAD|G|World|raster|30 m|2022|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/croplands|-
+GFSAD30 global cropland|USGS|G|World|raster|30 m|2017|Public domain|Y|reg|https://lpdaac.usgs.gov/products/gfsad30eucearumev001/|-
+IIASA Geo-Wiki crowdsourced LC|IIASA|G|World|points|samples|2023|CC-BY 4.0|Y|dl|https://www.geo-wiki.org/|-
+GHS-SMOD settlement model|EC JRC GHSL|G|World|raster|1 km|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/download.php|-
+Global Urban Boundaries (Li et al. 2020)|Tsinghua|G|World|vector|30 m|2020|CC-BY 4.0|Y|dl|http://data.ess.tsinghua.edu.cn/|-
+GLWD v2 Global Lakes and Wetlands|WWF/McGill|G|World|raster|500 m|2025|CC-BY 4.0|Y|dl|https://www.hydrosheds.org/products/glwd|-
+CIFOR Global wetlands (tropics)|CIFOR|G|Tropics|raster|231 m|2017|Free|Y|dl|https://www2.cifor.org/global-wetlands/|-
+Global Tidal Flats (Murray)|UQ / Murray et al.|G|Coastal|raster|30 m|2022|CC-BY 4.0|Y|dl|https://www.intertidal.app/|-
+Randolph Glacier Inventory 7.0|GLIMS/NSIDC|G|World glaciers|vector|1:50k|2023|CC-BY 4.0|Y|dl|https://nsidc.org/data/nsidc-0770|-
+IUCN Global Ecosystem Typology maps|IUCN|G|World|raster|1 km|2022|CC-BY 4.0|Y|dl|https://global-ecosystems.org/|-
+OpenStreetMap landuse/landcover|OpenStreetMap Foundation|G|World|vector|survey|2026|ODbL|Y|dl|https://planet.openstreetmap.org/|-
+Overture base land_cover / land_use|Overture Maps Foundation|G|World|vector|WorldCover + OSM|2026|CDLA/ODbL|Y|dl|https://docs.overturemaps.org/guides/base/|-
+OSMlanduse.org (HeiGIT)|HeiGIT|C|Europe|raster|10 m|2023|ODbL|Y|dl|https://osmlanduse.org/|-
+CORINE Land Cover 2018|EEA/Copernicus|C|EEA-39|vector/raster|100 m / 25 ha|2020|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/corine-land-cover|-
+CLCplus Backbone|EEA/Copernicus|C|EEA-39|raster|10 m|2023|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/clc-backbone|-
+Copernicus Urban Atlas LU/LC|EEA/Copernicus|C|Europe FUAs|vector|1:10k|2021|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/urban-atlas|-
+Copernicus Riparian Zones|EEA/Copernicus|C|EEA-39|vector|1:10k|2021|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/riparian-zones|-
+Copernicus Coastal Zones|EEA/Copernicus|C|EEA-39 coast|vector|1:10k|2021|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/coastal-zones|-
+Copernicus N2K land cover|EEA/Copernicus|C|Natura 2000 sites|vector|1:10k|2021|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/n2k|-
+Copernicus HRL Grassland|EEA/Copernicus|C|EEA-39|raster|10 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-grasslands|-
+Copernicus HRL Crop types|EEA/Copernicus|C|EEA-39|raster|10 m|2023|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-crop-types|-
+ELC10 European Land Cover (Venter)|NINA / Venter|C|Europe|raster|10 m|2021|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.4407051|-
+S2GLC Europe 2017|CBK PAN|C|Europe|raster|10 m|2019|CC-BY 4.0|Y|dl|https://s2glc.cbk.waw.pl/|-
+LUCAS in-situ survey|Eurostat|C|EU|points|survey|2022|Eurostat free|Y|dl|https://ec.europa.eu/eurostat/web/lucas|-
+EuroCrops|TUM|C|EU (16 countries)|vector|parcels|2023|CC-BY-SA 4.0|Y|dl|https://www.eurocrops.tum.de/|-
+NLCD / Annual NLCD|USGS MRLC|N|USA|raster|30 m, 1985-2024|2025|Public domain|Y|dl|https://www.mrlc.gov/data|-
+NOAA C-CAP land cover|NOAA|N|US coasts|raster|1-30 m|2023|Public domain|Y|dl|https://coast.noaa.gov/digitalcoast/data/ccapregional.html|-
+Chesapeake 1 m land cover|Chesapeake Conservancy|S|Chesapeake Bay|raster|1 m|2022|CC-BY 4.0|Y|dl|https://www.chesapeakeconservancy.org/conservation-innovation-center/high-resolution-data/land-cover-data-project/|-
+USDA Cropland Data Layer|USDA NASS|N|USA|raster|30 m|2025|Public domain|Y|dl|https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php|-
+NALCMS North America 30 m|CEC|C|North America|raster|30 m|2023|Free with attribution|Y|dl|http://www.cec.org/north-american-environmental-atlas/land-cover-30m-2020/|-
+Canada land cover 2020 (NRCan)|NRCan CCRS|N|Canada|raster|30 m|2022|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/ee1580ab-a23d-4f86-a09b-79763677eb47|-
+AAFC Annual Crop Inventory|Agriculture and Agri-Food Canada|N|Canada|raster|30 m|2025|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/ba2645d5-4458-414d-b196-6303ac06c1c9|-
+INEGI Uso de suelo y vegetacion Serie VII|INEGI|N|Mexico|vector|1:250k|2021|INEGI libre uso|Y|dl|https://www.inegi.org.mx/temas/usosuelo/|-
+MapBiomas Brazil land cover|MapBiomas|N|Brazil|raster|30 m|2025|CC-BY 4.0|Y|dl|https://brasil.mapbiomas.org/en/|-
+MapBiomas Amazonia land cover|MapBiomas/RAISG|C|Amazon basin|raster|30 m|2024|CC-BY 4.0|Y|dl|https://amazonia.mapbiomas.org/|-
+IDEAM Colombia CORINE land cover|IDEAM|N|Colombia|vector|1:100k|2020|Open|Y|dl|http://www.ideam.gov.co/|-
+CONAF Chile catastro vegetacional|CONAF|N|Chile|vector|1:50k|2023|Open|Y|dl|https://www.conaf.cl/|-
+Digital Earth Africa land cover / crop mask|Digital Earth Africa|C|Africa|raster|10-30 m|2024|CC-BY 4.0|Y|dl|https://www.digitalearthafrica.org/|-
+RCMRD / SERVIR-ESA land cover|RCMRD|C|East & Southern Africa|raster|30 m|2020|Open|Y|dl|https://www.rcmrd.org/|-
+CCI Land Cover S2 prototype Africa 2016|ESA CCI|C|Africa|raster|20 m|2017|Free|Y|dl|https://2016africalandcover20m.esrin.esa.int/|-
+FAO Africover|FAO|C|East Africa|vector|1:100k-1:200k|2002|Free|Y|dl|https://www.fao.org/geonetwork/srv/en/main.home|-
+Rwanda land cover 2015 (RCMRD/SERVIR)|RCMRD / Rwanda|N|Rwanda|raster|30 m|2016|Open|Y|dl|https://www.rcmrd.org/|-
+SERVIR Hindu Kush Himalaya RLCMS|ICIMOD|C|HKH region|raster|30 m|2023|CC-BY 4.0|Y|dl|https://rds.icimod.org/|-
+SERVIR Mekong RLCMS|ADPC / SERVIR|C|Lower Mekong|raster|30 m|2023|Open|Y|dl|https://rlcms-servir.adpc.net/|-
+JAXA High-Resolution LULC (Japan)|JAXA|N|Japan|raster|10 m|2024|JAXA free terms|Y|dl|https://www.eorc.jaxa.jp/ALOS/en/dataset/lulc_e.htm|-
+CLCD China Land Cover Dataset (Yang & Huang)|Wuhan University|N|China|raster|30 m, 1985-2023|2024|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.8176941|-
+CNLUCC China land use|RESDC CAS|N|China|vector|1 km / 30 m|2020|Restricted|R|req|https://www.resdc.cn/|-
+Bhuvan LULC 1:50k (NRSC)|NRSC/ISRO|N|India|raster|1:50k|2019|Restricted|R|reg|https://bhuvan.nrsc.gov.in/|-
+DEA Land Cover|Geoscience Australia|N|Australia|raster|30 m annual|2024|CC-BY 4.0|Y|dl|https://www.dea.ga.gov.au/products/dea-land-cover|-
+ABARES Catchment Scale Land Use (CLUM)|ABARES|N|Australia|raster|50 m|2023|CC-BY 4.0|Y|dl|https://www.agriculture.gov.au/abares/aclump/land-use|-
+NZ LCDB v5|Manaaki Whenua|N|New Zealand|vector|1 ha MMU|2020|CC-BY 4.0|Y|dl|https://lris.scinfo.org.nz/|-
+UKCEH Land Cover Map|UK Centre for Ecology & Hydrology|N|UK|raster/vector|10 m|2024|Commercial (25 m open)|R|reg|https://www.ceh.ac.uk/data/ukceh-land-cover-maps|-
+IGN OCS GE (France)|IGN France|N|France|vector|1:5k|2025|Etalab 2.0|Y|dl|https://geoservices.ign.fr/ocsge|-
+Theia OSO land cover (France)|CESBIO/Theia|N|France|raster|10 m annual|2024|Etalab 2.0|Y|dl|https://www.theia-land.fr/en/ceslist/land-cover-sec/|-
+SIOSE Spain|IGN Spain|N|Spain|vector|1:25k|2022|CC-BY 4.0|Y|dl|https://www.siose.es/|-
+COS Portugal (Carta de Uso e Ocupacao do Solo)|DGT Portugal|N|Portugal|vector|1:25k|2023|CC-BY 4.0|Y|dl|https://www.dgterritorio.gov.pt/|-
+LBM Netherlands (Landelijk Grondgebruiksbestand)|WUR|N|Netherlands|raster|5-25 m|2022|CC-BY 4.0|Y|dl|https://www.wur.nl/nl/onderzoek-resultaten/onderzoeksinstituten/environmental-research/faciliteiten-tools/kaarten-en-gis-bestanden/landelijk-grondgebruik-nederland.htm|-
+Germany LBM-DE|BKG|N|Germany|vector|1:50k|2021|DL-DE BY 2.0|Y|dl|https://gdz.bkg.bund.de/|-
+Switzerland Arealstatistik|BFS|N|Switzerland|points|100 m grid|2024|OGD|Y|dl|https://www.bfs.admin.ch/bfs/en/home/services/geostat/swiss-federal-statistics-geodata/land-use-cover-suitability/swiss-land-use-statistics.html|-
+Austria land cover (LISA)|Umweltbundesamt|N|Austria|raster|1 m|2023|CC-BY 4.0|Y|dl|https://www.data.gv.at/|-
+Denmark Basemap04|Aarhus University|N|Denmark|raster|10 m|2023|Open|Y|dl|https://envs.au.dk/en/research-areas/society-environment-and-resources/land-use-and-gis/basemap|-
+Sweden Nationella Marktackedata (NMD)|Naturvardsverket|N|Sweden|raster|10 m|2023|CC0|Y|dl|https://www.naturvardsverket.se/verktyg-och-tjanster/kartor-och-karttjanster/nationella-marktackedata/|-
+Norway AR5 / AR50|NIBIO|N|Norway|vector|1:5k|2025|NLOD|Y|dl|https://www.nibio.no/|-
+Finland CORINE 2018 (SYKE)|SYKE|N|Finland|raster|20 m|2020|CC-BY 4.0|Y|dl|https://www.syke.fi/en-US/Open_information/Spatial_datasets|-
+Poland BDOT10k land cover|GUGiK|N|Poland|vector|1:10k|2025|Open|Y|dl|https://www.geoportal.gov.pl/|-
+Czech land cover (ZABAGED)|CUZK|N|Czechia|vector|1:10k|2025|CC-BY 4.0|Y|dl|https://geoportal.cuzk.cz/|-
+Estonia ETAK land cover|Estonian Land Board|N|Estonia|vector|1:10k|2025|Open|Y|dl|https://geoportaal.maaamet.ee/|-
+Ireland National Land Cover Map|Tailte Eireann / EPA|N|Ireland|vector|0.1 ha MMU|2023|CC-BY 4.0|Y|dl|https://www.tailte.ie/surveying/products/professional-mapping/national-land-cover-map/|-
+Italy Carta Nazionale Consumo di Suolo (ISPRA)|ISPRA|N|Italy|raster|10 m|2024|CC-BY 4.0|Y|dl|https://www.isprambiente.gov.it/it/attivita/suolo-e-territorio/suolo/il-consumo-di-suolo/i-dati-sul-consumo-di-suolo|-
+South Africa National Land Cover 2022|DFFE|N|South Africa|raster|20 m|2023|Open|Y|dl|https://egis.environment.gov.za/|-
+Kenya land cover (RCMRD/KFS)|RCMRD|N|Kenya|raster|30 m|2020|Open|Y|dl|https://www.rcmrd.org/|-
+Ethiopia land cover (EthioGIS)|EGI Ethiopia|N|Ethiopia|raster|30 m|2020|Restricted|R|req|https://www.egi.gov.et/|-
+Indonesia land cover (KLHK)|KLHK|N|Indonesia|vector|1:250k|2023|Restricted|R|reg|https://sigap.menlhk.go.id/|-
+Philippines NAMRIA land cover|NAMRIA|N|Philippines|vector|1:50k|2020|Open|Y|dl|https://www.geoportal.gov.ph/|-
+Korea land cover map (EGIS)|Ministry of Environment Korea|N|South Korea|vector|1:5k|2024|KOGL|Y|reg|https://egis.me.go.kr/|-
+Taiwan land use survey|NLSC Taiwan|N|Taiwan|vector|1:5k|2024|OGDL Taiwan|Y|dl|https://data.gov.tw/|-
+Turkey CORINE (TUCBS)|Ministry of Agriculture Turkey|N|Turkey|vector|1:100k|2018|Restricted|R|req|https://corine.tarimorman.gov.tr/|-
+Israel land cover (Hamaarag)|Hamaarag|N|Israel|raster|10 m|2022|Open|Y|dl|https://hamaarag.org.il/|-
+GeoNames feature classes (land)|GeoNames|G|World|points|gazetteer|2026|CC-BY 4.0|Y|dl|https://download.geonames.org/export/dump/|-
+Copernicus HRL Water and Wetness|EEA/Copernicus|C|EEA-39|raster|10 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness|-
+GHS-BUILT-S built-up fraction|EC JRC GHSL|G|World|raster|10 m|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/download.php|-
+Global Land Cover with Fine Classification System (GLC_FCS30 2020)|CAS AIR|G|World|raster|30 m|2021|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.3986871|-

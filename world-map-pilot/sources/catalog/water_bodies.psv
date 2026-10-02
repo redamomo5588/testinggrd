@@ -1,0 +1,102 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+JRC Global Surface Water (occurrence/change)|EC JRC / Google|G|World|raster|30 m, 1984-2021|2022|Copernicus free|Y|dl|https://global-surface-water.appspot.com/download|-
+GLAD Global Surface Water Dynamics|UMD GLAD|G|World|raster|30 m, 1999-2024|2025|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/global-surface-water-dynamics|-
+HydroRIVERS|WWF/McGill HydroSHEDS|G|World|vector|15 arc-sec|2019|Free with attribution|Y|dl|https://www.hydrosheds.org/products/hydrorivers|Y
+HydroLAKES|WWF/McGill HydroSHEDS|G|World|vector|lakes >10 ha|2019|CC-BY 4.0|Y|dl|https://www.hydrosheds.org/products/hydrolakes|-
+HydroBASINS|WWF/McGill HydroSHEDS|G|World|vector|15 arc-sec|2019|Free with attribution|Y|dl|https://www.hydrosheds.org/products/hydrobasins|-
+HydroATLAS (River/Lake/BasinATLAS)|WWF/McGill HydroSHEDS|G|World|vector|attributes|2019|CC-BY 4.0|Y|dl|https://www.hydrosheds.org/hydroatlas|-
+HydroSHEDS v2|WWF/McGill|G|World|raster/vector|12 m-based|2025|CC-BY 4.0|Y|dl|https://www.hydrosheds.org/|Y
+MERIT Hydro|Univ. Tokyo|G|World|raster|90 m|2019|CC-BY-NC 4.0 / ODbL|R|reg|http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/|Y
+MERIT Basins|Lin et al.|G|World|vector|90 m-based|2021|CC-BY-NC-SA 4.0|N|dl|https://www.reachhydro.org/home/params/merit-basins|Y
+GRWL Global River Widths from Landsat|Allen & Pavelsky|G|World|vector|30 m|2018|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.1297434|Y
+SWORD SWOT River Database|UNC / SWOT|G|World|vector|reaches|2024|CC-BY 4.0|Y|dl|https://www.swordexplorer.com/|Y
+SWOT L2 HR River/Lake SP|NASA/CNES|G|World|vector/raster|100 m-scale|2026|NASA open|Y|reg|https://podaac.jpl.nasa.gov/SWOT|-
+SWOT Prior Lake Database (PLD)|CNES/NASA|G|World|vector|lakes|2024|Open|Y|reg|https://hydroweb.next.theia-land.fr/|-
+GLWD v2 Global Lakes and Wetlands|WWF/McGill|G|World|raster|500 m|2025|CC-BY 4.0|Y|dl|https://www.hydrosheds.org/products/glwd|-
+GLWD v1|WWF|G|World|vector/raster|1 km|2004|Free|Y|dl|https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database|-
+GRanD Global Reservoir and Dam Database|GWSP/McGill|G|World|vector|7,320 dams|2019|CC-BY 4.0|Y|dl|https://www.globaldamwatch.org/grand|-
+GDW Global Dam Watch database|Global Dam Watch|G|World|vector|41,000+ dams|2024|CC-BY 4.0|Y|dl|https://www.globaldamwatch.org/database|-
+GOODD Global Georeferenced Database of Dams|Mulligan et al.|G|World|points|38,000 dams|2020|Free|Y|dl|https://www.globaldamwatch.org/goodd|-
+GeoDAR dams and reservoirs|Wang et al. (ESSD 2022)|G|World|vector|24,000 dams|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.6163413|-
+ReaLSAT reservoir and lake surface area|U Minnesota|G|World|raster/vector|30 m|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.4118463|-
+GLOBathy lake bathymetry|Khazaei et al.|G|World lakes|raster|varies|2022|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.c.5243309|-
+Global Lake Area (Pi et al. 2022)|Pi et al.|G|World|vector|30 m|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.6046008|-
+GLCP Global Lake area, Climate, Population|Meyer et al.|G|World|table|lakes|2024|CC-BY 4.0|Y|dl|https://doi.org/10.5063/F1KD1WSN|-
+Copernicus GLS Water Bodies|Copernicus GLS|G|World|raster|100-300 m monthly|2026|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/water-bodies|-
+Copernicus GLS Lake Water Level|Copernicus GLS|G|World lakes|timeseries|altimetry|2026|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/water-bodies/water-level-lakes-v2-0|-
+ESA CCI Lakes|ESA CCI|G|2,000+ lakes|timeseries|lakes|2024|CC-BY 4.0|Y|dl|https://climate.esa.int/en/projects/lakes/|-
+Hydroweb.next|CNES/Theia|G|World|timeseries|altimetry|2026|Open|Y|reg|https://hydroweb.next.theia-land.fr/|-
+DAHITI water levels|DGFI-TUM|G|World|timeseries|altimetry|2026|CC-BY 4.0|Y|reg|https://dahiti.dgfi.tum.de/|-
+G-REALM reservoir levels|USDA FAS|G|World|timeseries|altimetry|2026|Public domain|Y|dl|https://ipad.fas.usda.gov/cropexplorer/global_reservoir/|-
+SRTM Water Body Data (SWBD)|NASA/NGA|G|60N-56S|vector|30 m|2005|Public domain|Y|reg|https://lpdaac.usgs.gov/products/srtmswbdv003/|-
+MODIS MOD44W water mask|NASA|G|World|raster|250 m|2015|NASA open|Y|reg|https://lpdaac.usgs.gov/products/mod44wv006/|-
+ESA CCI Water Bodies v4|ESA CCI|G|World|raster|150 m|2017|Free|Y|dl|https://climate.esa.int/en/projects/land-cover/data/|-
+DLR Global WaterPack|DLR|G|World|raster|250 m daily|2025|DLR terms|R|reg|https://geoservice.dlr.de/web/maps/eoc:gwp|-
+Copernicus Global Flood Monitoring (GFM)|Copernicus EMS|G|World|raster|20 m|2026|Copernicus free|Y|api|https://global-flood.emergency.copernicus.eu/|-
+Global Flood Database (Cloud to Street)|Cloud to Street / Floodbase|G|World|raster|250 m|2021|CC-BY-NC 4.0|N|dl|https://global-flood-database.cloudtostreet.ai/|-
+Dartmouth Flood Observatory archive|Univ. Colorado|G|World|vector|events|2025|Free|Y|dl|https://floodobservatory.colorado.edu/|-
+GFPLAIN250m floodplains|Nardi et al.|G|World|raster|250 m|2019|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.6665165|-
+OSM water polygons (osmdata.openstreetmap.de)|OSM / FOSSGIS|G|World|vector|survey|2026|ODbL|Y|dl|https://osmdata.openstreetmap.de/data/water-polygons.html|-
+OSM coastlines|OSM / FOSSGIS|G|World|vector|survey|2026|ODbL|Y|dl|https://osmdata.openstreetmap.de/data/coastlines.html|-
+OpenStreetMap waterways/water|OpenStreetMap Foundation|G|World|vector|survey|2026|ODbL|Y|dl|https://planet.openstreetmap.org/|Y
+Overture base water|Overture Maps Foundation|G|World|vector|OSM-derived|2026|ODbL|Y|dl|https://docs.overturemaps.org/guides/base/|-
+Natural Earth rivers/lakes|Natural Earth|G|World|vector|1:10M|2023|Public domain|Y|dl|https://www.naturalearthdata.com/downloads/10m-physical-vectors/|-
+GSHHG shorelines|NOAA/SOEST|G|World|vector|full res|2017|LGPL|Y|dl|https://www.soest.hawaii.edu/pwessel/gshhg/|-
+GloRiC Global River Classification|WWF/McGill|G|World|vector|reaches|2019|CC-BY 4.0|Y|dl|https://www.hydrosheds.org/products/gloric|Y
+FLO1K global flow|Barbarossa et al.|G|World|raster|1 km|2018|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.c.3890224|-
+GRDC river discharge stations|BfG / WMO|G|World|timeseries|stations|2026|Free (restricted redistribution)|R|reg|https://portal.grdc.bafg.de/|-
+GEMStat water quality|UNEP GEMS/Water|G|World|timeseries|stations|2025|Free registration|R|reg|https://gemstat.org/|-
+GEOGloWS streams|ECMWF / BYU|G|World|vector|reaches|2025|CC-BY 4.0|Y|dl|https://geoglows.ecmwf.int/|Y
+GloFAS river network|Copernicus EMS|G|World|raster|0.05 deg|2025|Copernicus free|Y|reg|https://www.globalfloods.eu/|-
+WRI Aqueduct|WRI|G|World|vector|basins|2023|CC-BY 4.0|Y|dl|https://www.wri.org/aqueduct|-
+Ramsar Sites Information Service|Ramsar Convention|G|World|vector|sites|2026|Free|Y|dl|https://rsis.ramsar.org/|-
+Global wetlands extent (Tootchi 2019)|Tootchi et al.|G|World|raster|15 arc-sec|2019|CC-BY 4.0|Y|dl|https://doi.org/10.1594/PANGAEA.892657|-
+Global Tidal Wetland Change|Murray et al.|G|Coastal|raster|30 m|2022|CC-BY 4.0|Y|dl|https://www.globalintertidalchange.org/|-
+SWOT/NASA OPERA DSWx|NASA JPL OPERA|G|World|raster|30 m|2026|NASA open|Y|reg|https://www.jpl.nasa.gov/go/opera/products/dswx-product-suite/|-
+Sentinel-1/2 surface water (Digital Earth Africa WOfS)|Digital Earth Africa|C|Africa|raster|30 m|2025|CC-BY 4.0|Y|dl|https://www.digitalearthafrica.org/platform-resources/services/water-observations-space|-
+DEA Water Observations (WOfS)|Geoscience Australia|N|Australia|raster|25 m|2025|CC-BY 4.0|Y|dl|https://www.dea.ga.gov.au/products/dea-water-observations|-
+Australian Geofabric / National Surface Water|Bureau of Meteorology|N|Australia|vector|1:250k|2024|CC-BY 4.0|Y|dl|http://www.bom.gov.au/water/geofabric/|Y
+Australian farm dams (GA)|Geoscience Australia|N|Australia|vector|ML|2023|CC-BY 4.0|Y|dl|https://www.ga.gov.au/|-
+EU-Hydro|EEA/Copernicus|C|EEA-39|vector|1:30k|2020|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/eu-hydro|Y
+ECRINS|EEA|C|Europe|vector|1:250k|2012|EEA free|Y|dl|https://www.eea.europa.eu/en/datahub|Y
+WISE WFD water bodies|EEA|C|EU|vector|reporting|2022|EEA free|Y|dl|https://www.eea.europa.eu/en/datahub|-
+CCM2 Catchment Characterisation (JRC)|EC JRC|C|Europe|vector|100 m|2008|Free|Y|dl|https://data.jrc.ec.europa.eu/collection/id-0047|Y
+USGS NHDPlus HR / 3DHP|USGS|N|USA|vector|1:24k|2025|Public domain|Y|dl|https://www.usgs.gov/national-hydrography|Y
+USGS NWIS surface water sites|USGS|N|USA|timeseries|stations|2026|Public domain|Y|api|https://waterdata.usgs.gov/|-
+Canada National Hydro Network / CanVec|NRCan|N|Canada|vector|1:50k|2024|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/a4b190fe-e090-4e6d-881e-b87956c07977|Y
+INEGI Red Hidrografica|INEGI|N|Mexico|vector|1:50k|2020|INEGI libre uso|Y|dl|https://www.inegi.org.mx/temas/hidrografia/|Y
+ANA BHO Base Hidrografica Ottocodificada|ANA Brazil|N|Brazil|vector|1:250k|2017|Open|Y|dl|https://metadados.snirh.gov.br/|Y
+UK OS Open Rivers|Ordnance Survey|N|Great Britain|vector|1:25k|2026|OGL|Y|dl|https://www.ordnancesurvey.co.uk/products/os-open-rivers|Y
+EA Detailed River Network|Environment Agency|N|England|vector|1:10k|2024|OGL|Y|dl|https://environment.data.gov.uk/|Y
+IGN BD TOPAGE|IGN/OFB|N|France|vector|1:5k|2025|Etalab 2.0|Y|dl|https://www.sandre.eaufrance.fr/|Y
+MITECO red hidrografica|MITECO Spain|N|Spain|vector|1:25k|2022|CC-BY 4.0|Y|dl|https://www.miteco.gob.es/|Y
+BfG / BKG Gewassernetz|BfG|N|Germany|vector|1:25k|2022|DL-DE BY 2.0|Y|dl|https://geoportal.bafg.de/|Y
+swissTLM3D water / FOEN network|swisstopo / FOEN|N|Switzerland|vector|1:10k|2025|OGD|Y|dl|https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d|Y
+NVE ELVIS river network|NVE Norway|N|Norway|vector|1:50k|2025|NLOD|Y|dl|https://www.nve.no/|Y
+SMHI SVAR|SMHI|N|Sweden|vector|1:50k|2022|CC0|Y|dl|https://www.smhi.se/data/hydrologi/vattenwebb|Y
+SYKE shoreline / river network|SYKE|N|Finland|vector|1:10k|2024|CC-BY 4.0|Y|dl|https://www.syke.fi/en-US/Open_information/Spatial_datasets|Y
+Japan National Land Numerical Information (rivers/lakes)|MLIT Japan|N|Japan|vector|1:25k|2024|Open|Y|dl|https://nlftp.mlit.go.jp/ksj/|Y
+India-WRIS water bodies|NWIC India|N|India|vector|1:50k|2024|Restricted|R|reg|https://indiawris.gov.in/|Y
+FAO AQUASTAT rivers/dams|FAO|G|World|vector/table|1:1M|2021|CC-BY-NC-SA 3.0 IGO|N|dl|https://www.fao.org/aquastat/en/databases/|-
+FAO Rivers of Africa|FAO|C|Africa|vector|1:1M|2014|CC-BY-NC-SA 3.0 IGO|N|dl|https://data.apps.fao.org/|Y
+SADC river basins / groundwater|SADC-GMI|C|Southern Africa|vector|1:1M|2020|Open|Y|dl|https://sadc-gip.org/|-
+Rwanda Water Resources Board portal|Rwanda Water Resources Board|N|Rwanda|vector|1:50k|2023|Restricted|R|req|https://waterportal.rwb.rw/|Y
+Somalia SWALIM rivers|FAO SWALIM|N|Somalia|vector|1:100k|2023|Free|Y|dl|https://www.faoswalim.org/|Y
+NZ River Environment Classification (REC2)|NIWA|N|New Zealand|vector|reaches|2019|CC-BY 4.0|Y|dl|https://niwa.co.nz/freshwater/management-tools/river-environment-classification-0|Y
+LINZ NZ hydro (Topo50)|LINZ|N|New Zealand|vector|1:50k|2025|CC-BY 4.0|Y|dl|https://data.linz.govt.nz/|Y
+Global Drainage Basin Database (GDBD)|NIES Japan|G|World|vector|1 km|2008|Free|Y|dl|https://www.cger.nies.go.jp/db/gdbd/gdbd_index_e.html|-
+HYDRO1K|USGS|G|World|raster/vector|1 km|2000|Public domain|Y|dl|https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-hydro1k|-
+Global Reservoir Surface Area Dataset (GRSAD)|Zhao & Gao|G|World|timeseries|reservoirs|2018|CC-BY 4.0|Y|dl|https://doi.org/10.18738/T8/DF80WG|-
+Global small water bodies (GLAKES)|Pi et al. (2022)|G|World|vector|>0.03 km2|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.7016548|-
+Copernicus HRL Water and Wetness|EEA/Copernicus|C|EEA-39|raster|10 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness|-
+ESA WorldCover water / wetland classes|ESA|G|World|raster|10 m|2022|CC-BY 4.0|Y|dl|https://esa-worldcover.org/|-
+Dynamic World water class|Google/WRI|G|World|raster|10 m NRT|2026|CC-BY 4.0|Y|api|https://dynamicworld.app/|-
+GLAD Landsat ARD water (GLAD water)|UMD GLAD|G|World|raster|30 m|2025|CC-BY 4.0|Y|dl|https://glad.umd.edu/ard/home|-
+OPERA DSWx-S1|NASA JPL OPERA|G|World|raster|30 m|2026|NASA open|Y|reg|https://www.earthdata.nasa.gov/data/catalog/asf-opera-l3-dswx-s1-v1-1|-
+WHYMAP groundwater resources|BGR/UNESCO|G|World|vector|1:25M|2023|Free|Y|dl|https://www.whymap.org/|-
+GLHYMPS permeability|Gleeson et al.|G|World|vector|1:1M|2014|CC-BY 4.0|Y|dl|https://doi.org/10.5683/SP2/DLGXYO|-
+BGS Africa Groundwater Atlas|BGS|C|Africa|vector|1:5M|2022|OGL|Y|dl|https://www2.bgs.ac.uk/groundwater/international/africanGroundwater/|-
+IGRAC Global Groundwater Information System (GGIS)|IGRAC|G|World|vector|aquifers|2025|Free|Y|reg|https://ggis.un-igrac.org/|-
+Lake Victoria Basin Commission data|LVBC|C|Lake Victoria basin|vector|1:250k|2020|Restricted|R|req|https://www.lvbcom.org/|-
+Mekong River Commission data portal|MRC|C|Mekong basin|vector/timeseries|stations|2025|Free registration|R|reg|https://portal.mrcmekong.org/|-
+Nile Basin Initiative data|NBI|C|Nile basin|vector|basin|2020|Restricted|R|req|https://nilebasin.org/|-

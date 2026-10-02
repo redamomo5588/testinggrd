@@ -1,0 +1,2614 @@
+{
+"http://data.ess.tsinghua.edu.cn/": [
+"reachable_restricted",
+"403"
+],
+"http://deepglobe.org/": [
+"reachable_restricted",
+"403"
+],
+"http://due.esrin.esa.int/page_globcover.php": [
+"reachable_restricted",
+"403"
+],
+"http://gpcv.whu.edu.cn/data/building_dataset.html": [
+"reachable_restricted",
+"403"
+],
+"http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/": [
+"reachable_restricted",
+"403"
+],
+"http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/": [
+"reachable_restricted",
+"403"
+],
+"http://smiswww.iki.rssi.ru/": [
+"reachable_restricted",
+"403"
+],
+"http://www.bom.gov.au/water/geofabric/": [
+"reachable_restricted",
+"403"
+],
+"http://www.bom.gov.au/water/groundwater/ngis/": [
+"reachable_restricted",
+"403"
+],
+"http://www.cec.org/north-american-environmental-atlas/land-cover-30m-2020/": [
+"reachable_restricted",
+"403"
+],
+"http://www.dsr.inpe.br/topodata/": [
+"error",
+"curl: (6) Could not resolve host: www.dsr.inpe.br"
+],
+"http://www.globallandcover.com/": [
+"reachable_restricted",
+"403"
+],
+"http://www.ideam.gov.co/": [
+"reachable_restricted",
+"403"
+],
+"https://2016africalandcover20m.esrin.esa.int/": [
+"blocked_here",
+"000"
+],
+"https://3d.map.gov.hk/": [
+"blocked_here",
+"000"
+],
+"https://3dbag.nl/": [
+"blocked_here",
+"000"
+],
+"https://3dmaps.nlsc.gov.tw/": [
+"blocked_here",
+"000"
+],
+"https://above.nasa.gov/": [
+"blocked_here",
+"000"
+],
+"https://ades.eaufrance.fr/": [
+"blocked_here",
+"000"
+],
+"https://akvo.org/": [
+"blocked_here",
+"000"
+],
+"https://amazonia.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://apps.nationalmap.gov/downloader/": [
+"blocked_here",
+"000"
+],
+"https://apps.nrs.gov.bc.ca/gwells/": [
+"blocked_here",
+"000"
+],
+"https://argentina.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://basemap.at/": [
+"blocked_here",
+"000"
+],
+"https://bhuvan-app3.nrsc.gov.in/data/download/index.php": [
+"blocked_here",
+"000"
+],
+"https://bhuvan.nrsc.gov.in/": [
+"blocked_here",
+"000"
+],
+"https://bolivia.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://bosqueatlantico.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://brasil.mapbiomas.org/en/": [
+"blocked_here",
+"000"
+],
+"https://cadastre.data.gouv.fr/": [
+"blocked_here",
+"000"
+],
+"https://cds.climate.copernicus.eu/datasets/satellite-land-cover": [
+"blocked_here",
+"000"
+],
+"https://centrodedescargas.cnig.es/": [
+"blocked_here",
+"000"
+],
+"https://cesium.com/platform/cesium-ion/content/cesium-osm-buildings/": [
+"blocked_here",
+"000"
+],
+"https://chaco.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://chile.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://chloris.earth/": [
+"blocked_here",
+"000"
+],
+"https://cida.usgs.gov/ngwmn/": [
+"blocked_here",
+"000"
+],
+"https://climate.esa.int/en/projects/biomass/data/": [
+"blocked_here",
+"000"
+],
+"https://climate.esa.int/en/projects/high-resolution-land-cover/": [
+"blocked_here",
+"000"
+],
+"https://climate.esa.int/en/projects/lakes/": [
+"blocked_here",
+"000"
+],
+"https://climate.esa.int/en/projects/land-cover/data/": [
+"blocked_here",
+"000"
+],
+"https://coast.noaa.gov/digitalcoast/": [
+"blocked_here",
+"000"
+],
+"https://coast.noaa.gov/digitalcoast/data/ccapregional.html": [
+"blocked_here",
+"000"
+],
+"https://colombia.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://copernicus-dem-30m.s3.amazonaws.com/readme.html": [
+"ok",
+"206"
+],
+"https://copernicus-dem-90m.s3.amazonaws.com/readme.html": [
+"ok",
+"206"
+],
+"https://corine.tarimorman.gov.tr/": [
+"blocked_here",
+"000"
+],
+"https://ctrees.org/": [
+"blocked_here",
+"000"
+],
+"https://daac.ornl.gov/GEDI/guides/GEDI_L4A_AGB_Density_V2_1.html": [
+"blocked_here",
+"000"
+],
+"https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass_V2_1.html": [
+"blocked_here",
+"000"
+],
+"https://dados.cm-lisboa.pt/": [
+"blocked_here",
+"000"
+],
+"https://dahiti.dgfi.tum.de/": [
+"blocked_here",
+"000"
+],
+"https://data.4tu.nl/datasets/1da2e70f-6c4d-4b03-86bd-b53e789cc629": [
+"blocked_here",
+"000"
+],
+"https://data.apps.fao.org/": [
+"blocked_here",
+"000"
+],
+"https://data.apps.fao.org/wapor/": [
+"blocked_here",
+"000"
+],
+"https://data.boston.gov/": [
+"blocked_here",
+"000"
+],
+"https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn": [
+"blocked_here",
+"000"
+],
+"https://data.buenosaires.gob.ar/": [
+"blocked_here",
+"000"
+],
+"https://data.cityofchicago.org/": [
+"blocked_here",
+"000"
+],
+"https://data.cityofnewyork.us/Housing-Development/Building-Footprints/5zhs-2jue": [
+"blocked_here",
+"000"
+],
+"https://data.cnra.ca.gov/dataset/well-completion-reports": [
+"blocked_here",
+"000"
+],
+"https://data.fs.usda.gov/geodata/rastergateway/treemap/": [
+"blocked_here",
+"000"
+],
+"https://data.globalforestwatch.org/": [
+"blocked_here",
+"000"
+],
+"https://data.gov.tw/": [
+"blocked_here",
+"000"
+],
+"https://data.grid3.org/": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=afghanistan+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=burundi+water": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=cameroon+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=central+african+republic+water": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=chad+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=drc+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=guinea+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=iraq+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=laos+water": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=lesotho+water": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=liberia+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=roads": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=south+sudan+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=sudan+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=syria+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=timor-leste+water": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=water+points": [
+"blocked_here",
+"000"
+],
+"https://data.humdata.org/search?q=yemen+water+points": [
+"blocked_here",
+"000"
+],
+"https://data.jrc.ec.europa.eu/collection/id-0047": [
+"blocked_here",
+"000"
+],
+"https://data.linz.govt.nz/": [
+"blocked_here",
+"000"
+],
+"https://data.linz.govt.nz/layer/101290-nz-building-outlines/": [
+"blocked_here",
+"000"
+],
+"https://data.linz.govt.nz/layer/50329-nz-road-centrelines-topo-150k/": [
+"blocked_here",
+"000"
+],
+"https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/": [
+"blocked_here",
+"000"
+],
+"https://data.melbourne.vic.gov.au/": [
+"blocked_here",
+"000"
+],
+"https://data.ontario.ca/dataset/well-records": [
+"blocked_here",
+"000"
+],
+"https://data.opencity.in/": [
+"blocked_here",
+"000"
+],
+"https://data.public.lu/": [
+"blocked_here",
+"000"
+],
+"https://data.sfgov.org/": [
+"blocked_here",
+"000"
+],
+"https://data.waterpointdata.org/dataset/Water-Point-Data-Exchange-Basic-WPdx-Basic-/jfkt-jmqa": [
+"blocked_here",
+"000"
+],
+"https://datacatalog.worldbank.org/search/dataset/0038236": [
+"blocked_here",
+"000"
+],
+"https://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps": [
+"blocked_here",
+"000"
+],
+"https://dataforsyningen.dk/": [
+"blocked_here",
+"000"
+],
+"https://datamall.lta.gov.sg/": [
+"blocked_here",
+"000"
+],
+"https://datamap.gov.wales/": [
+"blocked_here",
+"000"
+],
+"https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM": [
+"blocked_here",
+"000"
+],
+"https://datass.vivienda.gob.pe/": [
+"blocked_here",
+"000"
+],
+"https://datastore.brussels/": [
+"blocked_here",
+"000"
+],
+"https://dataverse.harvard.edu/dataverse/global-urban-street-networks": [
+"blocked_here",
+"000"
+],
+"https://daylightmap.org/": [
+"blocked_here",
+"000"
+],
+"https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL": [
+"blocked_here",
+"000"
+],
+"https://developers.google.com/maps/documentation/elevation/overview": [
+"blocked_here",
+"000"
+],
+"https://developers.google.com/maps/documentation/roads/overview": [
+"blocked_here",
+"000"
+],
+"https://developers.google.com/maps/documentation/tile/3d-tiles": [
+"blocked_here",
+"000"
+],
+"https://dga.mop.gob.cl/": [
+"blocked_here",
+"000"
+],
+"https://digital.atlas.gov.au/": [
+"blocked_here",
+"000"
+],
+"https://docs.mapbox.com/data/tilesets/reference/mapbox-streets-v8/": [
+"blocked_here",
+"000"
+],
+"https://docs.mapbox.com/data/tilesets/reference/mapbox-terrain-dem-v1/": [
+"blocked_here",
+"000"
+],
+"https://docs.overturemaps.org/guides/base/": [
+"blocked_here",
+"000"
+],
+"https://docs.overturemaps.org/guides/buildings/": [
+"blocked_here",
+"000"
+],
+"https://docs.overturemaps.org/guides/transportation/": [
+"blocked_here",
+"000"
+],
+"https://docs.overturemaps.org/schema/reference/buildings/building_part/": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.1016/j.rse.2020.111705": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.1126/science.aam6527": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.1126/science.abc2755": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.1594/PANGAEA.892657": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.18738/T8/DF80WG": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.3220/DATA20221214084846": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5063/F1KD1WSN": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.11319913": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.1297434": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.3986871": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.4066295": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.4118463": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.4407051": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.5791855": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.5879022": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.6046008": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.6163413": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.6556417": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.6563695": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.6575731": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.7016548": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.7500612": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.7827315": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.7923866": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.8154445": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.8176941": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5281/zenodo.8239305": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.5683/SP2/DLGXYO": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.6084/m9.figshare.27992417": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.6084/m9.figshare.6665165": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.6084/m9.figshare.c.3288407": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.6084/m9.figshare.c.3890224": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.6084/m9.figshare.c.5243309": [
+"blocked_here",
+"000"
+],
+"https://doi.org/10.6084/m9.figshare.c.5767484": [
+"blocked_here",
+"000"
+],
+"https://donnees.montreal.ca/": [
+"blocked_here",
+"000"
+],
+"https://download.geofabrik.de/": [
+"blocked_here",
+"000"
+],
+"https://download.geonames.org/export/dump/": [
+"blocked_here",
+"000"
+],
+"https://download.vlaanderen.be/": [
+"blocked_here",
+"000"
+],
+"https://dphe.gov.bd/": [
+"blocked_here",
+"000"
+],
+"https://dtm.iom.int/": [
+"blocked_here",
+"000"
+],
+"https://dwssm.gov.np/": [
+"blocked_here",
+"000"
+],
+"https://dynamicworld.app/": [
+"blocked_here",
+"000"
+],
+"https://earth-info.nga.mil/": [
+"blocked_here",
+"000"
+],
+"https://eau.gouv.bj/": [
+"blocked_here",
+"000"
+],
+"https://ec.europa.eu/eurostat/web/gisco/geodata": [
+"blocked_here",
+"000"
+],
+"https://ec.europa.eu/eurostat/web/lucas": [
+"blocked_here",
+"000"
+],
+"https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/72759": [
+"blocked_here",
+"000"
+],
+"https://ecuador.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://efi.int/knowledge/maps/forestmap": [
+"blocked_here",
+"000"
+],
+"https://egis-lacounty.hub.arcgis.com/": [
+"blocked_here",
+"000"
+],
+"https://egis.environment.gov.za/": [
+"blocked_here",
+"000"
+],
+"https://egis.me.go.kr/": [
+"blocked_here",
+"000"
+],
+"https://ejalshakti.gov.in/jjmreport/JJMIndia.aspx": [
+"blocked_here",
+"000"
+],
+"https://elevation.fsdf.org.au/": [
+"blocked_here",
+"000"
+],
+"https://elischolar.library.yale.edu/yale_fes_data/1/": [
+"blocked_here",
+"000"
+],
+"https://emodnet.ec.europa.eu/en/bathymetry": [
+"blocked_here",
+"000"
+],
+"https://environment.data.gov.uk/": [
+"blocked_here",
+"000"
+],
+"https://environment.data.gov.uk/survey": [
+"blocked_here",
+"000"
+],
+"https://envs.au.dk/en/research-areas/society-environment-and-resources/land-use-and-gis/basemap": [
+"blocked_here",
+"000"
+],
+"https://esa-worldcereal.org/": [
+"blocked_here",
+"000"
+],
+"https://esa-worldcover.org/": [
+"blocked_here",
+"000"
+],
+"https://eubucco.com/": [
+"blocked_here",
+"000"
+],
+"https://eurogeographics.org/maps-for-europe/euroregionalmap/": [
+"blocked_here",
+"000"
+],
+"https://eurogeographics.org/maps-for-europe/open-data/": [
+"blocked_here",
+"000"
+],
+"https://export.hotosm.org/": [
+"blocked_here",
+"000"
+],
+"https://extract.bbbike.org/": [
+"blocked_here",
+"000"
+],
+"https://fgd.gsi.go.jp/download/": [
+"blocked_here",
+"000"
+],
+"https://findtap.com/": [
+"blocked_here",
+"000"
+],
+"https://floodobservatory.colorado.edu/": [
+"blocked_here",
+"000"
+],
+"https://forest-observatory.ec.europa.eu/": [
+"blocked_here",
+"000"
+],
+"https://forestplots.net/": [
+"blocked_here",
+"000"
+],
+"https://forobs.jrc.ec.europa.eu/GFC": [
+"blocked_here",
+"000"
+],
+"https://forobs.jrc.ec.europa.eu/TMF": [
+"blocked_here",
+"000"
+],
+"https://forobs.jrc.ec.europa.eu/glc2000": [
+"blocked_here",
+"000"
+],
+"https://fra-data.fao.org/": [
+"blocked_here",
+"000"
+],
+"https://fsi.nic.in/": [
+"blocked_here",
+"000"
+],
+"https://gdi.berlin.de/": [
+"blocked_here",
+"000"
+],
+"https://gds.hessen.de/": [
+"blocked_here",
+"000"
+],
+"https://gdz.bkg.bund.de/": [
+"blocked_here",
+"000"
+],
+"https://gemstat.org/": [
+"blocked_here",
+"000"
+],
+"https://geo-trees.org/": [
+"blocked_here",
+"000"
+],
+"https://geobroker.geobasis-bb.de/": [
+"blocked_here",
+"000"
+],
+"https://geodaten.bayern.de/opengeodata/": [
+"blocked_here",
+"000"
+],
+"https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=lod2": [
+"blocked_here",
+"000"
+],
+"https://geoglows.ecmwf.int/": [
+"blocked_here",
+"000"
+],
+"https://geohub.lio.gov.on.ca/": [
+"blocked_here",
+"000"
+],
+"https://geoportaal.maaamet.ee/": [
+"blocked_here",
+"000"
+],
+"https://geoportail.wallonie.be/": [
+"blocked_here",
+"000"
+],
+"https://geoportal.ancpi.ro/": [
+"blocked_here",
+"000"
+],
+"https://geoportal.bafg.de/": [
+"blocked_here",
+"000"
+],
+"https://geoportal.cuzk.cz/": [
+"blocked_here",
+"000"
+],
+"https://geoportal.dgu.hr/": [
+"blocked_here",
+"000"
+],
+"https://geoportal.mtc.gob.pe/": [
+"blocked_here",
+"000"
+],
+"https://geoportal.thueringen.de/": [
+"blocked_here",
+"000"
+],
+"https://geosadak-pmgsy.nic.in/": [
+"blocked_here",
+"000"
+],
+"https://geosampa.prefeitura.sp.gov.br/": [
+"blocked_here",
+"000"
+],
+"https://geoscape.com.au/": [
+"blocked_here",
+"000"
+],
+"https://geoscape.com.au/data/buildings/": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/dataguide/tdm30/": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/dataguide/tdm90/": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/maps/eoc:gwp": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/maps/eoc:wsf2019": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/maps/eoc:wsf3d": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/maps/eoc:wsfevolution": [
+"blocked_here",
+"000"
+],
+"https://geoservice.dlr.de/web/maps/tdm:forest": [
+"blocked_here",
+"000"
+],
+"https://geoservices.ign.fr/bdcarto": [
+"blocked_here",
+"000"
+],
+"https://geoservices.ign.fr/bdtopo": [
+"blocked_here",
+"000"
+],
+"https://geoservices.ign.fr/lidarhd": [
+"blocked_here",
+"000"
+],
+"https://geoservices.ign.fr/ocsge": [
+"blocked_here",
+"000"
+],
+"https://geoservices.ign.fr/rgealti": [
+"blocked_here",
+"000"
+],
+"https://geosmart.space/": [
+"blocked_here",
+"000"
+],
+"https://ggis.un-igrac.org/": [
+"blocked_here",
+"000"
+],
+"https://ggmn.un-igrac.org/": [
+"blocked_here",
+"000"
+],
+"https://gin.gw-info.net/": [
+"blocked_here",
+"000"
+],
+"https://gis-fema.hub.arcgis.com/pages/usa-structures": [
+"blocked_here",
+"000"
+],
+"https://gis.data.ca.gov/": [
+"blocked_here",
+"000"
+],
+"https://github.com/AI4Forest/Global-Canopy-Height-Map": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/ai4up/eubucco": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/microsoft/AustraliaBuildingFootprints": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/microsoft/CanadianBuildingFootprints": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/microsoft/GlobalMLBuildingFootprints": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/microsoft/RoadDetections": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/microsoft/USBuildingFootprints": [
+"reachable_restricted",
+"403"
+],
+"https://github.com/opencitymodel/opencitymodel": [
+"reachable_restricted",
+"403"
+],
+"https://glad.umd.edu/ard/home": [
+"blocked_here",
+"000"
+],
+"https://glad.umd.edu/dataset/GLCLUC2020": [
+"blocked_here",
+"000"
+],
+"https://glad.umd.edu/dataset/croplands": [
+"blocked_here",
+"000"
+],
+"https://glad.umd.edu/dataset/gedi/": [
+"blocked_here",
+"000"
+],
+"https://glad.umd.edu/dataset/global-surface-water-dynamics": [
+"blocked_here",
+"000"
+],
+"https://glad.umd.edu/dataset/primary-forest-humid-tropics": [
+"blocked_here",
+"000"
+],
+"https://glad.umd.edu/projects/forest-monitoring-congo-basin": [
+"blocked_here",
+"000"
+],
+"https://global-ecosystems.org/": [
+"blocked_here",
+"000"
+],
+"https://global-flood-database.cloudtostreet.ai/": [
+"blocked_here",
+"000"
+],
+"https://global-flood.emergency.copernicus.eu/": [
+"blocked_here",
+"000"
+],
+"https://global-surface-water.appspot.com/download": [
+"blocked_here",
+"000"
+],
+"https://gn.mase.gov.it/": [
+"blocked_here",
+"000"
+],
+"https://hamaarag.org.il/": [
+"blocked_here",
+"000"
+],
+"https://highcarbonstock.org/": [
+"blocked_here",
+"000"
+],
+"https://hoydedata.no/": [
+"blocked_here",
+"000"
+],
+"https://hri.fi/": [
+"blocked_here",
+"000"
+],
+"https://huggingface.co/datasets/zhu-xlab/GBA.LoD1": [
+"blocked_here",
+"000"
+],
+"https://human-settlement.emergency.copernicus.eu/download.php": [
+"blocked_here",
+"000"
+],
+"https://human-settlement.emergency.copernicus.eu/ghs_buH2023.php": [
+"blocked_here",
+"000"
+],
+"https://hydroweb.next.theia-land.fr/": [
+"blocked_here",
+"000"
+],
+"https://ide.mop.gob.cl/": [
+"blocked_here",
+"000"
+],
+"https://indiawris.gov.in/": [
+"blocked_here",
+"000"
+],
+"https://indiawris.gov.in/wris/#/groundWater": [
+"blocked_here",
+"000"
+],
+"https://info.igme.es/": [
+"blocked_here",
+"000"
+],
+"https://inrix.com/": [
+"blocked_here",
+"000"
+],
+"https://intactforests.org/data.ifl.html": [
+"blocked_here",
+"000"
+],
+"https://ipad.fas.usda.gov/cropexplorer/global_reservoir/": [
+"blocked_here",
+"000"
+],
+"https://kartaview.org/": [
+"blocked_here",
+"000"
+],
+"https://kartkatalog.geonorge.no/": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/clc-backbone": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/coastal-zones": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/corine-land-cover": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/eu-hydro": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/global-dynamic-land-cover": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-crop-types": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-forest-type": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-grasslands": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-small-woody-features": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-tree-cover-density": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/n2k": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/products-that-are-no-longer-disseminated-on-the-clms-website": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/riparian-zones": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/urban-atlas": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/urban-atlas/building-height-2012": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/vegetation": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/water-bodies": [
+"blocked_here",
+"000"
+],
+"https://land.copernicus.eu/en/products/water-bodies/water-level-lakes-v2-0": [
+"blocked_here",
+"000"
+],
+"https://landfire.gov/": [
+"blocked_here",
+"000"
+],
+"https://langnico.github.io/globalcanopyheight/": [
+"blocked_here",
+"000"
+],
+"https://lastkajen.trafikverket.se/": [
+"blocked_here",
+"000"
+],
+"https://learn.microsoft.com/en-us/azure/azure-maps/": [
+"blocked_here",
+"000"
+],
+"https://lifewater.org/": [
+"blocked_here",
+"000"
+],
+"https://lipad.dream.upd.edu.ph/": [
+"blocked_here",
+"000"
+],
+"https://livingatlas.arcgis.com/": [
+"blocked_here",
+"000"
+],
+"https://livingatlas.arcgis.com/landcoverexplorer/": [
+"blocked_here",
+"000"
+],
+"https://logie.logcluster.org/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/astgtmv003/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/gedi02_av002/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/gedi02_bv002/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/gfcc30tcv003/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/gfsad30eucearumev001/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/glance30v001/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/mcd12q1v061/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/mod44bv061/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/mod44wv006/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/nasadem_hgtv001/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/srtmgl1v003/": [
+"blocked_here",
+"000"
+],
+"https://lpdaac.usgs.gov/products/srtmswbdv003/": [
+"blocked_here",
+"000"
+],
+"https://lris.scinfo.org.nz/": [
+"blocked_here",
+"000"
+],
+"https://mapbiomas.nusantara.earth/": [
+"blocked_here",
+"000"
+],
+"https://maps.protomaps.com/builds/": [
+"blocked_here",
+"000"
+],
+"https://mapwith.ai/": [
+"blocked_here",
+"000"
+],
+"https://mediatum.ub.tum.de/1782307": [
+"blocked_here",
+"000"
+],
+"https://metadados.snirh.gov.br/": [
+"blocked_here",
+"000"
+],
+"https://metaver.de/": [
+"blocked_here",
+"000"
+],
+"https://nahlizenidokn.cuzk.cz/StahniAdresniMistaRUIAN.aspx": [
+"blocked_here",
+"000"
+],
+"https://nfi.nfis.org/": [
+"blocked_here",
+"000"
+],
+"https://nilebasin.org/": [
+"blocked_here",
+"000"
+],
+"https://niwa.co.nz/freshwater/management-tools/river-environment-classification-0": [
+"blocked_here",
+"000"
+],
+"https://nlftp.mlit.go.jp/ksj/": [
+"blocked_here",
+"000"
+],
+"https://nsidc.org/data/atl08": [
+"blocked_here",
+"000"
+],
+"https://nsidc.org/data/icesat-2": [
+"blocked_here",
+"000"
+],
+"https://nsidc.org/data/nsidc-0756": [
+"blocked_here",
+"000"
+],
+"https://nsidc.org/data/nsidc-0770": [
+"blocked_here",
+"000"
+],
+"https://nusantara-atlas.org/": [
+"blocked_here",
+"000"
+],
+"https://odp-cctegis.opendata.arcgis.com/": [
+"blocked_here",
+"000"
+],
+"https://onlinemaps.surveyofindia.gov.in/": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/18752265-bda3-498c-a4ba-9dfe68cb98da": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/3d282116-e556-400c-9306-ca1a3cada77f": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/7f245e4d-76c2-4caa-951a-45d1d2051333": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/957782bf-847c-4644-a757-e383c0057995": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/a4b190fe-e090-4e6d-881e-b87956c07977": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/ba2645d5-4458-414d-b196-6303ac06c1c9": [
+"blocked_here",
+"000"
+],
+"https://open.canada.ca/data/en/dataset/ee1580ab-a23d-4f86-a09b-79763677eb47": [
+"blocked_here",
+"000"
+],
+"https://open.toronto.ca/dataset/3d-massing/": [
+"blocked_here",
+"000"
+],
+"https://openaerialmap.org/": [
+"blocked_here",
+"000"
+],
+"https://opendata.canterburymaps.govt.nz/": [
+"blocked_here",
+"000"
+],
+"https://opendata.nfis.org/": [
+"blocked_here",
+"000"
+],
+"https://opengeodata.lgl-bw.de/": [
+"blocked_here",
+"000"
+],
+"https://openmaptiles.org/": [
+"blocked_here",
+"000"
+],
+"https://opentopography.org/": [
+"blocked_here",
+"000"
+],
+"https://osmdata.openstreetmap.de/data/coastlines.html": [
+"blocked_here",
+"000"
+],
+"https://osmdata.openstreetmap.de/data/water-polygons.html": [
+"blocked_here",
+"000"
+],
+"https://osmlab.github.io/osm-qa-tiles/": [
+"blocked_here",
+"000"
+],
+"https://osmlanduse.org/": [
+"blocked_here",
+"000"
+],
+"https://overpass-api.de/": [
+"blocked_here",
+"000"
+],
+"https://pacificdata.org/": [
+"blocked_here",
+"000"
+],
+"https://pampa.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://paraguay.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://pcrwr.gov.pk/": [
+"blocked_here",
+"000"
+],
+"https://peru.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://planet.openstreetmap.org/": [
+"blocked_here",
+"000"
+],
+"https://planet.openstreetmap.org/planet/full-history/": [
+"blocked_here",
+"000"
+],
+"https://planetarycomputer.microsoft.com/dataset/cop-dem-glo-30": [
+"blocked_here",
+"000"
+],
+"https://podaac.jpl.nasa.gov/SWOT": [
+"blocked_here",
+"000"
+],
+"https://portal.csdi.gov.hk/": [
+"blocked_here",
+"000"
+],
+"https://portal.grdc.bafg.de/": [
+"blocked_here",
+"000"
+],
+"https://portal.mrcmekong.org/": [
+"blocked_here",
+"000"
+],
+"https://portal.mwater.co/": [
+"blocked_here",
+"000"
+],
+"https://portal.opentopography.org/apidocs/": [
+"blocked_here",
+"000"
+],
+"https://project.inria.fr/aerialimagelabeling/": [
+"blocked_here",
+"000"
+],
+"https://query.wikidata.org/": [
+"blocked_here",
+"000"
+],
+"https://rapideditor.org/": [
+"blocked_here",
+"000"
+],
+"https://rds.icimod.org/": [
+"blocked_here",
+"000"
+],
+"https://registry.opendata.aws/dataforgood-fb-forests/": [
+"blocked_here",
+"000"
+],
+"https://registry.opendata.aws/terrain-tiles/": [
+"blocked_here",
+"000"
+],
+"https://remotesensingdata.gov.scot/": [
+"blocked_here",
+"000"
+],
+"https://research.fs.usda.gov/programs/fia": [
+"blocked_here",
+"000"
+],
+"https://restor.eco/": [
+"blocked_here",
+"000"
+],
+"https://rlcms-servir.adpc.net/": [
+"blocked_here",
+"000"
+],
+"https://rsis.ramsar.org/": [
+"blocked_here",
+"000"
+],
+"https://s2glc.cbk.waw.pl/": [
+"blocked_here",
+"000"
+],
+"https://sadc-gip.org/": [
+"blocked_here",
+"000"
+],
+"https://sedac.ciesin.columbia.edu/data/set/groads-global-roads-open-access-v1": [
+"blocked_here",
+"000"
+],
+"https://siagasweb.sgb.gov.br/": [
+"blocked_here",
+"000"
+],
+"https://siasar.org/": [
+"blocked_here",
+"000"
+],
+"https://sigap.menlhk.go.id/": [
+"blocked_here",
+"000"
+],
+"https://sites.research.google/gr/open-buildings/": [
+"blocked_here",
+"000"
+],
+"https://sites.research.google/gr/open-buildings/temporal/": [
+"blocked_here",
+"000"
+],
+"https://source.coop/repositories/vida/google-microsoft-osm-open-buildings/description": [
+"blocked_here",
+"000"
+],
+"https://spacenet.ai/datasets/": [
+"blocked_here",
+"000"
+],
+"https://spacenet.ai/spacenet-roads-dataset/": [
+"blocked_here",
+"000"
+],
+"https://springstewardshipinstitute.org/": [
+"blocked_here",
+"000"
+],
+"https://srtm.csi.cgiar.org/": [
+"blocked_here",
+"000"
+],
+"https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html": [
+"ok",
+"206"
+],
+"https://tanahair.indonesia.go.id/": [
+"blocked_here",
+"000"
+],
+"https://tanahair.indonesia.go.id/demnas/": [
+"blocked_here",
+"000"
+],
+"https://tandemx-science.dlr.de/": [
+"blocked_here",
+"000"
+],
+"https://tasks.hotosm.org/": [
+"blocked_here",
+"000"
+],
+"https://terrabrasilis.dpi.inpe.br/en/home-page/": [
+"blocked_here",
+"000"
+],
+"https://thewaterproject.org/community/projects/": [
+"blocked_here",
+"000"
+],
+"https://tinitaly.pi.ingv.it/": [
+"blocked_here",
+"000"
+],
+"https://topex.ucsd.edu/WWW_html/srtm15_plus.html": [
+"blocked_here",
+"000"
+],
+"https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/trans-european-transport-network-ten-t_en": [
+"blocked_here",
+"000"
+],
+"https://uruguay.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://use-land-property-data.service.gov.uk/datasets/inspire": [
+"blocked_here",
+"000"
+],
+"https://vayla.fi/en/transport-network/data/digiroad": [
+"blocked_here",
+"000"
+],
+"https://venezuela.mapbiomas.org/": [
+"blocked_here",
+"000"
+],
+"https://wash.unhcr.org/": [
+"blocked_here",
+"000"
+],
+"https://washdata.org/": [
+"blocked_here",
+"000"
+],
+"https://wasreb.go.ke/": [
+"blocked_here",
+"000"
+],
+"https://water.cc/": [
+"blocked_here",
+"000"
+],
+"https://waterdata.usgs.gov/": [
+"blocked_here",
+"000"
+],
+"https://waterforgood.org/": [
+"blocked_here",
+"000"
+],
+"https://watermission.org/": [
+"blocked_here",
+"000"
+],
+"https://waterportal.rwb.rw/": [
+"blocked_here",
+"000"
+],
+"https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10023": [
+"blocked_here",
+"000"
+],
+"https://wiki.openstreetmap.org/wiki/Key:height": [
+"blocked_here",
+"000"
+],
+"https://wiki.openstreetmap.org/wiki/Tag:amenity%3Ddrinking_water": [
+"blocked_here",
+"000"
+],
+"https://wiki.openstreetmap.org/wiki/Tag:landuse%3Dforest": [
+"blocked_here",
+"000"
+],
+"https://www.3drotterdam.nl/": [
+"blocked_here",
+"000"
+],
+"https://www.agriculture.gov.au/abares/aclump/land-use": [
+"blocked_here",
+"000"
+],
+"https://www.agriculture.gov.au/abares/forestsaustralia": [
+"blocked_here",
+"000"
+],
+"https://www.ahn.nl/": [
+"blocked_here",
+"000"
+],
+"https://www.alberta.ca/alberta-water-well-information-database": [
+"blocked_here",
+"000"
+],
+"https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9": [
+"blocked_here",
+"000"
+],
+"https://www.aw3d.jp/en/": [
+"blocked_here",
+"000"
+],
+"https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/3d-stadtmodell/": [
+"blocked_here",
+"000"
+],
+"https://www.bfs.admin.ch/bfs/en/home/services/geostat/swiss-federal-statistics-geodata/land-use-cover-suitability/swiss-land-use-statistics.html": [
+"blocked_here",
+"000"
+],
+"https://www.bgs.ac.uk/datasets/boreholes-index/": [
+"blocked_here",
+"000"
+],
+"https://www.bgs.ac.uk/geology-projects/arsenic-contamination-of-groundwater/": [
+"blocked_here",
+"000"
+],
+"https://www.bts.gov/ntad": [
+"blocked_here",
+"000"
+],
+"https://www.cafi.org/": [
+"blocked_here",
+"000"
+],
+"https://www.catastro.hacienda.gob.es/webinspire/index.html": [
+"blocked_here",
+"000"
+],
+"https://www.ceh.ac.uk/data/ukceh-land-cover-maps": [
+"blocked_here",
+"000"
+],
+"https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html": [
+"blocked_here",
+"000"
+],
+"https://www.cger.nies.go.jp/db/gdbd/gdbd_index_e.html": [
+"blocked_here",
+"000"
+],
+"https://www.charitywater.org/our-projects": [
+"blocked_here",
+"000"
+],
+"https://www.chesapeakeconservancy.org/conservation-innovation-center/high-resolution-data/land-cover-data-project/": [
+"blocked_here",
+"000"
+],
+"https://www.climatecentral.org/coastaldem-v3": [
+"blocked_here",
+"000"
+],
+"https://www.colombiaenmapas.gov.co/": [
+"blocked_here",
+"000"
+],
+"https://www.conaf.cl/": [
+"blocked_here",
+"000"
+],
+"https://www.cs.toronto.edu/~vmnih/data/": [
+"blocked_here",
+"000"
+],
+"https://www.cwsa.gov.gh/": [
+"blocked_here",
+"000"
+],
+"https://www.data.gv.at/": [
+"blocked_here",
+"000"
+],
+"https://www.dea.ga.gov.au/products/dea-land-cover": [
+"blocked_here",
+"000"
+],
+"https://www.dea.ga.gov.au/products/dea-water-observations": [
+"blocked_here",
+"000"
+],
+"https://www.dgterritorio.gov.pt/": [
+"blocked_here",
+"000"
+],
+"https://www.digitalearthafrica.org/": [
+"blocked_here",
+"000"
+],
+"https://www.digitalearthafrica.org/platform-resources/services/water-observations-space": [
+"blocked_here",
+"000"
+],
+"https://www.dinepa.gouv.ht/": [
+"blocked_here",
+"000"
+],
+"https://www.dinoloket.nl/": [
+"blocked_here",
+"000"
+],
+"https://www.dlr.de/en/eoc/research-transfer/projects-missions/global-urban-footprint": [
+"blocked_here",
+"000"
+],
+"https://www.dnh.gouv.ml/": [
+"blocked_here",
+"000"
+],
+"https://www.donneesquebec.ca/": [
+"blocked_here",
+"000"
+],
+"https://www.dpwh.gov.ph/dpwh/gis/": [
+"blocked_here",
+"000"
+],
+"https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/": [
+"blocked_here",
+"000"
+],
+"https://www.dubaipulse.gov.ae/": [
+"blocked_here",
+"000"
+],
+"https://www.dws.gov.za/groundwater/NGA.aspx": [
+"blocked_here",
+"000"
+],
+"https://www.dws.gov.za/niwis2/": [
+"blocked_here",
+"000"
+],
+"https://www.e-prostor.gov.si/": [
+"blocked_here",
+"000"
+],
+"https://www.earthdata.nasa.gov/data/catalog/asf-opera-l3-dswx-s1-v1-1": [
+"blocked_here",
+"000"
+],
+"https://www.earthenv.org/DEM": [
+"blocked_here",
+"000"
+],
+"https://www.eauburkina.bf/": [
+"blocked_here",
+"000"
+],
+"https://www.ecopiatech.com/": [
+"blocked_here",
+"000"
+],
+"https://www.eea.europa.eu/en/datahub": [
+"blocked_here",
+"000"
+],
+"https://www.egi.gov.et/": [
+"blocked_here",
+"000"
+],
+"https://www.eorc.jaxa.jp/ALOS/en/aw3d30/index.htm": [
+"blocked_here",
+"000"
+],
+"https://www.eorc.jaxa.jp/ALOS/en/dataset/fnf_e.htm": [
+"blocked_here",
+"000"
+],
+"https://www.eorc.jaxa.jp/ALOS/en/dataset/lulc_e.htm": [
+"blocked_here",
+"000"
+],
+"https://www.esri.com/en-us/arcgis/products/streetmap-premium/overview": [
+"blocked_here",
+"000"
+],
+"https://www.eurocrops.tum.de/": [
+"blocked_here",
+"000"
+],
+"https://www.evidenceaction.org/programs/safe-water-now": [
+"blocked_here",
+"000"
+],
+"https://www.fao.org/aquastat/en/databases/": [
+"blocked_here",
+"000"
+],
+"https://www.fao.org/forest-resources-assessment/remote-sensing/fra-2020-remote-sensing-survey/en/": [
+"blocked_here",
+"000"
+],
+"https://www.fao.org/geonetwork/srv/en/main.home": [
+"blocked_here",
+"000"
+],
+"https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036355/": [
+"blocked_here",
+"000"
+],
+"https://www.faoswalim.org/": [
+"blocked_here",
+"000"
+],
+"https://www.faoswalim.org/water/water-sources": [
+"blocked_here",
+"000"
+],
+"https://www.fathom.global/product/fathomdem/": [
+"blocked_here",
+"000"
+],
+"https://www.fhwa.dot.gov/policyinformation/hpms.cfm": [
+"blocked_here",
+"000"
+],
+"https://www.ga.gov.au/": [
+"blocked_here",
+"000"
+],
+"https://www.gebco.net/data-products/gridded-bathymetry-data": [
+"blocked_here",
+"000"
+],
+"https://www.geo-wiki.org/": [
+"blocked_here",
+"000"
+],
+"https://www.geodaten.sachsen.de/": [
+"blocked_here",
+"000"
+],
+"https://www.geodirectory.ie/": [
+"blocked_here",
+"000"
+],
+"https://www.geoportal.gov.ph/": [
+"blocked_here",
+"000"
+],
+"https://www.geoportal.gov.pl/": [
+"blocked_here",
+"000"
+],
+"https://www.geoportal.lt/": [
+"blocked_here",
+"000"
+],
+"https://www.geoportal.sk/": [
+"blocked_here",
+"000"
+],
+"https://www.geoportale.regione.lombardia.it/": [
+"blocked_here",
+"000"
+],
+"https://www.gip.gv.at/": [
+"blocked_here",
+"000"
+],
+"https://www.globaldamwatch.org/database": [
+"blocked_here",
+"000"
+],
+"https://www.globaldamwatch.org/goodd": [
+"blocked_here",
+"000"
+],
+"https://www.globaldamwatch.org/grand": [
+"blocked_here",
+"000"
+],
+"https://www.globalfloods.eu/": [
+"blocked_here",
+"000"
+],
+"https://www.globalintertidalchange.org/": [
+"blocked_here",
+"000"
+],
+"https://www.globalmangrovewatch.org/": [
+"blocked_here",
+"000"
+],
+"https://www.globio.info/download-grip-dataset": [
+"blocked_here",
+"000"
+],
+"https://www.gmrt.org/": [
+"blocked_here",
+"000"
+],
+"https://www.gob.mx/conagua": [
+"blocked_here",
+"000"
+],
+"https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv": [
+"blocked_here",
+"000"
+],
+"https://www.gov.bw/": [
+"blocked_here",
+"000"
+],
+"https://www.gov.il/en/departments/survey_of_israel": [
+"blocked_here",
+"000"
+],
+"https://www.govmap.gov.il/": [
+"blocked_here",
+"000"
+],
+"https://www.gsi.ie/en-ie/data-and-maps/Pages/Groundwater.aspx": [
+"blocked_here",
+"000"
+],
+"https://www.gsi.ie/en-ie/data-and-maps/Pages/default.aspx": [
+"blocked_here",
+"000"
+],
+"https://www.harita.gov.tr/": [
+"blocked_here",
+"000"
+],
+"https://www.health.state.mn.us/communities/environment/water/mwi/index.html": [
+"blocked_here",
+"000"
+],
+"https://www.here.com/platform/map-data": [
+"blocked_here",
+"000"
+],
+"https://www.hydraulique.gouv.ne/": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/hydroatlas": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/hydrosheds-core-downloads": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/products/gloric": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/products/glwd": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/products/hydrobasins": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/products/hydrolakes": [
+"blocked_here",
+"000"
+],
+"https://www.hydrosheds.org/products/hydrorivers": [
+"blocked_here",
+"000"
+],
+"https://www.ibge.gov.br/geociencias/cartas-e-mapas/bases-cartograficas-continuas/15759-brasil.html": [
+"blocked_here",
+"000"
+],
+"https://www.ide.cl/": [
+"blocked_here",
+"000"
+],
+"https://www.ideca.gov.co/": [
+"blocked_here",
+"000"
+],
+"https://www.idep.gob.pe/": [
+"blocked_here",
+"000"
+],
+"https://www.ign.gob.ar/NuestrasActividades/Geodesia/ModeloDigitalElevaciones/Introduccion": [
+"blocked_here",
+"000"
+],
+"https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/CapasSIG": [
+"blocked_here",
+"000"
+],
+"https://www.impact-initiatives.org/resource-centre/": [
+"blocked_here",
+"000"
+],
+"https://www.inegi.org.mx/app/geo2/elevacionesmex/": [
+"blocked_here",
+"000"
+],
+"https://www.inegi.org.mx/temas/caminos/": [
+"blocked_here",
+"000"
+],
+"https://www.inegi.org.mx/temas/hidrografia/": [
+"blocked_here",
+"000"
+],
+"https://www.inegi.org.mx/temas/mg/": [
+"blocked_here",
+"000"
+],
+"https://www.inegi.org.mx/temas/relieve/": [
+"blocked_here",
+"000"
+],
+"https://www.inegi.org.mx/temas/usosuelo/": [
+"blocked_here",
+"000"
+],
+"https://www.intelligence-airbusds.com/worlddem-neo/": [
+"blocked_here",
+"000"
+],
+"https://www.intermap.com/nextmap": [
+"blocked_here",
+"000"
+],
+"https://www.intertidal.app/": [
+"blocked_here",
+"000"
+],
+"https://www.isprambiente.gov.it/it/attivita/suolo-e-territorio/suolo/il-consumo-di-suolo/i-dati-sul-consumo-di-suolo": [
+"blocked_here",
+"000"
+],
+"https://www.isprambiente.gov.it/it/banche-dati": [
+"blocked_here",
+"000"
+],
+"https://www.jpl.nasa.gov/go/opera/products/dswx-product-suite/": [
+"blocked_here",
+"000"
+],
+"https://www.jupem.gov.my/": [
+"blocked_here",
+"000"
+],
+"https://www.kanop.io/": [
+"blocked_here",
+"000"
+],
+"https://www.kigalicity.gov.rw/": [
+"blocked_here",
+"000"
+],
+"https://www.krb.go.ke/": [
+"blocked_here",
+"000"
+],
+"https://www.ktimatologio.gr/": [
+"blocked_here",
+"000"
+],
+"https://www.lands.rw/": [
+"blocked_here",
+"000"
+],
+"https://www.lantmateriet.se/sv/geodata/vara-produkter/": [
+"blocked_here",
+"000"
+],
+"https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/laserdata-nedladdning-skog/": [
+"blocked_here",
+"000"
+],
+"https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/markhojdmodell-nedladdning/": [
+"blocked_here",
+"000"
+],
+"https://www.lgia.gov.lv/": [
+"blocked_here",
+"000"
+],
+"https://www.lvbcom.org/": [
+"blocked_here",
+"000"
+],
+"https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/elevation-model-2-m": [
+"blocked_here",
+"000"
+],
+"https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/laser-scanning-data-5-p": [
+"blocked_here",
+"000"
+],
+"https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/topographic-database": [
+"blocked_here",
+"000"
+],
+"https://www.maji.go.tz/": [
+"blocked_here",
+"000"
+],
+"https://www.mapillary.com/developer": [
+"blocked_here",
+"000"
+],
+"https://www.maptiler.com/terrain/": [
+"blocked_here",
+"000"
+],
+"https://www.mawlr.gov.na/": [
+"blocked_here",
+"000"
+],
+"https://www.maxar.com/": [
+"blocked_here",
+"000"
+],
+"https://www.maxar.com/precision3d": [
+"blocked_here",
+"000"
+],
+"https://www.mineau.gov.mg/": [
+"blocked_here",
+"000"
+],
+"https://www.miteco.gob.es/": [
+"blocked_here",
+"000"
+],
+"https://www.mlit.go.jp/plateau/open-data/": [
+"blocked_here",
+"000"
+],
+"https://www.mowie.gov.et/": [
+"blocked_here",
+"000"
+],
+"https://www.mrd.gov.kh/": [
+"blocked_here",
+"000"
+],
+"https://www.mrlc.gov/data": [
+"blocked_here",
+"000"
+],
+"https://www.mwdsep.gov.zm/": [
+"blocked_here",
+"000"
+],
+"https://www.mwe.go.ug/": [
+"blocked_here",
+"000"
+],
+"https://www.mwi.gov.jo/": [
+"blocked_here",
+"000"
+],
+"https://www.namria.gov.ph/": [
+"blocked_here",
+"000"
+],
+"https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php": [
+"blocked_here",
+"000"
+],
+"https://www.nationaalwegenbestand.nl/": [
+"blocked_here",
+"000"
+],
+"https://www.natt.is/": [
+"blocked_here",
+"000"
+],
+"https://www.naturalearthdata.com/downloads/10m-cultural-vectors/roads/": [
+"blocked_here",
+"000"
+],
+"https://www.naturalearthdata.com/downloads/10m-physical-vectors/": [
+"blocked_here",
+"000"
+],
+"https://www.nature.com/articles/s41597-024-03719-w": [
+"blocked_here",
+"000"
+],
+"https://www.naturvardsverket.se/verktyg-och-tjanster/kartor-och-karttjanster/nationella-marktackedata/": [
+"blocked_here",
+"000"
+],
+"https://www.ncei.noaa.gov/products/coastal-elevation-models": [
+"blocked_here",
+"000"
+],
+"https://www.ncei.noaa.gov/products/etopo-global-relief-model": [
+"blocked_here",
+"000"
+],
+"https://www.neonscience.org/data": [
+"blocked_here",
+"000"
+],
+"https://www.ngi.gov.za/": [
+"blocked_here",
+"000"
+],
+"https://www.ngii.go.kr/": [
+"blocked_here",
+"000"
+],
+"https://www.nibio.no/": [
+"blocked_here",
+"000"
+],
+"https://www.nve.no/": [
+"blocked_here",
+"000"
+],
+"https://www.nwrb.gov.ph/": [
+"blocked_here",
+"000"
+],
+"https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model": [
+"blocked_here",
+"000"
+],
+"https://www.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page": [
+"blocked_here",
+"000"
+],
+"https://www.ofor.sn/": [
+"blocked_here",
+"000"
+],
+"https://www.onemap.gov.sg/": [
+"blocked_here",
+"000"
+],
+"https://www.onep.ci/": [
+"blocked_here",
+"000"
+],
+"https://www.opengeodata.nrw.de/produkte/": [
+"blocked_here",
+"000"
+],
+"https://www.opengeodata.nrw.de/produkte/geobasis/3dg/": [
+"blocked_here",
+"000"
+],
+"https://www.opengeodata.nrw.de/produkte/geobasis/hm/": [
+"blocked_here",
+"000"
+],
+"https://www.opentopodata.org/": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-mastermap-building-height-attribute": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-mastermap-highways-network": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-mastermap-topography-layer": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-open-map-local": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-open-rivers": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-open-roads": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-terrain-5": [
+"blocked_here",
+"000"
+],
+"https://www.ordnancesurvey.co.uk/products/os-terrain-50": [
+"blocked_here",
+"000"
+],
+"https://www.pdok.nl/": [
+"blocked_here",
+"000"
+],
+"https://www.pdok.nl/introductie/-/article/basisregistratie-adressen-en-gebouwen-ba-1": [
+"blocked_here",
+"000"
+],
+"https://www.pgc.umn.edu/data/arcticdem/": [
+"blocked_here",
+"000"
+],
+"https://www.pgc.umn.edu/data/earthdem/": [
+"blocked_here",
+"000"
+],
+"https://www.pgc.umn.edu/data/rema/": [
+"blocked_here",
+"000"
+],
+"https://www.planet.com/": [
+"blocked_here",
+"000"
+],
+"https://www.planet.com/products/forest-carbon/": [
+"blocked_here",
+"000"
+],
+"https://www.rcmrd.org/": [
+"blocked_here",
+"000"
+],
+"https://www.reachhydro.org/home/params/merit-basins": [
+"blocked_here",
+"000"
+],
+"https://www.refill.org.uk/": [
+"blocked_here",
+"000"
+],
+"https://www.resdc.cn/": [
+"blocked_here",
+"000"
+],
+"https://www.rfa.gov.rw/": [
+"blocked_here",
+"000"
+],
+"https://www.rwims.org/": [
+"blocked_here",
+"000"
+],
+"https://www.sandre.eaufrance.fr/": [
+"blocked_here",
+"000"
+],
+"https://www.sinas.gov.mz/": [
+"blocked_here",
+"000"
+],
+"https://www.siose.es/": [
+"blocked_here",
+"000"
+],
+"https://www.smhi.se/data/hydrologi/vattenwebb": [
+"blocked_here",
+"000"
+],
+"https://www.soest.hawaii.edu/pwessel/gshhg/": [
+"blocked_here",
+"000"
+],
+"https://www.stadt-zuerich.ch/geodaten/": [
+"blocked_here",
+"000"
+],
+"https://www.statcan.gc.ca/en/lode/databases/odb": [
+"blocked_here",
+"000"
+],
+"https://www.swisstopo.admin.ch/en/height-model-swissalti3d": [
+"blocked_here",
+"000"
+],
+"https://www.swisstopo.admin.ch/en/height-model-swisssurface3d": [
+"blocked_here",
+"000"
+],
+"https://www.swisstopo.admin.ch/en/landscape-model-swissbuildings3d-3-0-beta": [
+"blocked_here",
+"000"
+],
+"https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d": [
+"blocked_here",
+"000"
+],
+"https://www.swordexplorer.com/": [
+"blocked_here",
+"000"
+],
+"https://www.syke.fi/en-US/Open_information/Spatial_datasets": [
+"blocked_here",
+"000"
+],
+"https://www.tailte.ie/": [
+"blocked_here",
+"000"
+],
+"https://www.tailte.ie/surveying/products/professional-mapping/national-land-cover-map/": [
+"blocked_here",
+"000"
+],
+"https://www.tgos.tw/": [
+"blocked_here",
+"000"
+],
+"https://www.theia-land.fr/en/ceslist/land-cover-sec/": [
+"blocked_here",
+"000"
+],
+"https://www.tomtom.com/products/orbis-maps/": [
+"blocked_here",
+"000"
+],
+"https://www.twdb.texas.gov/groundwater/data/drillersdb.asp": [
+"blocked_here",
+"000"
+],
+"https://www.unescap.org/our-work/transport/asian-highway": [
+"blocked_here",
+"000"
+],
+"https://www.usgs.gov/3d-elevation-program": [
+"blocked_here",
+"000"
+],
+"https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-30-arc-second-elevation-gtopo30": [
+"blocked_here",
+"000"
+],
+"https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-hydro1k": [
+"blocked_here",
+"000"
+],
+"https://www.usgs.gov/coastal-changes-and-impacts/gmted2010": [
+"blocked_here",
+"000"
+],
+"https://www.usgs.gov/national-hydrography": [
+"blocked_here",
+"000"
+],
+"https://www.usgs.gov/us-board-on-geographic-names/download-gnis-data": [
+"blocked_here",
+"000"
+],
+"https://www.vegvesen.no/fag/teknologi/nasjonal-vegdatabank/": [
+"blocked_here",
+"000"
+],
+"https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/earth-observation-data-science-eodas/het-digitaal-hoogtemodel": [
+"blocked_here",
+"000"
+],
+"https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/geografische-webdiensten-en-applicaties/grb": [
+"blocked_here",
+"000"
+],
+"https://www.vworld.kr/": [
+"blocked_here",
+"000"
+],
+"https://www.wasac.rw/": [
+"blocked_here",
+"000"
+],
+"https://www.washdata-sl.org/": [
+"blocked_here",
+"000"
+],
+"https://www.waterpointdata.org/": [
+"blocked_here",
+"000"
+],
+"https://www.waterpointmapper.org/": [
+"blocked_here",
+"000"
+],
+"https://www.waze.com/wazeforcities": [
+"blocked_here",
+"000"
+],
+"https://www.webmap.cn/": [
+"blocked_here",
+"000"
+],
+"https://www.whymap.org/": [
+"blocked_here",
+"000"
+],
+"https://www.worldvision.org/clean-water": [
+"blocked_here",
+"000"
+],
+"https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database": [
+"blocked_here",
+"000"
+],
+"https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world": [
+"blocked_here",
+"000"
+],
+"https://www.wri.org/aqueduct": [
+"blocked_here",
+"000"
+],
+"https://www.wur.nl/nl/onderzoek-resultaten/onderzoeksinstituten/environmental-research/faciliteiten-tools/kaarten-en-gis-bestanden/landelijk-grondgebruik-nederland.htm": [
+"blocked_here",
+"000"
+],
+"https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/rnf-frr/index-eng.cfm": [
+"blocked_here",
+"000"
+],
+"https://www2.bgs.ac.uk/groundwater/international/africanGroundwater/": [
+"blocked_here",
+"000"
+],
+"https://www2.cifor.org/global-wetlands/": [
+"blocked_here",
+"000"
+],
+"https://www2.gov.bc.ca/gov/content/data/geographic-data-services/topographic-data/roads": [
+"blocked_here",
+"000"
+],
+"https://xview2.org/": [
+"blocked_here",
+"000"
+]
+}

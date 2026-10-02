@@ -1,0 +1,103 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+Hansen Global Forest Change v1.12|UMD GLAD / Google|G|World|raster|30 m, 2000-2024|2025|CC-BY 4.0|Y|dl|https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html|-
+JRC Tropical Moist Forest (TMF)|EC JRC|G|Pan-tropics|raster|30 m, 1990-2024|2025|CC-BY 4.0|Y|dl|https://forobs.jrc.ec.europa.eu/TMF|-
+JRC Global Forest Cover 2020 (GFC2020, EUDR)|EC JRC|G|World|raster|10 m|2024|CC-BY 4.0|Y|dl|https://forobs.jrc.ec.europa.eu/GFC|-
+Meta/WRI Global Canopy Height v1|Meta / WRI|G|World|raster|1 m|2024|CC-BY 4.0|Y|dl|https://registry.opendata.aws/dataforgood-fb-forests/|-
+ETH Global Canopy Height 2020 (Lang)|ETH Zurich|G|World|raster|10 m|2022|CC-BY 4.0|Y|dl|https://langnico.github.io/globalcanopyheight/|-
+GLAD Global Forest Canopy Height 2019 (Potapov)|UMD GLAD|G|World|raster|30 m|2021|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/gedi/|-
+GLAD Forest extent and height change 2000-2020|UMD GLAD|G|World|raster|30 m|2022|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/GLCLUC2020|-
+GLAD Global Land Cover and Land Use Change|UMD GLAD|G|World|raster|30 m|2022|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/GLCLUC2020|-
+Simard Global Forest Canopy Height 2005|NASA JPL|G|World|raster|1 km|2011|Public domain|Y|dl|https://webmap.ornl.gov/wcsdown/dataset.jsp?ds_id=10023|-
+GEDI L2A/L2B canopy metrics|NASA/UMD|G|51.6N-51.6S|points|25 m|2025|NASA open|Y|reg|https://lpdaac.usgs.gov/products/gedi02_bv002/|-
+GEDI L4A footprint biomass|NASA/ORNL DAAC|G|51.6N-51.6S|points|25 m|2024|NASA open|Y|reg|https://daac.ornl.gov/GEDI/guides/GEDI_L4A_AGB_Density_V2_1.html|-
+GEDI L4B gridded biomass|NASA/ORNL DAAC|G|51.6N-51.6S|raster|1 km|2023|NASA open|Y|reg|https://daac.ornl.gov/GEDI/guides/GEDI_L4B_Gridded_Biomass_V2_1.html|-
+ICESat-2 ATL08 canopy|NASA|G|World|points|photon|2026|NASA open|Y|reg|https://nsidc.org/data/atl08|-
+ESA CCI Biomass|ESA CCI|G|World|raster|100 m|2024|CC-BY 4.0|Y|dl|https://climate.esa.int/en/projects/biomass/data/|-
+Global Mangrove Watch v3|Aberystwyth/JAXA/WI|G|Tropics|vector/raster|25 m|2022|CC-BY 4.0|Y|dl|https://www.globalmangrovewatch.org/|-
+Primary humid tropical forests 2001 (Turubanova)|UMD GLAD|G|Tropics|raster|30 m|2018|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/primary-forest-humid-tropics|-
+Intact Forest Landscapes 2020|IFL Mapping Team|G|World|vector|1:1M|2021|CC-BY 4.0|Y|dl|https://intactforests.org/data.ifl.html|-
+WRI Natural Forests of the World 2020|WRI / SBTN|G|World|raster|10 m|2025|CC-BY 4.0|Y|dl|https://data.globalforestwatch.org/|-
+Global Forest Watch tree cover loss drivers|WRI|G|World|raster|1 km|2025|CC-BY 4.0|Y|dl|https://data.globalforestwatch.org/|-
+Spatial Database of Planted Trees (SDPT v2)|WRI|G|158 countries|vector|varies|2023|CC-BY 4.0|Y|dl|https://data.globalforestwatch.org/|-
+Global Forest Management (Lesiv 2022)|IIASA|G|World|raster|100 m|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.5879022|-
+Global planted forest (Du et al. 2022)|Du et al.|G|World|raster|30 m|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.6563695|-
+Global tree density (Crowther 2015)|Yale/ETH|G|World|raster|1 km|2015|CC-BY 4.0|Y|dl|https://elischolar.library.yale.edu/yale_fes_data/1/|-
+MODIS VCF MOD44B tree cover|NASA|G|World|raster|250 m annual|2025|NASA open|Y|reg|https://lpdaac.usgs.gov/products/mod44bv061/|-
+Landsat VCF tree cover (GLCF / Sexton)|UMD GLCF|G|World|raster|30 m|2015|Open|Y|dl|https://lpdaac.usgs.gov/products/gfcc30tcv003/|-
+JAXA PALSAR/PALSAR-2 Forest/Non-Forest|JAXA|G|World|raster|25 m|2024|JAXA free terms|Y|reg|https://www.eorc.jaxa.jp/ALOS/en/dataset/fnf_e.htm|-
+TanDEM-X Forest/Non-Forest|DLR|G|World|raster|50 m|2020|DLR science|R|reg|https://geoservice.dlr.de/web/maps/tdm:forest|-
+ESA WorldCover tree cover class|ESA|G|World|raster|10 m|2022|CC-BY 4.0|Y|dl|https://esa-worldcover.org/|-
+Dynamic World trees class|Google/WRI|G|World|raster|10 m NRT|2026|CC-BY 4.0|Y|api|https://dynamicworld.app/|-
+Esri/Impact Observatory LULC trees class|Esri/IO|G|World|raster|10 m annual|2025|CC-BY 4.0|Y|dl|https://livingatlas.arcgis.com/landcoverexplorer/|-
+Copernicus Global Land Cover LC100 forest type|Copernicus GLS|G|World|raster|100 m|2020|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/global-dynamic-land-cover|-
+GLC_FCS30D forest classes|CAS AIR|G|World|raster|30 m, 1985-2022|2024|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.8239305|-
+GlobeLand30 forest class|NGCC China|G|World|raster|30 m|2020|Free registration|R|reg|http://www.globallandcover.com/|-
+ESA CCI Land Cover tree classes|ESA CCI / C3S|G|World|raster|300 m|2023|CC-BY 4.0 (C3S)|Y|reg|https://cds.climate.copernicus.eu/datasets/satellite-land-cover|-
+FAO Global Forest Resources Assessment (FRA)|FAO|G|World|statistics|country|2025|CC-BY-NC-SA 3.0 IGO|N|dl|https://fra-data.fao.org/|-
+FAO FRA Remote Sensing Survey|FAO|G|World|samples|plots|2022|CC-BY-NC-SA 3.0 IGO|N|dl|https://www.fao.org/forest-resources-assessment/remote-sensing/fra-2020-remote-sensing-survey/en/|-
+Copernicus HRL Tree Cover Density|EEA/Copernicus|C|EEA-39|raster|10 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-tree-cover-density|-
+Copernicus HRL Forest Type / Dominant Leaf Type|EEA/Copernicus|C|EEA-39|raster|10 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-forest-type|-
+Copernicus CLCplus Backbone|EEA/Copernicus|C|EEA-39|raster|10 m|2023|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/clc-backbone|-
+Copernicus Small Woody Features|EEA/Copernicus|C|EEA-39|raster/vector|5 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-small-woody-features|-
+EFI Forest map of Europe|European Forest Institute|C|Europe|raster|1 km|2011|Free registration|R|reg|https://efi.int/knowledge/maps/forestmap|-
+EU-Forest tree occurrences (Mauri 2017)|JRC|C|Europe|points|1 km|2017|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.c.3288407|-
+European forest canopy height 2020 (Liu et al.)|Liu et al.|C|Europe|raster|30 m|2023|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.8154445|-
+Germany tree species map (Blickensdoerfer)|Thuenen Institute|N|Germany|raster|10 m|2024|CC-BY 4.0|Y|dl|https://doi.org/10.3220/DATA20221214084846|-
+USFS TreeMap 2022|US Forest Service|N|USA|raster|30 m|2024|Public domain|Y|dl|https://data.fs.usda.gov/geodata/rastergateway/treemap/|-
+USFS FIA plots (fuzzed)|US Forest Service|N|USA|points|plots|2025|Public domain|Y|dl|https://research.fs.usda.gov/programs/fia|-
+LANDFIRE EVH/EVC/EVT|USGS/USFS|N|USA|raster|30 m|2024|Public domain|Y|dl|https://landfire.gov/|-
+NLCD Tree Canopy Cover|USFS / MRLC|N|USA|raster|30 m annual|2023|Public domain|Y|dl|https://www.mrlc.gov/data|-
+NASA ABoVE forest products|NASA ORNL DAAC|C|Alaska/Canada|raster|30 m|2023|NASA open|Y|reg|https://above.nasa.gov/|-
+Canada NTEMS forest structure / species|NRCan CFS|N|Canada|raster|30 m|2024|Open Government Licence|Y|dl|https://opendata.nfis.org/|-
+Canada National Forest Inventory|NRCan CFS|N|Canada|grid/plots|plots|2023|Open Government Licence|Y|dl|https://nfi.nfis.org/|-
+Forests of Australia (NFI)|ABARES|N|Australia|raster|100 m|2023|CC-BY 4.0|Y|dl|https://www.agriculture.gov.au/abares/forestsaustralia|-
+NZ LCDB v5 forest classes|Manaaki Whenua|N|New Zealand|vector|1 ha MMU|2020|CC-BY 4.0|Y|dl|https://lris.scinfo.org.nz/|-
+MapBiomas Brazil (forest)|MapBiomas|N|Brazil|raster|30 m, 1985-2024|2025|CC-BY 4.0|Y|dl|https://brasil.mapbiomas.org/en/|-
+MapBiomas Amazonia (RAISG)|MapBiomas/RAISG|C|Amazon basin|raster|30 m|2024|CC-BY 4.0|Y|dl|https://amazonia.mapbiomas.org/|-
+MapBiomas Chaco|MapBiomas|C|Gran Chaco|raster|30 m|2024|CC-BY 4.0|Y|dl|https://chaco.mapbiomas.org/|-
+MapBiomas Atlantic Forest (Bosque Atlantico)|MapBiomas|C|Atlantic Forest|raster|30 m|2024|CC-BY 4.0|Y|dl|https://bosqueatlantico.mapbiomas.org/|-
+MapBiomas Pampa|MapBiomas|C|Pampa|raster|30 m|2024|CC-BY 4.0|Y|dl|https://pampa.mapbiomas.org/|-
+MapBiomas Indonesia|MapBiomas/Auriga|N|Indonesia|raster|30 m|2024|CC-BY 4.0|Y|dl|https://mapbiomas.nusantara.earth/|-
+MapBiomas Peru|MapBiomas|N|Peru|raster|30 m|2024|CC-BY 4.0|Y|dl|https://peru.mapbiomas.org/|-
+MapBiomas Colombia|MapBiomas|N|Colombia|raster|30 m|2024|CC-BY 4.0|Y|dl|https://colombia.mapbiomas.org/|-
+MapBiomas Bolivia|MapBiomas|N|Bolivia|raster|30 m|2024|CC-BY 4.0|Y|dl|https://bolivia.mapbiomas.org/|-
+MapBiomas Ecuador|MapBiomas|N|Ecuador|raster|30 m|2024|CC-BY 4.0|Y|dl|https://ecuador.mapbiomas.org/|-
+MapBiomas Venezuela|MapBiomas|N|Venezuela|raster|30 m|2024|CC-BY 4.0|Y|dl|https://venezuela.mapbiomas.org/|-
+MapBiomas Paraguay|MapBiomas|N|Paraguay|raster|30 m|2024|CC-BY 4.0|Y|dl|https://paraguay.mapbiomas.org/|-
+MapBiomas Argentina|MapBiomas|N|Argentina|raster|30 m|2024|CC-BY 4.0|Y|dl|https://argentina.mapbiomas.org/|-
+MapBiomas Chile|MapBiomas|N|Chile|raster|30 m|2024|CC-BY 4.0|Y|dl|https://chile.mapbiomas.org/|-
+MapBiomas Uruguay|MapBiomas|N|Uruguay|raster|30 m|2024|CC-BY 4.0|Y|dl|https://uruguay.mapbiomas.org/|-
+INPE PRODES deforestation|INPE|N|Brazil|vector|30 m annual|2025|CC-BY-SA 4.0|Y|dl|https://terrabrasilis.dpi.inpe.br/en/home-page/|-
+INPE DETER alerts|INPE|N|Brazil|vector|near real time|2026|CC-BY-SA 4.0|Y|dl|https://terrabrasilis.dpi.inpe.br/en/home-page/|-
+GLAD forest disturbance alerts|UMD GLAD / GFW|G|Tropics|raster|30 m weekly|2026|CC-BY 4.0|Y|dl|https://data.globalforestwatch.org/|-
+RADD alerts (Sentinel-1)|Wageningen / GFW|G|Tropics|raster|10 m|2026|CC-BY 4.0|Y|dl|https://data.globalforestwatch.org/|-
+Nusantara Atlas|TheTreeMap|N|Indonesia/Malaysia|raster|30 m|2025|CC-BY 4.0|Y|dl|https://nusantara-atlas.org/|-
+Indonesia KLHK forest cover (SIGAP)|Ministry of Environment and Forestry|N|Indonesia|vector|1:250k|2023|Restricted|R|reg|https://sigap.menlhk.go.id/|-
+India State of Forest Report (FSI)|Forest Survey of India|N|India|raster|23.5 m|2023|Restricted|R|req|https://fsi.nic.in/|-
+OSFAC FACET Congo Basin|OSFAC/UMD|C|Congo Basin|raster|60 m|2013|Open|Y|dl|https://glad.umd.edu/projects/forest-monitoring-congo-basin|-
+CAFI forest maps|Central African Forest Initiative|C|Central Africa|raster|30 m|2021|Restricted|R|req|https://www.cafi.org/|-
+Rwanda forest cover map (Rwanda Forestry Authority)|Rwanda Forestry Authority|N|Rwanda|vector|1:10k|2019|Restricted|R|req|https://www.rfa.gov.rw/|-
+Russia forest map (Bartalev, IKI)|IKI RAS|N|Russia|raster|230 m|2021|Restricted|R|req|http://smiswww.iki.rssi.ru/|-
+China forest canopy height 2019 (Liu)|Liu et al.|N|China|raster|30 m|2022|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.6575731|-
+CTrees LUCA / tree-level|CTrees|G|World|raster|30 m|2025|Free for non-commercial|R|reg|https://ctrees.org/|-
+Planet Forest Carbon Diligence|Planet|G|World|raster|30 m|2025|Commercial|P|com|https://www.planet.com/products/forest-carbon/|-
+Chloris Geospatial biomass|Chloris|G|World|raster|30 m|2025|Commercial|P|com|https://chloris.earth/|-
+Kanop forest analytics|Kanop|G|World|raster|10 m|2025|Commercial|P|com|https://www.kanop.io/|-
+Restor ecological data|Restor|G|World|platform|mixed|2025|Mixed|R|reg|https://restor.eco/|-
+Global Forest Canopy Height 2020 (Pauls et al. 2024)|Pauls et al.|G|World|raster|10 m|2024|CC-BY 4.0|Y|dl|https://github.com/AI4Forest/Global-Canopy-Height-Map|-
+NASA/GEDI global canopy height 2019-2023 (Potapov update)|UMD GLAD|G|World|raster|30 m|2024|CC-BY 4.0|Y|dl|https://glad.umd.edu/dataset/gedi/|-
+Sentinel-2 10 m canopy height Europe (Lang/ETH v2)|ETH Zurich|C|Europe|raster|10 m|2023|CC-BY 4.0|Y|dl|https://langnico.github.io/globalcanopyheight/|-
+High Carbon Stock Approach maps|HCSA|S|Plantation regions|vector|varies|2024|Restricted|R|req|https://highcarbonstock.org/|-
+OpenStreetMap forest/wood polygons|OpenStreetMap Foundation|G|World|vector|survey|2026|ODbL|Y|dl|https://wiki.openstreetmap.org/wiki/Tag:landuse%3Dforest|-
+Overture land_cover forest class|Overture Maps Foundation|G|World|vector|ESA WorldCover-derived|2026|CDLA/ODbL|Y|dl|https://docs.overturemaps.org/guides/base/|-
+Copernicus Global Land Service FCover|Copernicus GLS|G|World|raster|300 m|2026|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/vegetation|-
+MODIS MCD12Q1 forest classes|NASA|G|World|raster|500 m|2024|NASA open|Y|reg|https://lpdaac.usgs.gov/products/mcd12q1v061/|-
+Global Ecosystem Typology (IUCN)|IUCN|G|World|raster|1 km|2022|CC-BY 4.0|Y|dl|https://global-ecosystems.org/|-
+WWF Terrestrial Ecoregions|WWF|G|World|vector|1:1M|2017|Free with attribution|Y|dl|https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world|-
+ForestPlots.net|University of Leeds|G|Tropics plots|points|plots|2025|Restricted|R|req|https://forestplots.net/|-
+GEO-TREES biomass reference|GEO-TREES consortium|G|Reference sites|points/lidar|plots|2025|Open (planned)|Y|reg|https://geo-trees.org/|-
+NEON lidar canopy height|NEON (NSF)|N|USA sites|raster|1 m|2025|CC0|Y|dl|https://www.neonscience.org/data|-
+WRI Tropical Tree Cover 10 m (Brandt et al. 2023)|WRI|G|Tropics|raster|10 m|2023|CC-BY 4.0|Y|dl|https://data.globalforestwatch.org/|-
+EU Observatory on deforestation (EUDR)|European Commission JRC|G|World|platform|10 m|2025|CC-BY 4.0|Y|dl|https://forest-observatory.ec.europa.eu/|-
+Global drylands tree cover (Bastin 2017)|FAO Collect Earth|G|Drylands|points|plots|2017|CC-BY 4.0|Y|dl|https://doi.org/10.1126/science.aam6527|-
+ESA CCI High Resolution Land Cover (forest)|ESA CCI|C|Amazon, Africa, Siberia|raster|10 m|2023|CC-BY 4.0|Y|dl|https://climate.esa.int/en/projects/high-resolution-land-cover/|-

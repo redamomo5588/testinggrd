@@ -1,0 +1,105 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+OpenStreetMap buildings|OpenStreetMap Foundation|G|World|vector|survey/trace|2026|ODbL|Y|dl|https://planet.openstreetmap.org/|-
+Overture Maps buildings|Overture Maps Foundation|G|World|vector|conflated|2026|ODbL|Y|dl|https://docs.overturemaps.org/guides/buildings/|-
+Google Open Buildings v3|Google Research|G|Africa, S/SE Asia, LatAm, Caribbean|vector|50 cm ML|2023|CC-BY 4.0 / ODbL|Y|dl|https://sites.research.google/gr/open-buildings/|-
+Google Open Buildings 2.5D Temporal|Google Research|G|Global South|raster|4 m, 2016-2023|2024|CC-BY 4.0|Y|dl|https://sites.research.google/gr/open-buildings/temporal/|-
+Microsoft Global ML Building Footprints|Microsoft|G|World|vector|ML|2024|ODbL|Y|dl|https://github.com/microsoft/GlobalMLBuildingFootprints|-
+Microsoft US Building Footprints|Microsoft|N|USA|vector|ML|2018|ODbL|Y|dl|https://github.com/microsoft/USBuildingFootprints|-
+Microsoft Canadian Building Footprints|Microsoft|N|Canada|vector|ML|2019|ODbL|Y|dl|https://github.com/microsoft/CanadianBuildingFootprints|-
+Microsoft Australia Building Footprints|Microsoft|N|Australia|vector|ML|2020|ODbL|Y|dl|https://github.com/microsoft/AustraliaBuildingFootprints|-
+GlobalBuildingAtlas polygons (GBA.Polygon / ODbLPolygon)|TUM (Zhu et al.)|G|World|vector|3 m ML+fusion|2025|ODbL / CC-BY-NC 4.0|R|dl|https://huggingface.co/datasets/zhu-xlab/GBA.LoD1|-
+VIDA Google-Microsoft-OSM combined footprints|VIDA / Source Cooperative|G|World|vector|conflated|2024|ODbL|Y|dl|https://source.coop/repositories/vida/google-microsoft-osm-open-buildings/description|-
+3D-GloBFP|Che et al. (ESSD 2024)|G|World|vector|ML|2024|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.11319913|-
+UT-GLOBUS|UT Austin (Kamath et al.)|G|1,200+ cities|vector|ML|2024|CC-BY 4.0|Y|dl|https://www.nature.com/articles/s41597-024-03719-w|-
+EUBUCCO|KIT/TUB (Milojevic-Dupont)|C|EU-27 + CH|vector|official+OSM|2023|ODbL / mixed|Y|dl|https://eubucco.com/|-
+Ecopia building footprints|Ecopia AI|G|World (paid)|vector|imagery ML|2025|Commercial|P|com|https://www.ecopiatech.com/|-
+Vantor (Maxar) building footprints|Vantor/Maxar|G|World (paid)|vector|imagery|2025|Commercial|P|com|https://www.maxar.com/|-
+Esri Living Atlas building layers|Esri|G|World (various)|vector|mixed|2025|Esri terms|R|api|https://livingatlas.arcgis.com/|-
+GHS-BUILT-S (built-up surface)|EC JRC GHSL|G|World|raster|10-100 m, 1975-2030|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/download.php|-
+GHS-BUILT-V (built-up volume)|EC JRC GHSL|G|World|raster|100 m|2023|CC-BY 4.0|Y|dl|https://human-settlement.emergency.copernicus.eu/download.php|-
+World Settlement Footprint 2019|DLR|G|World|raster|10 m|2021|CC-BY 4.0|Y|dl|https://geoservice.dlr.de/web/maps/eoc:wsf2019|-
+WSF Evolution 1985-2015|DLR|G|World|raster|30 m|2021|CC-BY 4.0|Y|dl|https://geoservice.dlr.de/web/maps/eoc:wsfevolution|-
+Global Urban Footprint|DLR|G|World|raster|12 m|2016|Research/free|R|reg|https://www.dlr.de/en/eoc/research-transfer/projects-missions/global-urban-footprint|-
+GAIA impervious area|Tsinghua (Gong et al.)|G|World|raster|30 m, 1985-2018|2020|CC-BY 4.0|Y|dl|http://data.ess.tsinghua.edu.cn/|-
+GISA v2 impervious|Wuhan Univ (Huang et al.)|G|World|raster|30 m|2023|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.5791855|-
+Meta High Resolution Settlement Layer|Meta/CIESIN|G|160+ countries|raster|30 m|2023|CC-BY 4.0|Y|dl|https://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps|-
+GRID3 settlement extents|GRID3/CIESIN|C|Sub-Saharan Africa|vector|ML|2023|CC-BY 4.0|Y|dl|https://data.grid3.org/|-
+Copernicus HRL Imperviousness|EEA/Copernicus|C|EEA-39|raster|10 m|2021|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness|-
+Copernicus Urban Atlas|EEA/Copernicus|C|Europe FUAs|vector|1:10k|2021|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/urban-atlas|-
+Open City Model (US)|BuildZero.org|N|USA|3D vector|LoD1|2020|ODbL|Y|dl|https://github.com/opencitymodel/opencitymodel|-
+FEMA USA Structures|FEMA/ORNL|N|USA|vector|imagery|2024|Public domain|Y|dl|https://gis-fema.hub.arcgis.com/pages/usa-structures|-
+NYC building footprints|NYC DoITT|S|New York City|vector|survey|2026|Public domain|Y|dl|https://data.cityofnewyork.us/Housing-Development/Building-Footprints/5zhs-2jue|-
+LA County building outlines|LA County|S|Los Angeles County|vector|LiDAR|2024|Public domain|Y|dl|https://egis-lacounty.hub.arcgis.com/|-
+Chicago building footprints|City of Chicago|S|Chicago|vector|survey|2025|Public domain|Y|dl|https://data.cityofchicago.org/|-
+San Francisco building footprints|DataSF|S|San Francisco|vector|LiDAR|2025|PDDL|Y|dl|https://data.sfgov.org/|-
+StatCan Open Database of Buildings|Statistics Canada|N|Canada|vector|municipal|2023|Open Government Licence|Y|dl|https://www.statcan.gc.ca/en/lode/databases/odb|-
+INEGI Marco Geoestadistico (manzanas)|INEGI|N|Mexico|vector|blocks|2024|INEGI libre uso|Y|dl|https://www.inegi.org.mx/temas/mg/|-
+GeoSampa edificacoes|Prefeitura de Sao Paulo|S|Sao Paulo|vector|survey|2025|Open|Y|dl|https://geosampa.prefeitura.sp.gov.br/|-
+IDECA Bogota construcciones|IDECA|S|Bogota|vector|cadastre|2025|CC-BY 4.0|Y|dl|https://www.ideca.gov.co/|-
+Buenos Aires datos abiertos edificios|GCBA|S|Buenos Aires|vector|cadastre|2025|CC-BY 2.5 AR|Y|dl|https://data.buenosaires.gob.ar/|-
+OS OpenMap Local buildings|Ordnance Survey|N|Great Britain|vector|1:10k|2026|OGL|Y|dl|https://www.ordnancesurvey.co.uk/products/os-open-map-local|-
+OS MasterMap Topography|Ordnance Survey|N|Great Britain|vector|1:1.25k|2026|Commercial|P|com|https://www.ordnancesurvey.co.uk/products/os-mastermap-topography-layer|-
+INSPIRE Index Polygons / Land Registry|HM Land Registry|N|England & Wales|vector|parcels|2026|OGL|Y|dl|https://use-land-property-data.service.gov.uk/datasets/inspire|-
+IGN BD TOPO bati|IGN France|N|France|vector|1:5k|2026|Etalab 2.0|Y|dl|https://geoservices.ign.fr/bdtopo|-
+Cadastre Etalab (batiments)|DGFiP/Etalab|N|France|vector|cadastre|2026|Etalab 2.0|Y|dl|https://cadastre.data.gouv.fr/|-
+BAG (Basisregistratie Adressen en Gebouwen)|Kadaster|N|Netherlands|vector|cadastre|2026|CC0|Y|dl|https://www.pdok.nl/introductie/-/article/basisregistratie-adressen-en-gebouwen-ba-1|-
+GRB Vlaanderen|Digitaal Vlaanderen|S|Flanders|vector|1:250|2026|Modellicentie gratis|Y|dl|https://www.vlaanderen.be/digitaal-vlaanderen/onze-oplossingen/geografische-webdiensten-en-applicaties/grb|-
+UrbIS Brussels|Paradigm Brussels|S|Brussels|vector|1:1k|2025|CC-BY 4.0|Y|dl|https://datastore.brussels/|-
+PICC Wallonie|SPW|S|Wallonia|vector|1:1k|2025|Open|Y|dl|https://geoportail.wallonie.be/|-
+ALKIS Hausumringe (BKG)|BKG / AdV|N|Germany|vector|cadastre|2025|Commercial (some states open)|R|com|https://gdz.bkg.bund.de/|-
+ALKIS NRW open data|Geobasis NRW|S|North Rhine-Westphalia|vector|cadastre|2026|DL-DE Zero 2.0|Y|dl|https://www.opengeodata.nrw.de/produkte/|-
+Berlin ALKIS buildings|Geoportal Berlin|S|Berlin|vector|cadastre|2026|DL-DE Zero 2.0|Y|dl|https://gdi.berlin.de/|-
+Hamburg ALKIS buildings|LGV Hamburg|S|Hamburg|vector|cadastre|2026|DL-DE BY 2.0|Y|dl|https://metaver.de/|-
+Bayern open data buildings|LDBV Bayern|S|Bavaria|vector|cadastre|2025|CC-BY 4.0|Y|dl|https://geodaten.bayern.de/opengeodata/|-
+Sachsen open geodata|GeoSN|S|Saxony|vector|cadastre|2025|DL-DE BY 2.0|Y|dl|https://www.geodaten.sachsen.de/|-
+Thueringen open geodata|TLBG|S|Thuringia|vector|cadastre|2025|DL-DE BY 2.0|Y|dl|https://geoportal.thueringen.de/|-
+Brandenburg open geodata|LGB|S|Brandenburg|vector|cadastre|2025|DL-DE BY 2.0|Y|dl|https://geobroker.geobasis-bb.de/|-
+GeoDanmark buildings / BBR|SDFI|N|Denmark|vector|1:1k|2026|Open|Y|reg|https://dataforsyningen.dk/|-
+Lantmateriet byggnader|Lantmateriet|N|Sweden|vector|1:10k|2025|CC0 (open geodata)|Y|reg|https://www.lantmateriet.se/sv/geodata/vara-produkter/|-
+FKB-Bygning / N50|Kartverket|N|Norway|vector|1:1k-1:50k|2025|CC-BY 4.0 (N50)|Y|dl|https://kartkatalog.geonorge.no/|-
+MML Maastotietokanta buildings|National Land Survey Finland|N|Finland|vector|1:5k|2026|CC-BY 4.0|Y|dl|https://www.maanmittauslaitos.fi/en/maps-and-spatial-data/datasets-and-interfaces/product-descriptions/topographic-database|-
+Helsinki 3D city model|City of Helsinki|S|Helsinki|3D vector|LoD2|2024|CC-BY 4.0|Y|dl|https://hri.fi/|-
+ETAK buildings|Estonian Land Board|N|Estonia|vector|1:2k|2025|Open|Y|dl|https://geoportaal.maaamet.ee/|-
+BDOT10k / EGiB buildings|GUGiK|N|Poland|vector|1:10k|2025|Open|Y|dl|https://www.geoportal.gov.pl/|-
+RUIAN buildings|CUZK|N|Czechia|vector|cadastre|2026|CC-BY 4.0|Y|dl|https://nahlizenidokn.cuzk.cz/StahniAdresniMistaRUIAN.aspx|-
+ZBGIS buildings|UGKK SR|N|Slovakia|vector|1:10k|2025|Open|Y|dl|https://www.geoportal.sk/|-
+swissBUILDINGS3D 3.0|swisstopo|N|Switzerland|3D vector|LoD2|2025|OGD swisstopo|Y|dl|https://www.swisstopo.admin.ch/en/landscape-model-swissbuildings3d-3-0-beta|-
+Catastro INSPIRE buildings|Direccion General del Catastro|N|Spain (excl. Basque/Navarra)|vector|cadastre|2026|Open (attribution)|Y|dl|https://www.catastro.hacienda.gob.es/webinspire/index.html|-
+Geoportale Lombardia DBT|Regione Lombardia|S|Lombardy|vector|1:5k|2024|CC-BY 4.0|Y|dl|https://www.geoportale.regione.lombardia.it/|-
+Vienna building model|Stadt Wien|S|Vienna|3D vector|LoD2|2024|CC-BY 4.0|Y|dl|https://www.data.gv.at/|-
+Zurich 3D buildings|Stadt Zurich|S|Zurich|3D vector|LoD2|2024|CC0|Y|dl|https://www.stadt-zuerich.ch/geodaten/|-
+Rotterdam 3D|Gemeente Rotterdam|S|Rotterdam|3D vector|LoD2|2024|CC0|Y|dl|https://www.3drotterdam.nl/|-
+Ireland GeoDirectory buildings|An Post/Tailte|N|Ireland|points|address|2025|Commercial|P|com|https://www.geodirectory.ie/|-
+Iceland IS 50V buildings|Natt.is|N|Iceland|vector|1:50k|2025|CC-BY 4.0|Y|dl|https://www.natt.is/|-
+LINZ NZ Building Outlines|LINZ|N|New Zealand|vector|imagery|2025|CC-BY 4.0|Y|dl|https://data.linz.govt.nz/layer/101290-nz-building-outlines/|-
+Geoscape Buildings|Geoscape Australia|N|Australia|vector|imagery|2025|Commercial|P|com|https://geoscape.com.au/data/buildings/|-
+PLATEAU 3D city models|MLIT Japan|N|Japan (200+ cities)|3D vector|LoD1-LoD3|2025|CC-BY 4.0 (most)|Y|dl|https://www.mlit.go.jp/plateau/open-data/|-
+GSI basic map buildings|GSI Japan|N|Japan|vector|1:2.5k|2025|GSI terms|Y|reg|https://fgd.gsi.go.jp/download/|-
+Korea building GIS (V-World)|MOLIT Korea|N|South Korea|vector|cadastre|2025|KOGL|Y|api|https://www.vworld.kr/|-
+Singapore OneMap 3D / HDB|SLA Singapore|N|Singapore|3D vector|LoD1|2024|Singapore Open Data Licence|Y|dl|https://www.onemap.gov.sg/|-
+Hong Kong 3D spatial data|Lands Department HK|S|Hong Kong|3D vector|LoD2|2025|Open|Y|dl|https://3d.map.gov.hk/|-
+Taiwan 3D building models|MOI Taiwan|N|Taiwan|3D vector|LoD1-2|2024|OGDL Taiwan|Y|reg|https://3dmaps.nlsc.gov.tw/|-
+CMAB China Multi-Attribute Building|Zhang et al. (2024)|N|China|vector|ML|2024|CC-BY 4.0|Y|dl|https://doi.org/10.6084/m9.figshare.27992417|-
+CBRA China Building Rooftop Area|Liu et al. (ESSD 2023)|N|China|raster|2.5 m|2023|CC-BY 4.0|Y|dl|https://doi.org/10.5281/zenodo.7500612|-
+GRID3 Nigeria settlement / building data|GRID3|N|Nigeria|vector|ML|2023|CC-BY 4.0|Y|dl|https://data.grid3.org/|-
+Cape Town building footprints|City of Cape Town|S|Cape Town|vector|survey|2024|Open|Y|dl|https://odp-cctegis.opendata.arcgis.com/|-
+Kigali city master plan buildings|City of Kigali|S|Kigali|vector|survey|2020|Restricted|R|req|https://www.kigalicity.gov.rw/|-
+HOT Tasking Manager outputs|HOT|G|Humanitarian areas|vector|trace (OSM)|2026|ODbL|Y|dl|https://tasks.hotosm.org/|-
+OpenAerialMap (imagery for tracing)|HOT|G|Partial|imagery|1-50 cm|2026|CC-BY 4.0|Y|dl|https://openaerialmap.org/|-
+SpaceNet buildings (training labels)|SpaceNet/AWS|S|multiple cities|vector|labels|2021|CC-BY-SA 4.0|Y|dl|https://spacenet.ai/datasets/|-
+xView2 xBD (training)|DIU/CMU|S|disaster areas|vector|labels|2019|CC-BY-NC-SA 4.0|N|reg|https://xview2.org/|-
+Inria Aerial Image Labeling (training)|Inria|S|10 cities|raster labels|30 cm|2017|Research|N|reg|https://project.inria.fr/aerialimagelabeling/|-
+WHU building dataset (training)|Wuhan University|S|Christchurch+|raster labels|0.3 m|2019|Research|N|dl|http://gpcv.whu.edu.cn/data/building_dataset.html|-
+Open Cities AI Challenge (training)|GFDRR/World Bank|C|Africa cities|vector labels|imagery|2020|CC-BY 4.0|Y|dl|https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/|-
+Bing Maps footprints in OSM (RapiD)|Microsoft/Meta|G|World|vector|ML|2024|ODbL|Y|api|https://rapideditor.org/|-
+Planet building change|Planet|G|World (paid)|raster|3 m|2025|Commercial|P|com|https://www.planet.com/|-
+Esri World Imagery (tracing)|Esri|G|World|imagery|30 cm-1 m|2026|Esri terms|R|api|https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9|-
+ESA WorldCover built-up class|ESA|G|World|raster|10 m|2022|CC-BY 4.0|Y|dl|https://esa-worldcover.org/|-
+Dynamic World built class|Google/WRI|G|World|raster|10 m NRT|2026|CC-BY 4.0|Y|api|https://dynamicworld.app/|-
+basemap.at buildings|basemap.at (Austrian states)|N|Austria|vector|1:5k|2025|CC-BY 4.0|Y|dl|https://basemap.at/|-
+Lisboa Aberta edificios|Camara Municipal de Lisboa|S|Lisbon|vector|survey|2024|CC-BY 4.0|Y|dl|https://dados.cm-lisboa.pt/|-
+City of Melbourne 3D massing|City of Melbourne|S|Melbourne|3D vector|LoD1|2024|CC-BY 4.0|Y|dl|https://data.melbourne.vic.gov.au/|-
+Toronto 3D massing|City of Toronto|S|Toronto|3D vector|LoD1|2024|OGL Toronto|Y|dl|https://open.toronto.ca/dataset/3d-massing/|-
+Montreal 3D buildings|Ville de Montreal|S|Montreal|3D vector|LoD2|2023|CC-BY 4.0|Y|dl|https://donnees.montreal.ca/|-
+Boston buildings 3D|City of Boston/BPDA|S|Boston|3D vector|LoD1|2023|Public domain|Y|dl|https://data.boston.gov/|-
+Bengaluru building footprints (OpenCity)|OpenCity India|S|Bengaluru|vector|survey|2023|ODbL|Y|dl|https://data.opencity.in/|-

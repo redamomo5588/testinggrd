@@ -1,0 +1,107 @@
+# name|provider|scope|region|type|resolution|year|license|commercial|access|url|topology
+OpenStreetMap planet|OpenStreetMap Foundation|G|World|vector|~1-5 m|2026|ODbL|Y|dl|https://planet.openstreetmap.org/|Y
+OpenStreetMap full history planet|OpenStreetMap Foundation|G|World|vector|~1-5 m|2026|ODbL|Y|dl|https://planet.openstreetmap.org/planet/full-history/|Y
+Overture Maps transportation|Overture Maps Foundation|G|World|vector|~1-5 m|2026|ODbL|Y|dl|https://docs.overturemaps.org/guides/transportation/|Y
+Microsoft Road Detections|Microsoft|G|World|vector|ML ~5-10 m|2022|ODbL|Y|dl|https://github.com/microsoft/RoadDetections|N
+GRIP Global Roads Inventory|PBL Netherlands|G|World|vector|1:250k-1:1M|2018|Attribution (non-commercial terms)|N|dl|https://www.globio.info/download-grip-dataset|N
+gROADS v1|NASA SEDAC/CIESIN|G|World|vector|1:250k+|2013|CC-BY 4.0|Y|reg|https://sedac.ciesin.columbia.edu/data/set/groads-global-roads-open-access-v1|N
+Natural Earth roads 10m|Natural Earth|G|World|vector|1:10M|2023|Public domain|Y|dl|https://www.naturalearthdata.com/downloads/10m-cultural-vectors/roads/|N
+VMap0 transportation|NGA|G|World|vector|1:1M|1997|Public domain|Y|dl|https://earth-info.nga.mil/|N
+Global urban street networks (Boeing)|Harvard Dataverse / G. Boeing|G|8,914 urban areas|vector+graph|OSM|2025|CC0/ODbL|Y|dl|https://dataverse.harvard.edu/dataverse/global-urban-street-networks|Y
+Meta Map With AI road predictions|Meta|G|World (partial)|vector|ML|2023|ODbL|Y|api|https://mapwith.ai/|N
+Daylight Map Distribution|Meta/Daylight|G|World|vector|OSM|2024|ODbL|Y|dl|https://daylightmap.org/|Y
+Geofabrik OSM extracts|Geofabrik|G|World|vector|OSM|2026|ODbL|Y|dl|https://download.geofabrik.de/|Y
+BBBike OSM extracts|BBBike|G|World|vector|OSM|2026|ODbL|Y|dl|https://extract.bbbike.org/|Y
+HOT Export Tool|Humanitarian OpenStreetMap Team|G|World|vector|OSM|2026|ODbL|Y|reg|https://export.hotosm.org/|Y
+Overpass API|OSM community|G|World|vector|OSM|2026|ODbL|Y|api|https://overpass-api.de/|Y
+Protomaps basemap builds|Protomaps|G|World|vector tiles|OSM|2026|ODbL|Y|dl|https://maps.protomaps.com/builds/|N
+OpenMapTiles|MapTiler|G|World|vector tiles|OSM|2025|ODbL+CC-BY|R|dl|https://openmaptiles.org/|N
+OSM QA tiles|Mapbox/OSM Lab|G|World|vector tiles|OSM|2020|ODbL|Y|dl|https://osmlab.github.io/osm-qa-tiles/|N
+HERE Map Content|HERE Technologies|G|World|vector|survey|2026|Commercial|P|com|https://www.here.com/platform/map-data|Y
+TomTom Orbis / MultiNet|TomTom|G|World|vector|survey|2026|Commercial|P|com|https://www.tomtom.com/products/orbis-maps/|Y
+Google Maps Platform Roads API|Google|G|World|api|survey|2026|Commercial|P|api|https://developers.google.com/maps/documentation/roads/overview|N
+Azure Maps|Microsoft|G|World|api|TomTom-based|2026|Commercial|P|api|https://learn.microsoft.com/en-us/azure/azure-maps/|N
+Esri StreetMap Premium|Esri|G|World|vector|HERE/TomTom|2026|Commercial|P|com|https://www.esri.com/en-us/arcgis/products/streetmap-premium/overview|Y
+Mapbox Streets v8 tileset|Mapbox|G|World|vector tiles|OSM+|2026|Commercial|P|api|https://docs.mapbox.com/data/tilesets/reference/mapbox-streets-v8/|N
+Ecopia road network|Ecopia AI|G|World (paid)|vector|imagery ML|2025|Commercial|P|com|https://www.ecopiatech.com/|Y
+INRIX road network/traffic|INRIX|G|World|vector|probe|2026|Commercial|P|com|https://inrix.com/|N
+Waze for Cities|Google/Waze|G|World|api|probe|2026|Partner agreement|R|req|https://www.waze.com/wazeforcities|N
+Mapillary map features (signs, signals)|Meta/Mapillary|G|World|points|street imagery|2026|CC-BY-SA 4.0|Y|api|https://www.mapillary.com/developer|N
+KartaView street imagery|Grab/KartaView|G|World|imagery|street imagery|2025|CC-BY-SA 4.0|Y|api|https://kartaview.org/|N
+Logistics Cluster LogIE roads|WFP Logistics Cluster|C|Humanitarian countries|vector|mixed|2025|Humanitarian use|R|reg|https://logie.logcluster.org/|N
+HDX road datasets|UN OCHA HDX|C|Humanitarian countries|vector|mixed|2026|Various|R|dl|https://data.humdata.org/search?q=roads|N
+Africa Infrastructure (AICD) roads|World Bank/AfDB|C|Africa|vector|1:1M|2010|CC-BY 4.0|Y|dl|https://datacatalog.worldbank.org/search/dataset/0038236|N
+Asian Highway network|UNESCAP|C|Asia|vector|1:1M|2020|UN terms|R|dl|https://www.unescap.org/our-work/transport/asian-highway|N
+EuroGlobalMap transport|EuroGeographics|C|Europe|vector|1:1M|2025|CC-BY 4.0|Y|dl|https://eurogeographics.org/maps-for-europe/open-data/|Y
+EuroRegionalMap transport|EuroGeographics|C|Europe|vector|1:250k|2025|Commercial|P|com|https://eurogeographics.org/maps-for-europe/euroregionalmap/|Y
+GISCO transport networks|Eurostat|C|Europe|vector|1:1M|2024|Eurostat terms|Y|dl|https://ec.europa.eu/eurostat/web/gisco/geodata|N
+TEN-T network (TENtec)|European Commission|C|EU|vector|1:1M|2024|EC reuse|Y|dl|https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/trans-european-transport-network-ten-t_en|N
+Copernicus Urban Atlas (road class)|EEA/Copernicus|C|Europe FUAs|vector|1:10k|2021|Copernicus free|Y|reg|https://land.copernicus.eu/en/products/urban-atlas|N
+CORINE Land Cover class 122 roads|EEA/Copernicus|C|Europe|vector|25 ha MMU|2018|Copernicus free|Y|dl|https://land.copernicus.eu/en/products/corine-land-cover|N
+TIGER/Line roads|US Census Bureau|N|USA|vector|1:10k-ish|2025|Public domain|Y|dl|https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html|Y
+USGS National Transportation Dataset|USGS The National Map|N|USA|vector|1:24k|2025|Public domain|Y|dl|https://apps.nationalmap.gov/downloader/|Y
+FHWA HPMS|US DOT FHWA|N|USA|vector|LRS|2024|Public domain|Y|dl|https://www.fhwa.dot.gov/policyinformation/hpms.cfm|N
+BTS NTAD|US DOT BTS|N|USA|vector|1:100k|2025|Public domain|Y|dl|https://www.bts.gov/ntad|Y
+NYC LION street centerlines|NYC Planning|S|New York City|vector|survey|2026|Public domain|Y|dl|https://www.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page|Y
+California statewide roads (CA Geoportal)|State of California|S|California|vector|survey|2025|Public domain|Y|dl|https://gis.data.ca.gov/|Y
+StatCan Road Network File|Statistics Canada|N|Canada|vector|1:10k|2021|Open Government Licence|Y|dl|https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/rnf-frr/index-eng.cfm|Y
+National Road Network (NRN)|NRCan|N|Canada|vector|1:10k|2022|Open Government Licence|Y|dl|https://open.canada.ca/data/en/dataset/3d282116-e556-400c-9306-ca1a3cada77f|Y
+Ontario Road Network|Ontario LIO|S|Ontario|vector|1:10k|2025|OGL Ontario|Y|dl|https://geohub.lio.gov.on.ca/|Y
+BC Digital Road Atlas|Government of BC|S|British Columbia|vector|1:20k|2025|OGL BC|Y|dl|https://www2.gov.bc.ca/gov/content/data/geographic-data-services/topographic-data/roads|Y
+Adresses Quebec road network|Gouvernement du Quebec|S|Quebec|vector|1:20k|2025|CC-BY 4.0|Y|dl|https://www.donneesquebec.ca/|Y
+INEGI Red Nacional de Caminos|INEGI|N|Mexico|vector|1:50k|2024|INEGI libre uso|Y|dl|https://www.inegi.org.mx/temas/caminos/|Y
+DNIT SNV|DNIT|N|Brazil|vector|1:250k|2025|Open|Y|dl|https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv|N
+IBGE BC250 transport|IBGE|N|Brazil|vector|1:250k|2023|Open|Y|dl|https://www.ibge.gov.br/geociencias/cartas-e-mapas/bases-cartograficas-continuas/15759-brasil.html|N
+IDE MOP Chile red vial|MOP Chile|N|Chile|vector|1:25k|2025|Open|Y|dl|https://ide.mop.gob.cl/|N
+IGN Argentina capas SIG vial|IGN Argentina|N|Argentina|vector|1:250k|2025|CC-BY 4.0|Y|dl|https://www.ign.gob.ar/NuestrasActividades/InformacionGeoespacial/CapasSIG|N
+Colombia en Mapas (IGAC) vias|IGAC|N|Colombia|vector|1:100k|2024|Open|Y|dl|https://www.colombiaenmapas.gov.co/|N
+Geoportal MTC Peru red vial|MTC Peru|N|Peru|vector|1:100k|2024|Open|Y|dl|https://geoportal.mtc.gob.pe/|N
+OS Open Roads|Ordnance Survey|N|Great Britain|vector|1:25k|2026|OGL|Y|dl|https://www.ordnancesurvey.co.uk/products/os-open-roads|Y
+OS MasterMap Highways Network|Ordnance Survey|N|Great Britain|vector|survey|2026|Commercial|P|com|https://www.ordnancesurvey.co.uk/products/os-mastermap-highways-network|Y
+IGN BD TOPO transport|IGN France|N|France|vector|1:5k|2026|Etalab 2.0|Y|dl|https://geoservices.ign.fr/bdtopo|Y
+IGN BD CARTO|IGN France|N|France|vector|1:50k|2025|Etalab 2.0|Y|dl|https://geoservices.ign.fr/bdcarto|Y
+BKG Digitales Landschaftsmodell (DLM250)|BKG|N|Germany|vector|1:250k|2025|DL-DE BY 2.0|Y|dl|https://gdz.bkg.bund.de/|Y
+Nationaal Wegenbestand (NWB)|Rijkswaterstaat|N|Netherlands|vector|1:1k|2026|CC0|Y|dl|https://www.nationaalwegenbestand.nl/|Y
+PDOK TOP10NL / BGT|Kadaster|N|Netherlands|vector|1:10k|2026|CC-BY 4.0|Y|dl|https://www.pdok.nl/|Y
+Wegenregister Vlaanderen|Digitaal Vlaanderen|S|Flanders|vector|survey|2026|Modellicentie gratis|Y|dl|https://download.vlaanderen.be/|Y
+CNIG Red de Transporte|IGN Spain|N|Spain|vector|1:25k|2025|CC-BY 4.0|Y|dl|https://centrodedescargas.cnig.es/|Y
+swissTLM3D|swisstopo|N|Switzerland|vector|1:10k|2025|OGD swisstopo|Y|dl|https://www.swisstopo.admin.ch/en/landscape-model-swisstlm3d|Y
+GIP Graphenintegrations-Plattform|GIP.at|N|Austria|vector|survey|2026|CC-BY 4.0|Y|dl|https://www.gip.gv.at/|Y
+GeoDanmark / Dataforsyningen|SDFI|N|Denmark|vector|1:1k|2026|Open|Y|reg|https://dataforsyningen.dk/|Y
+NVDB Sweden (Lastkajen)|Trafikverket|N|Sweden|vector|survey|2026|CC0|Y|reg|https://lastkajen.trafikverket.se/|Y
+NVDB Norway|Statens vegvesen|N|Norway|vector|survey|2026|NLOD|Y|api|https://www.vegvesen.no/fag/teknologi/nasjonal-vegdatabank/|Y
+Digiroad|Finnish Transport Infrastructure Agency|N|Finland|vector|survey|2026|CC-BY 4.0|Y|dl|https://vayla.fi/en/transport-network/data/digiroad|Y
+BDOT10k|GUGiK|N|Poland|vector|1:10k|2025|Open|Y|dl|https://www.geoportal.gov.pl/|Y
+ZABAGED|CUZK|N|Czechia|vector|1:10k|2025|CC-BY 4.0|Y|dl|https://geoportal.cuzk.cz/|Y
+ETAK|Estonian Land and Spatial Board|N|Estonia|vector|1:10k|2025|Open|Y|dl|https://geoportaal.maaamet.ee/|Y
+Tailte Eireann Prime2|Tailte Eireann|N|Ireland|vector|survey|2025|Commercial|P|com|https://www.tailte.ie/|Y
+GURS e-prostor|GURS|N|Slovenia|vector|1:5k|2025|CC-BY 4.0|Y|dl|https://www.e-prostor.gov.si/|Y
+DGU Geoportal|DGU|N|Croatia|vector|1:25k|2025|Open|Y|dl|https://geoportal.dgu.hr/|N
+ANCPI Geoportal|ANCPI|N|Romania|vector|1:5k|2024|Open|R|dl|https://geoportal.ancpi.ro/|N
+Geoportail Luxembourg open data|ACT Luxembourg|N|Luxembourg|vector|1:5k|2025|CC0|Y|dl|https://data.public.lu/|Y
+Geoportal.lt GDR10LT|NZT Lithuania|N|Lithuania|vector|1:10k|2025|Open|Y|reg|https://www.geoportal.lt/|Y
+LGIA topographic data|LGIA|N|Latvia|vector|1:10k|2025|Open|Y|dl|https://www.lgia.gov.lv/|N
+LINZ NZ Road Centrelines (Topo 1:50k)|LINZ|N|New Zealand|vector|1:50k|2025|CC-BY 4.0|Y|dl|https://data.linz.govt.nz/layer/50329-nz-road-centrelines-topo-150k/|Y
+Digital Atlas of Australia roads|Geoscience Australia|N|Australia|vector|1:250k|2025|CC-BY 4.0|Y|dl|https://digital.atlas.gov.au/|N
+Geoscape Transport|Geoscape Australia|N|Australia|vector|survey|2025|Commercial|P|com|https://geoscape.com.au/|Y
+GSI Fundamental Geospatial Data|GSI Japan|N|Japan|vector|1:2.5k|2025|GSI terms (attribution)|Y|reg|https://fgd.gsi.go.jp/download/|Y
+NGII Korea|NGII|N|South Korea|vector|1:5k|2025|KOGL|Y|reg|https://www.ngii.go.kr/|Y
+National Catalogue Service 1:1M (Tianditu)|NGCC China|N|China|vector|1:1M|2021|Free registration|R|reg|https://www.webmap.cn/|N
+PMGSY GeoSadak rural roads|Ministry of Rural Development|N|India|vector|GPS|2025|GODL India|Y|dl|https://geosadak-pmgsy.nic.in/|N
+Survey of India online maps|Survey of India|N|India|vector|1:50k|2024|Restricted|R|reg|https://onlinemaps.surveyofindia.gov.in/|N
+Rupa Bumi Indonesia (Ina-Geoportal)|BIG Indonesia|N|Indonesia|vector|1:25k|2024|Open|Y|reg|https://tanahair.indonesia.go.id/|N
+DPWH road GIS|DPWH Philippines|N|Philippines|vector|survey|2024|Open|R|dl|https://www.dpwh.gov.ph/dpwh/gis/|N
+NAMRIA topographic|NAMRIA|N|Philippines|vector|1:50k|2023|Restricted|R|req|https://www.namria.gov.ph/|N
+JUPEM Malaysia|JUPEM|N|Malaysia|vector|1:50k|2024|Restricted|R|req|https://www.jupem.gov.my/|N
+LTA DataMall|LTA Singapore|N|Singapore|vector|survey|2026|Singapore Open Data Licence|Y|api|https://datamall.lta.gov.sg/|Y
+CSDI Hong Kong centrelines|Lands Department HK|S|Hong Kong|vector|1:1k|2026|Open|Y|dl|https://portal.csdi.gov.hk/|Y
+TGOS Taiwan road network|MOI Taiwan|N|Taiwan|vector|1:5k|2025|OGDL Taiwan|Y|reg|https://www.tgos.tw/|Y
+Dubai Pulse road network|Dubai Digital Authority|S|Dubai|vector|survey|2025|Open|Y|dl|https://www.dubaipulse.gov.ae/|N
+GovMap Israel|Survey of Israel|N|Israel|vector|1:10k|2025|Restricted|R|api|https://www.govmap.gov.il/|N
+Harita Genel Mudurlugu|HGM Turkey|N|Turkey|vector|1:25k|2024|Commercial|P|com|https://www.harita.gov.tr/|N
+NGI South Africa topographic|NGI South Africa|N|South Africa|vector|1:50k|2024|Open|Y|req|https://www.ngi.gov.za/|N
+Kenya Roads Board RICS|Kenya Roads Board|N|Kenya|vector|GPS|2023|Restricted|R|req|https://www.krb.go.ke/|N
+SpaceNet 3 roads (training labels)|SpaceNet/AWS|S|5 cities|vector|labels|2018|CC-BY-SA 4.0|Y|dl|https://spacenet.ai/spacenet-roads-dataset/|Y
+DeepGlobe road extraction (training)|DeepGlobe|S|3 countries tiles|raster labels|50 cm|2018|Research|N|reg|http://deepglobe.org/|N
+Massachusetts Roads Dataset (training)|U Toronto (Mnih)|S|Massachusetts|raster labels|1 m|2013|Research|N|dl|https://www.cs.toronto.edu/~vmnih/data/|N
+Planet road change detection|Planet|G|World|vector|3 m|2025|Commercial|P|com|https://www.planet.com/|N
